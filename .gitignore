@@ -1,0 +1,17 @@
+.sf/
+.sfdx/
+.localdevserver/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+node_modules/
+package.xml
+**/jsconfig.json
+**/.eslintcache
+**/.sfdx/
+**/.localdevserver/
+**/coverage/
+**/.nyc_output
+**/.vscode
+.DS_Store
