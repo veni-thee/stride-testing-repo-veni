@@ -1,0 +1,19 @@
+{
+  "slug": "order-flow",
+  "name": "order-flow",
+  "createdAt": "2026-08-18T12:13:10.717Z",
+  "updatedAt": "2026-08-18T12:13:10.717Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "Flow",
+          "fullName": "Order_Create_Related_Records"
+        }
+      ]
+    }
+  },
+  "branch": "feature/order-flow",
+  "baseBranch": "main"
+}
