@@ -1,0 +1,19 @@
+{
+  "slug": "check-weather",
+  "name": "check-weather",
+  "createdAt": "2026-08-18T11:10:07.411Z",
+  "updatedAt": "2026-08-18T11:10:07.411Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "CheckWeather"
+        }
+      ]
+    }
+  },
+  "branch": "feature/check-weather",
+  "baseBranch": "main"
+}
