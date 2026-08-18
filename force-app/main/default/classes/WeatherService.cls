@@ -1,3 +1,4 @@
+//Author: Veni Gonzales
 public class WeatherService {
     /**
      * Gets the weather at Coral Cloud Resorts for the provided date.
