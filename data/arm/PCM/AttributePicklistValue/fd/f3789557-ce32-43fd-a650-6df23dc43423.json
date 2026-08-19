@@ -1,0 +1,16 @@
+{
+  "globalKey": "f3789557-ce32-43fd-a650-6df23dc43423",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "PasteColor225",
+    "DisplayValue": "Paste 2.251",
+    "GlobalKey__c": "f3789557-ce32-43fd-a650-6df23dc43423",
+    "IsDefault": false,
+    "Name": "PasteColorRatio225",
+    "Picklist.GlobalKey__c": "882bfe6f-8438-4fc4-a061-6a0550e7a792",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "2.25"
+  }
+}
