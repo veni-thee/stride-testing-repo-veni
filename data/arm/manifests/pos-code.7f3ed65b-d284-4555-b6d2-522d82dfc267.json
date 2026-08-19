@@ -1,0 +1,20 @@
+{
+  "component": "pos-code",
+  "componentGlobalKey": "7f3ed65b-d284-4555-b6d2-522d82dfc267",
+  "componentObject": "AttributeDefinition",
+  "edges": [],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "7f3ed65b-d284-4555-b6d2-522d82dfc267",
+      "label": "POS Code",
+      "object": "AttributeDefinition"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "7f3ed65b-d284-4555-b6d2-522d82dfc267",
+      "object": "AttributeDefinition"
+    }
+  ]
+}
