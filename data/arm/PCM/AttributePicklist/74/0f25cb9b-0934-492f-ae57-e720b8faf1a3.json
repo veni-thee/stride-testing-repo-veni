@@ -1,0 +1,13 @@
+{
+  "globalKey": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PSIZE001",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+    "Name": "Paper Size Picklist",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}
