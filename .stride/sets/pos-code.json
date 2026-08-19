@@ -1,0 +1,29 @@
+{
+  "slug": "pos-code",
+  "name": "pos-code",
+  "createdAt": "2026-08-19T11:09:27.251Z",
+  "updatedAt": "2026-08-19T11:09:27.251Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "7f3ed65b-d284-4555-b6d2-522d82dfc267"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeDefinition"
+        ]
+      }
+    }
+  },
+  "branch": "feature/pos-code",
+  "baseBranch": "main"
+}
