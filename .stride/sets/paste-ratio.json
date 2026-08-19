@@ -1,0 +1,46 @@
+{
+  "slug": "paste-ratio",
+  "name": "paste-ratio",
+  "createdAt": "2026-08-19T09:50:32.584Z",
+  "updatedAt": "2026-08-19T09:50:32.584Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributeCategory",
+          "intent": "picked",
+          "records": [
+            "05056420-d24a-45a3-a22e-173662cabced"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeCategory"
+        ]
+      }
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Rev_Mgmt_Default_Pricing_Procedure",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "StandardDecisionTable",
+          "sourceObject": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/paste-ratio",
+  "baseBranch": "main"
+}
