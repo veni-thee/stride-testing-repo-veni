@@ -1,0 +1,17 @@
+{
+  "globalKey": "898c34e5-ab5e-464e-ab2d-85e46d0b8b4f",
+  "object": "UnitOfMeasure",
+  "record": {
+    "ConversionFactor": 0.001,
+    "Description": "Millilitres",
+    "GlobalKey__c": "898c34e5-ab5e-464e-ab2d-85e46d0b8b4f",
+    "Name": "Millilitres",
+    "RoundingMethod": "Down",
+    "Scale": 5,
+    "Sequence": 4,
+    "Status": "Active",
+    "Type": "Litre",
+    "UnitCode": "Millilitres",
+    "UnitOfMeasureClass.GlobalKey__c": null
+  }
+}
