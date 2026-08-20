@@ -1,0 +1,63 @@
+{
+  "component": "software-training",
+  "componentGlobalKey": "7e7ed0c2-8b65-4db5-98fe-541992693208",
+  "componentObject": "AttributePicklistValue",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:7e7ed0c2-8b65-4db5-98fe-541992693208",
+      "required": true,
+      "to": "AttributePicklist:5513c255-77a6-42eb-a122-4f263d1154a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:7e7ed0c2-8b65-4db5-98fe-541992693208",
+      "required": true,
+      "to": "AttributePicklist:5513c255-77a6-42eb-a122-4f263d1154a3"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:e622c72f-95de-4b88-bd8d-fac9d559fc4f",
+      "required": true,
+      "to": "AttributePicklist:5513c255-77a6-42eb-a122-4f263d1154a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:e622c72f-95de-4b88-bd8d-fac9d559fc4f",
+      "required": true,
+      "to": "AttributePicklist:5513c255-77a6-42eb-a122-4f263d1154a3"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "5513c255-77a6-42eb-a122-4f263d1154a3",
+      "label": "Training Type Picklist",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "7e7ed0c2-8b65-4db5-98fe-541992693208",
+      "label": "Software Training",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "e622c72f-95de-4b88-bd8d-fac9d559fc4f",
+      "label": "Security Training",
+      "object": "AttributePicklistValue"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "5513c255-77a6-42eb-a122-4f263d1154a3",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "7e7ed0c2-8b65-4db5-98fe-541992693208",
+      "object": "AttributePicklistValue"
+    }
+  ]
+}
