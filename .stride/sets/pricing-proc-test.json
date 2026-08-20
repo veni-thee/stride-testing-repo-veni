@@ -1,0 +1,28 @@
+{
+  "slug": "pricing-proc-test",
+  "name": "pricing-proc-test",
+  "createdAt": "2026-08-20T09:47:22.822Z",
+  "updatedAt": "2026-08-20T09:47:22.822Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ExpressionSetDefinitionVersion",
+          "fullName": "Rev_Mgmt_Default_Pricing_Procedure_V1"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Rev_Mgmt_Default_Pricing_Procedure",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/pricing-proc-test",
+  "baseBranch": "main"
+}
