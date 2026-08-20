@@ -1,0 +1,21 @@
+{
+  "globalKey": "1dd50ace-2e90-40c9-8369-785c257ac51a",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Checkbox",
+    "DefaultHelpText": null,
+    "DefaultValue": "false",
+    "Description": null,
+    "DeveloperName": "Advance_Ecommerce",
+    "GlobalKey__c": "1dd50ace-2e90-40c9-8369-785c257ac51a",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Advance Ecommerce",
+    "Name": "Advance Ecommerce",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
