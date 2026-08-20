@@ -1,0 +1,13 @@
+{
+  "globalKey": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+  "object": "ProductCatalog",
+  "record": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "GlobalKey__c": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+    "Name": "Software Catalog"
+  }
+}
