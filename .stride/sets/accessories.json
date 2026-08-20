@@ -1,0 +1,37 @@
+{
+  "slug": "accessories",
+  "name": "accessories",
+  "createdAt": "2026-08-20T08:50:34.859Z",
+  "updatedAt": "2026-08-20T08:50:34.859Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductCategory",
+          "intent": "picked",
+          "records": [
+            "4768df33-0cc9-40aa-a97d-3886568eb4c3"
+          ]
+        },
+        {
+          "object": "ProductCatalog",
+          "intent": "picked",
+          "records": [
+            "73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductCatalog",
+          "ProductCategory"
+        ]
+      }
+    }
+  },
+  "branch": "feature/accessories",
+  "baseBranch": "main"
+}

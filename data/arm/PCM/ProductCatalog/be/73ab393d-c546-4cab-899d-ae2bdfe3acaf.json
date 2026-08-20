@@ -1,0 +1,13 @@
+{
+  "globalKey": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+  "object": "ProductCatalog",
+  "record": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "GlobalKey__c": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+    "Name": "Hardware Catalog"
+  }
+}
