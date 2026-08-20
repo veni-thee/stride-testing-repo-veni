@@ -1,0 +1,13 @@
+{
+  "globalKey": "5513c255-77a6-42eb-a122-4f263d1154a3",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "TRA001",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "5513c255-77a6-42eb-a122-4f263d1154a3",
+    "Name": "Training Type Picklist",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "globalKey": "7e7ed0c2-8b65-4db5-98fe-541992693208",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Software Training",
+    "DisplayValue": "Software Training",
+    "GlobalKey__c": "7e7ed0c2-8b65-4db5-98fe-541992693208",
+    "IsDefault": false,
+    "Name": "Software Training",
+    "Picklist.GlobalKey__c": "5513c255-77a6-42eb-a122-4f263d1154a3",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Software Training"
+  }
+}
