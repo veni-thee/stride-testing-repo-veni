@@ -1,0 +1,16 @@
+{
+  "globalKey": "c6bdeb2f-133f-45e0-a43e-c6a4947550f9",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "RAM 16GB",
+    "DisplayValue": "RAM 16GB",
+    "GlobalKey__c": "c6bdeb2f-133f-45e0-a43e-c6a4947550f9",
+    "IsDefault": false,
+    "Name": "RAM 16GB",
+    "Picklist.GlobalKey__c": "2aa259f5-62aa-4307-b9ee-d70b0e82f404",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "RAM 16GB"
+  }
+}

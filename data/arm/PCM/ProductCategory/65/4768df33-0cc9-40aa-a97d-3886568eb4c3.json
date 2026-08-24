@@ -1,0 +1,14 @@
+{
+  "globalKey": "4768df33-0cc9-40aa-a97d-3886568eb4c3",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "4768df33-0cc9-40aa-a97d-3886568eb4c3",
+    "IsNavigational": true,
+    "Name": "Accessories",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}

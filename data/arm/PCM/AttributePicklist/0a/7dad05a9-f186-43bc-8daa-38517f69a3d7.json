@@ -1,0 +1,13 @@
+{
+  "globalKey": "7dad05a9-f186-43bc-8daa-38517f69a3d7",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PRO001",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "7dad05a9-f186-43bc-8daa-38517f69a3d7",
+    "Name": "Processor Picklist",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}
