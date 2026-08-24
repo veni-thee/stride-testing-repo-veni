@@ -1,0 +1,16 @@
+{
+  "globalKey": "a7ef1571-9dce-4dfb-a4a5-afc70109f7d1",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "MSI Gaming GeForce RTX 3060",
+    "DisplayValue": "MSI Gaming GeForce RTX 3060",
+    "GlobalKey__c": "a7ef1571-9dce-4dfb-a4a5-afc70109f7d1",
+    "IsDefault": false,
+    "Name": "MSI Gaming GeForce RTX 3060",
+    "Picklist.GlobalKey__c": "6f5db830-9831-4aab-9a5e-834b3c39e717",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "MSI Gaming GeForce RTX 3060"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "globalKey": "20598840-3299-4351-8002-3a7dc6bbb76c",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "DIS",
+    "Description": null,
+    "GlobalKey__c": "20598840-3299-4351-8002-3a7dc6bbb76c",
+    "Name": "Display"
+  }
+}

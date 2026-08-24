@@ -1,0 +1,10 @@
+{
+  "globalKey": "b6db0efa-7680-4313-94de-5d07385af8fa",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "CT001",
+    "Description": null,
+    "GlobalKey__c": "b6db0efa-7680-4313-94de-5d07385af8fa",
+    "Name": "Connection Type"
+  }
+}

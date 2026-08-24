@@ -1,0 +1,11 @@
+{
+  "globalKey": "ccb231db-29bf-4d0b-9f4b-03488a60ef8a",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "M001",
+    "GlobalKey__c": "ccb231db-29bf-4d0b-9f4b-03488a60ef8a",
+    "Name": "Mouse",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}

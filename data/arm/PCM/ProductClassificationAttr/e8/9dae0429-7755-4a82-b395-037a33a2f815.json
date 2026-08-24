@@ -1,0 +1,29 @@
+{
+  "globalKey": "9dae0429-7755-4a82-b395-037a33a2f815",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "819ff267-5faa-40a4-a720-fddf69214d36",
+    "AttributeDefinition.GlobalKey__c": "1f36be40-ea84-4160-a927-f3bcc85a6f42",
+    "AttributeNameOverride": "Paper Size",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "9dae0429-7755-4a82-b395-037a33a2f815",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Paper Size",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "21f083e1-264d-46f8-a160-eaccb770c01e",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
