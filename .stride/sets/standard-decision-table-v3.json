@@ -1,0 +1,19 @@
+{
+  "slug": "standard-decision-table-v3",
+  "name": "standard-decision-table-v3",
+  "createdAt": "2026-08-24T11:25:27.752Z",
+  "updatedAt": "2026-08-24T11:25:27.752Z",
+  "version": 1,
+  "lanes": {
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "StandardDecisionTable_V3",
+          "sourceObject": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/standard-decision-table-v3",
+  "baseBranch": "main"
+}
