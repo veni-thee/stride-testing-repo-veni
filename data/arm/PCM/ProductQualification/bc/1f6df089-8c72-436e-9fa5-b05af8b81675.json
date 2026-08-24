@@ -1,0 +1,14 @@
+{
+  "globalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+  "object": "ProductQualification",
+  "record": {
+    "EffectiveFromDate": "2024-08-01",
+    "EffectiveToDate": "2026-11-01",
+    "GlobalKey__c": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+    "MaxNumberOfEmployees__c": 100,
+    "MinNumberOfEmployees__c": 1000,
+    "ParentProduct": null,
+    "Product.GlobalKey__c": "19a5ad1e-1534-49cb-acbc-502a181368df",
+    "RootProduct": null
+  }
+}

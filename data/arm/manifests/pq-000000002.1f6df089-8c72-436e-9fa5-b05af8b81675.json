@@ -1,0 +1,182 @@
+{
+  "component": "pq-000000002",
+  "componentGlobalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+  "componentObject": "ProductQualification",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:c6efe9d2-a2ca-4fda-b72e-f3af6e61921d",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:c6efe9d2-a2ca-4fda-b72e-f3af6e61921d",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductQualification:1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductQualification:1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "required": true,
+      "to": "Product2:19a5ad1e-1534-49cb-acbc-502a181368df"
+    },
+    {
+      "direction": "forward",
+      "field": "DefaultTaxTreatmentId",
+      "from": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "required": true,
+      "to": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186"
+    },
+    {
+      "direction": "forward",
+      "field": "LegalEntityId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "LegalEntity:d98684cb-1afd-4797-8368-a82187f09cb2"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "reverse",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": true,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "c6efe9d2-a2ca-4fda-b72e-f3af6e61921d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "c6efe9d2-a2ca-4fda-b72e-f3af6e61921d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Term Based - Monthly",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Nonprofit",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Term Based - Monthly",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "19a5ad1e-1534-49cb-acbc-502a181368df",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "fromObject": "ProductQualification",
+      "reason": "unkeyed-required",
+      "ref": "ParentProductId",
+      "targetObject": "Product2"
+    },
+    {
+      "fromGlobalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "fromObject": "ProductQualification",
+      "reason": "unkeyed-required",
+      "ref": "RootProductId",
+      "targetObject": "Product2"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "d98684cb-1afd-4797-8368-a82187f09cb2",
+      "label": "Default Legal Entity - US",
+      "object": "LegalEntity"
+    },
+    {
+      "globalKey": "c6efe9d2-a2ca-4fda-b72e-f3af6e61921d",
+      "label": "Laptop Care Package",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+      "label": "Laptop Care Package",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "19a5ad1e-1534-49cb-acbc-502a181368df",
+      "label": "Laptop Care Package",
+      "object": "Product2"
+    },
+    {
+      "displayLabel": "Laptop Care Package",
+      "globalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "label": "PQ-000000002",
+      "object": "ProductQualification"
+    },
+    {
+      "globalKey": "2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "label": "Tax Policy for LE",
+      "object": "TaxPolicy"
+    },
+    {
+      "globalKey": "9693a930-2178-4008-a1bd-4cbca9565186",
+      "label": "Tax Treatment for US LE",
+      "object": "TaxTreatment"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "19a5ad1e-1534-49cb-acbc-502a181368df",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "1f6df089-8c72-436e-9fa5-b05af8b81675",
+      "object": "ProductQualification"
+    }
+  ]
+}
