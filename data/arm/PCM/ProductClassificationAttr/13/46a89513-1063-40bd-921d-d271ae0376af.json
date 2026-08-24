@@ -1,0 +1,29 @@
+{
+  "globalKey": "46a89513-1063-40bd-921d-d271ae0376af",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "81cdb486-22d4-4704-90ef-4391152d5e9c",
+    "AttributeDefinition.GlobalKey__c": "cd695e28-b6e3-44bc-bb88-7d75706bcb28",
+    "AttributeNameOverride": "Processor",
+    "DefaultValue": "i5-CPU 4.4GHz",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "46a89513-1063-40bd-921d-d271ae0376af",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": true,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Processor",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "32ccd949-4bd4-42f4-bfff-9b6f8375220a",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
