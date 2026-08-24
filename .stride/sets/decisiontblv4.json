@@ -1,0 +1,19 @@
+{
+  "slug": "decisiontblv4",
+  "name": "decisiontblv4",
+  "createdAt": "2026-08-24T12:58:17.248Z",
+  "updatedAt": "2026-08-24T12:58:17.248Z",
+  "version": 1,
+  "lanes": {
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "StandardDecisionTable_V3",
+          "sourceObject": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/decisiontblv4",
+  "baseBranch": "main"
+}
