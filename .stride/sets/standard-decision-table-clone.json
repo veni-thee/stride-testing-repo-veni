@@ -1,0 +1,23 @@
+{
+  "slug": "standard-decision-table-clone",
+  "name": "standard-decision-table-clone",
+  "createdAt": "2026-08-24T10:20:03.486Z",
+  "updatedAt": "2026-08-24T10:20:03.486Z",
+  "version": 1,
+  "lanes": {
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "StandardDecisionTable",
+          "sourceObject": "OrderItem"
+        },
+        {
+          "developerName": "StandardDecisionTable_CLONE",
+          "sourceObject": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/standard-decision-table-clone",
+  "baseBranch": "main"
+}
