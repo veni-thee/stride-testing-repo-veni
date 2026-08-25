@@ -1,0 +1,14 @@
+{
+  "uniqueName": "DecisionMatrixTest",
+  "sourceVersion": {
+    "rank": 1,
+    "versionNumber": 1
+  },
+  "rowCount": 0,
+  "capturedAt": "2026-08-25T08:18:01.280Z",
+  "targetVersion": 1,
+  "rowSelection": {
+    "mode": "all"
+  },
+  "deployMode": "delta"
+}
