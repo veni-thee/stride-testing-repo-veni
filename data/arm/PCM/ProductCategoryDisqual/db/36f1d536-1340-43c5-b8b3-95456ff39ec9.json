@@ -1,0 +1,12 @@
+{
+  "globalKey": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+  "object": "ProductCategoryDisqual",
+  "record": {
+    "Category.GlobalKey__c": "b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+    "EffectiveFromDate": "2026-08-26",
+    "EffectiveToDate": "2026-12-31",
+    "GlobalKey__c": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+    "QuoteProposedACV__c": "Low",
+    "Reason": null
+  }
+}
