@@ -1,0 +1,13 @@
+{
+  "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+  "object": "ProductCatalog",
+  "record": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "GlobalKey__c": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+    "Name": "Add-Ons"
+  }
+}
