@@ -1,11 +1,11 @@
 {
   "uniqueName": "DecisionMatrixTest",
   "sourceVersion": {
-    "rank": 1,
-    "versionNumber": 1
+    "rank": null,
+    "versionNumber": 2
   },
   "rowCount": 0,
-  "capturedAt": "2026-08-25T08:18:01.280Z",
+  "capturedAt": "2026-08-26T05:31:14.965Z",
   "rowSelection": {
     "mode": "all"
   },
