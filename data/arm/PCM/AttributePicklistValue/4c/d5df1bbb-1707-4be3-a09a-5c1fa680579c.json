@@ -1,0 +1,16 @@
+{
+  "globalKey": "d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "InhouseInstaller",
+    "DisplayValue": "In-house Installer",
+    "GlobalKey__c": "d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+    "IsDefault": false,
+    "Name": "In-house Installer",
+    "Picklist.GlobalKey__c": "79b01841-96a4-4d96-9c62-1358d0889495",
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "In-house Installer"
+  }
+}
