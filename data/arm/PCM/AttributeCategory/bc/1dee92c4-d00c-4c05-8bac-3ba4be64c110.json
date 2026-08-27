@@ -1,0 +1,10 @@
+{
+  "globalKey": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "CarAccessoriesCategory",
+    "Description": null,
+    "GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "Name": "Car Accessories Category"
+  }
+}
