@@ -1,0 +1,16 @@
+{
+  "globalKey": "9ed74257-ae4a-44bb-81a2-4748147899a3",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "NoInstallationNeeded",
+    "DisplayValue": "No installation needed",
+    "GlobalKey__c": "9ed74257-ae4a-44bb-81a2-4748147899a3",
+    "IsDefault": false,
+    "Name": "No installation needed",
+    "Picklist.GlobalKey__c": "79b01841-96a4-4d96-9c62-1358d0889495",
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "No installation needed"
+  }
+}
