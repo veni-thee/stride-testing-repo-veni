@@ -3,7 +3,7 @@
   "object": "Product2",
   "record": {
     "AvailabilityDate": null,
-    "BasedOn": null,
+    "BasedOn.GlobalKey__c": "94e4318c-86d7-4997-9655-1b284acc5cd0",
     "BillingPolicy": null,
     "ConfigureDuringSale": "Allowed",
     "CustomDecompositionScope": null,
