@@ -1,0 +1,16 @@
+{
+  "globalKey": "88475f8b-36b2-4b46-b581-9ac009343399",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Cash & Card",
+    "DisplayValue": "Cash & Card",
+    "GlobalKey__c": "88475f8b-36b2-4b46-b581-9ac009343399",
+    "IsDefault": true,
+    "Name": "Cash & Card",
+    "Picklist.GlobalKey__c": "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Cash & Card"
+  }
+}
