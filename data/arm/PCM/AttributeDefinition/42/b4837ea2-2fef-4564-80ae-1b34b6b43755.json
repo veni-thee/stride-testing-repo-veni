@@ -1,0 +1,21 @@
+{
+  "globalKey": "b4837ea2-2fef-4564-80ae-1b34b6b43755",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Checkbox",
+    "DefaultHelpText": null,
+    "DefaultValue": "false",
+    "Description": null,
+    "DeveloperName": "Is_Replacement",
+    "GlobalKey__c": "b4837ea2-2fef-4564-80ae-1b34b6b43755",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Is Replacement?",
+    "Name": "Is Replacement",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
