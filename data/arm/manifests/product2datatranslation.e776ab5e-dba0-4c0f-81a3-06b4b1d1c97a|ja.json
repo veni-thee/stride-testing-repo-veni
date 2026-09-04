@@ -1,0 +1,14 @@
+{
+  "component": "product2datatranslation",
+  "componentGlobalKey": "e776ab5e-dba0-4c0f-81a3-06b4b1d1c97a|ja",
+  "componentObject": "Product2DataTranslation",
+  "edges": [],
+  "leaves": [],
+  "nodes": [],
+  "roots": [
+    {
+      "globalKey": "e776ab5e-dba0-4c0f-81a3-06b4b1d1c97a|ja",
+      "object": "Product2DataTranslation"
+    }
+  ]
+}
