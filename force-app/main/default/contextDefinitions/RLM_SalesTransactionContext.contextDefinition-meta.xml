@@ -2083,6 +2083,14 @@
                     <contextAttribute>TestCustomField__c</contextAttribute>
                     <contextInputAttributeName>TestCustomField__c</contextInputAttributeName>
                 </contextAttributeMappings>
+                <contextAttributeMappings>
+                    <contextAttrHydrationDetails>
+                        <objectName>OrderItem</objectName>
+                        <queryAttribute>TestCustomField2__c</queryAttribute>
+                    </contextAttrHydrationDetails>
+                    <contextAttribute>TestCustomField2__c</contextAttribute>
+                    <contextInputAttributeName>TestCustomField2__c</contextInputAttributeName>
+                </contextAttributeMappings>
                 <contextNode>SalesTransactionItem</contextNode>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/OrderEntitiesMapping/SalesTransactionItem</inheritedFrom>
                 <object>OrderItem</object>
@@ -19793,6 +19801,19 @@
                 <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <title>TestCustomField2__c</title>
+                </contextTags>
+                <customMappingAllowed>false</customMappingAllowed>
+                <dataType>string</dataType>
+                <fieldType>inputoutput</fieldType>
+                <key>false</key>
+                <localizationDisabled>false</localizationDisabled>
+                <title>TestCustomField2__c</title>
+                <transient>false</transient>
+                <value>false</value>
+            </contextAttributes>
             <contextTags>
                 <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction/SalesTransactionItem/SalesTransactionItem</inheritedFrom>
                 <title>SalesTransactionItem</title>
@@ -28133,7 +28154,7 @@
         </contextNodes>
         <isActive>true</isActive>
         <startDate>2024-08-05 06:31:22</startDate>
-        <versionNumber>14</versionNumber>
+        <versionNumber>20</versionNumber>
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <hasSystemTags>false</hasSystemTags>
@@ -28142,6 +28163,6 @@
     <isProtected>false</isProtected>
     <isTransformationEnabled>false</isTransformationEnabled>
     <masterLabel>Rev_SalesTransactionContext</masterLabel>
-    <releaseVersion>262.14.13</releaseVersion>
+    <releaseVersion>262.14.14</releaseVersion>
     <title>Rev_SalesTransactionContext</title>
 </ContextDefinition>
