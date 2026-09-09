@@ -1,0 +1,28 @@
+{
+  "slug": "cd-and-oi",
+  "name": "cd-and-oi",
+  "createdAt": "2026-09-09T06:15:37.125Z",
+  "updatedAt": "2026-09-09T06:15:37.125Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "OrderItem"
+        },
+        {
+          "type": "ContextDefinition",
+          "fullName": "RLM_SalesTransactionContext"
+        }
+      ]
+    }
+  },
+  "branch": "feature/cd-and-oi",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/cd-and-oi.json",
+    "force-app/main/default/contextDefinitions/RLM_SalesTransactionContext.contextDefinition-meta.xml",
+    "force-app/main/default/objects/OrderItem/OrderItem.object-meta.xml"
+  ]
+}
