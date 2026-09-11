@@ -1,0 +1,23 @@
+{
+  "slug": "relieson-test2",
+  "name": "relieson-test2",
+  "createdAt": "2026-09-11T05:45:02.148Z",
+  "updatedAt": "2026-09-11T05:45:02.148Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "SalesTransactionContextExt_256"
+        }
+      ]
+    }
+  },
+  "branch": "feature/relieson-test2",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/relieson-test2.json",
+    "force-app/main/default/contextDefinitions/SalesTransactionContextExt_256.contextDefinition-meta.xml"
+  ]
+}
