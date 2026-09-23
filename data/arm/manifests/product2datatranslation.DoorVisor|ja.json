@@ -1,0 +1,14 @@
+{
+  "component": "product2datatranslation",
+  "componentGlobalKey": "DoorVisor|ja",
+  "componentObject": "Product2DataTranslation",
+  "edges": [],
+  "leaves": [],
+  "nodes": [],
+  "roots": [
+    {
+      "globalKey": "DoorVisor|ja",
+      "object": "Product2DataTranslation"
+    }
+  ]
+}
