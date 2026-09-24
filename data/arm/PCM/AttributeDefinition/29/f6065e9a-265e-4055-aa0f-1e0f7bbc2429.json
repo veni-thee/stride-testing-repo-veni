@@ -1,0 +1,21 @@
+{
+  "globalKey": "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": "White",
+    "Description": null,
+    "DeveloperName": "tablet_color",
+    "GlobalKey__c": "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Tablet Color",
+    "Name": "TabletColor",
+    "Picklist.GlobalKey__c": "1d43ca1a-639f-4cc5-90cd-7fa13909782b",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
