@@ -3,7 +3,7 @@
   "object": "ProductCatalog",
   "record": {
     "CatalogType": "Sales",
-    "Code": null,
+    "Code": "AddOns",
     "Description": null,
     "EffectiveEndDate": null,
     "EffectiveStartDate": null,
