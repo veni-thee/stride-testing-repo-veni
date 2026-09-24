@@ -1,0 +1,16 @@
+{
+  "globalKey": "a59cf455-b6df-43ea-84d4-006e5ebee0b3",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Wired",
+    "DisplayValue": "Wired",
+    "GlobalKey__c": "a59cf455-b6df-43ea-84d4-006e5ebee0b3",
+    "IsDefault": false,
+    "Name": "Wired",
+    "Picklist.GlobalKey__c": "5c08cea9-9cdf-45d7-b874-1e2a7f69027a",
+    "Sequence": 10,
+    "Status": "Active",
+    "Value": "Wired"
+  }
+}
