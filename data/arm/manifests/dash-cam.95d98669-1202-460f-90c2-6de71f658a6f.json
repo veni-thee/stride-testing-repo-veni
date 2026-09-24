@@ -229,10 +229,6 @@
     {
       "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
       "object": "ProductCategory"
-    },
-    {
-      "globalKey": "81e14a85-8d10-42b8-b9fa-99592da58182",
-      "object": "ProductCategoryProduct"
     }
   ]
 }
