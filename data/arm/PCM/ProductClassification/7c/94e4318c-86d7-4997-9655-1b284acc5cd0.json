@@ -1,0 +1,11 @@
+{
+  "globalKey": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "CarAccessories",
+    "GlobalKey__c": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+    "Name": "Car Accessories",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}

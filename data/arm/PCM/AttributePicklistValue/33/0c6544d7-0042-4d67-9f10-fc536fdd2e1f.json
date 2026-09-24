@@ -1,0 +1,16 @@
+{
+  "globalKey": "0c6544d7-0042-4d67-9f10-fc536fdd2e1f",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Matte",
+    "DisplayValue": "Matte",
+    "GlobalKey__c": "0c6544d7-0042-4d67-9f10-fc536fdd2e1f",
+    "IsDefault": false,
+    "Name": "Matte",
+    "Picklist.GlobalKey__c": "f19fd4aa-46cd-42f2-b2b5-dea72973b1fc",
+    "Sequence": 20,
+    "Status": "Active",
+    "Value": "Matte"
+  }
+}
