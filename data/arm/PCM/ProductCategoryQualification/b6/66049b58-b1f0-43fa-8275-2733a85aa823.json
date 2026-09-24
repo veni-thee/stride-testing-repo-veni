@@ -1,0 +1,11 @@
+{
+  "globalKey": "66049b58-b1f0-43fa-8275-2733a85aa823",
+  "object": "ProductCategoryQualification",
+  "record": {
+    "Category.GlobalKey__c": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+    "EffectiveFromDate": "2026-08-26",
+    "EffectiveToDate": "2026-12-31",
+    "GlobalKey__c": "66049b58-b1f0-43fa-8275-2733a85aa823",
+    "QuoteProposedDuration__c": "Short"
+  }
+}
