@@ -1,0 +1,114 @@
+{
+  "component": "undercarriage-cover",
+  "componentGlobalKey": "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:29272653-69d4-4204-8666-e51227e41755",
+      "required": true,
+      "to": "Product2:d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:29272653-69d4-4204-8666-e51227e41755",
+      "required": true,
+      "to": "Product2:d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:e7628d50-68ea-4dc5-a9f1-40597d48efa6",
+      "required": true,
+      "to": "Product2:d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:e7628d50-68ea-4dc5-a9f1-40597d48efa6",
+      "required": false,
+      "to": "Product2:d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:e7628d50-68ea-4dc5-a9f1-40597d48efa6",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:e7628d50-68ea-4dc5-a9f1-40597d48efa6",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "29272653-69d4-4204-8666-e51227e41755",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "29272653-69d4-4204-8666-e51227e41755",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "29272653-69d4-4204-8666-e51227e41755",
+      "label": "Undercarriage Cover",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3",
+      "label": "Undercarriage Cover",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Accessories ↔ Undercarriage Cover ↔ Add-Ons",
+      "globalKey": "e7628d50-68ea-4dc5-a9f1-40597d48efa6",
+      "label": "00000034",
+      "object": "ProductCategoryProduct"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3",
+      "object": "Product2"
+    }
+  ]
+}
