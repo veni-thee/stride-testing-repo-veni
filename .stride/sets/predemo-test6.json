@@ -1,0 +1,94 @@
+{
+  "slug": "predemo-test6",
+  "name": "predemo-test6",
+  "createdAt": "2026-09-24T06:32:56.862Z",
+  "updatedAt": "2026-09-24T06:32:56.862Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "CustomTest__c"
+        },
+        {
+          "type": "PricingRecipe",
+          "fullName": "NGPDefaultRecipe"
+        }
+      ]
+    },
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "95d98669-1202-460f-90c2-6de71f658a6f"
+          ]
+        },
+        {
+          "object": "ProductCatalog",
+          "intent": "picked",
+          "records": [
+            "155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+          ]
+        },
+        {
+          "object": "ProductCategory",
+          "intent": "picked",
+          "records": [
+            "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2",
+          "ProductCatalog",
+          "ProductCategory"
+        ]
+      }
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_DashCam_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_Dash_Cam_Test_CLONE",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/predemo-test6",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test6.json",
+    "data/arm/PCM/Product2/fb/95d98669-1202-460f-90c2-6de71f658a6f.json",
+    "data/arm/PCM/ProductCatalog/8a/155ebcd2-bae4-4e62-9d8d-3c80864b6396.json",
+    "data/arm/PCM/ProductCatalogDataTranslation/df/AddOns_ja.df612704.json",
+    "data/arm/PCM/ProductCategory/4f/b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9.json",
+    "data/arm/PCM/ProductCategory/53/b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3.json",
+    "data/arm/PCM/ProductCategory/79/5e0ebf8c-13c5-43d1-82e9-1000d48995f0.json",
+    "data/arm/PCM/ProductCategoryDisqual/db/36f1d536-1340-43c5-b8b3-95456ff39ec9.json",
+    "data/arm/PCM/ProductCategoryProduct/1a/81e14a85-8d10-42b8-b9fa-99592da58182.json",
+    "data/arm/PCM/ProductCategoryQualification/b6/66049b58-b1f0-43fa-8275-2733a85aa823.json",
+    "data/arm/PCM/ProductCategoryQualification/d3/7917890f-48d6-4c30-bde1-ee176ef05b6c.json",
+    "data/arm/Pricing/PricebookEntry/f8/903f3ebd-4917-4376-b3fd-3b3e81b1966d.json",
+    "data/arm/Pricing/ProductSellingModelOption/25/DashCam_One_Time.25d04a70.json",
+    "data/arm/decisionTables/Decision_Table_Dash_Cam_Test_CLONE.decisionTable.json",
+    "data/arm/manifests/dash-cam.95d98669-1202-460f-90c2-6de71f658a6f.json",
+    "data/arm/pricing/Discovery_Pricing_Procedure_DashCam_Test.expressionSetDefinition-meta.xml",
+    "force-app/main/default/objects/CustomTest__c/CustomTest__c.object-meta.xml",
+    "force-app/main/default/pricingRecipe/NGPDefaultRecipe.pricingRecipe-meta.xml"
+  ]
+}
