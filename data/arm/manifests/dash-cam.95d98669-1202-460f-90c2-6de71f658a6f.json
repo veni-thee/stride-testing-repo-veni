@@ -1,0 +1,238 @@
+{
+  "component": "dash-cam",
+  "componentGlobalKey": "95d98669-1202-460f-90c2-6de71f658a6f",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:903f3ebd-4917-4376-b3fd-3b3e81b1966d",
+      "required": true,
+      "to": "Product2:95d98669-1202-460f-90c2-6de71f658a6f"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:903f3ebd-4917-4376-b3fd-3b3e81b1966d",
+      "required": true,
+      "to": "Product2:95d98669-1202-460f-90c2-6de71f658a6f"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:5e0ebf8c-13c5-43d1-82e9-1000d48995f0",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:5e0ebf8c-13c5-43d1-82e9-1000d48995f0",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "CategoryId",
+      "from": "ProductCategoryDisqual:36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "required": true,
+      "to": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9"
+    },
+    {
+      "direction": "reverse",
+      "field": "CategoryId",
+      "from": "ProductCategoryDisqual:36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "required": true,
+      "to": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:81e14a85-8d10-42b8-b9fa-99592da58182",
+      "required": true,
+      "to": "Product2:95d98669-1202-460f-90c2-6de71f658a6f"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:81e14a85-8d10-42b8-b9fa-99592da58182",
+      "required": false,
+      "to": "Product2:95d98669-1202-460f-90c2-6de71f658a6f"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:81e14a85-8d10-42b8-b9fa-99592da58182",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:81e14a85-8d10-42b8-b9fa-99592da58182",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "forward",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:66049b58-b1f0-43fa-8275-2733a85aa823",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:66049b58-b1f0-43fa-8275-2733a85aa823",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "forward",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:7917890f-48d6-4c30-bde1-ee176ef05b6c",
+      "required": true,
+      "to": "ProductCategory:5e0ebf8c-13c5-43d1-82e9-1000d48995f0"
+    },
+    {
+      "direction": "reverse",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:7917890f-48d6-4c30-bde1-ee176ef05b6c",
+      "required": true,
+      "to": "ProductCategory:5e0ebf8c-13c5-43d1-82e9-1000d48995f0"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "903f3ebd-4917-4376-b3fd-3b3e81b1966d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "903f3ebd-4917-4376-b3fd-3b3e81b1966d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "95d98669-1202-460f-90c2-6de71f658a6f",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "903f3ebd-4917-4376-b3fd-3b3e81b1966d",
+      "label": "Dash Cam",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "95d98669-1202-460f-90c2-6de71f658a6f",
+      "label": "Dash Cam",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "5e0ebf8c-13c5-43d1-82e9-1000d48995f0",
+      "label": "Tires",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "label": "Speakers",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Speakers",
+      "globalKey": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "label": "PCDQ-000000001",
+      "object": "ProductCategoryDisqual"
+    },
+    {
+      "displayLabel": "Accessories ↔ Dash Cam ↔ Add-Ons",
+      "globalKey": "81e14a85-8d10-42b8-b9fa-99592da58182",
+      "label": "00000035",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "displayLabel": "Accessories",
+      "globalKey": "66049b58-b1f0-43fa-8275-2733a85aa823",
+      "label": "PCQ-000000001",
+      "object": "ProductCategoryQualification"
+    },
+    {
+      "displayLabel": "Tires",
+      "globalKey": "7917890f-48d6-4c30-bde1-ee176ef05b6c",
+      "label": "PCQ-000000002",
+      "object": "ProductCategoryQualification"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "95d98669-1202-460f-90c2-6de71f658a6f"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "95d98669-1202-460f-90c2-6de71f658a6f",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "81e14a85-8d10-42b8-b9fa-99592da58182",
+      "object": "ProductCategoryProduct"
+    }
+  ]
+}
