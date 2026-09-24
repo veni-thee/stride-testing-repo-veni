@@ -1,0 +1,10 @@
+{
+  "globalKey": "DashCam|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": true,
+    "Product2.GlobalKey__c": "95d98669-1202-460f-90c2-6de71f658a6f",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}
