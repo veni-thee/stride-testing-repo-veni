@@ -1,0 +1,13 @@
+{
+  "globalKey": "236f12fb-5d59-47aa-bb70-b79eae5b727c",
+  "object": "AttrPicklistExcludedValue",
+  "record": {
+    "AttributeId": {
+      "__polyType": "ProductClassificationAttr",
+      "GlobalKey__c": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+    },
+    "AttributePicklistValue.GlobalKey__c": "ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+    "GlobalKey__c": "236f12fb-5d59-47aa-bb70-b79eae5b727c",
+    "Name": "Customer Self-Install"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "globalKey": "488ef7ac-879d-4b06-a3cc-69d7f66d8e9d",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Printer_Type",
+    "GlobalKey__c": "488ef7ac-879d-4b06-a3cc-69d7f66d8e9d",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Printer",
+    "Name": "Printer Type",
+    "Picklist.GlobalKey__c": "c718fda7-9bab-474e-b0e3-d20eeff6a069",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "product-category-qualification",
+  "name": "product-category-qualification",
+  "createdAt": "2026-08-26T08:32:06.283Z",
+  "updatedAt": "2026-08-26T08:32:06.283Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductQualification",
+          "intent": "picked",
+          "records": [
+            "cdebe378-4c7c-4350-8693-9ab08973910e"
+          ]
+        },
+        {
+          "object": "ProductCategoryQualification",
+          "intent": "picked",
+          "records": [
+            "7917890f-48d6-4c30-bde1-ee176ef05b6c"
+          ]
+        },
+        {
+          "object": "ProductCategory",
+          "intent": "picked",
+          "records": [
+            "5e0ebf8c-13c5-43d1-82e9-1000d48995f0"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductCategory",
+          "ProductCategoryQualification",
+          "ProductQualification"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product-category-qualification",
+  "baseBranch": "main"
+}

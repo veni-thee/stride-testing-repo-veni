@@ -1,0 +1,15 @@
+{
+  "globalKey": "f8cae504-c840-4db7-afe3-03481a330b76",
+  "object": "ProductComponentGroup",
+  "record": {
+    "Code": "CS00101",
+    "Description": null,
+    "GlobalKey__c": "f8cae504-c840-4db7-afe3-03481a330b76",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Certifications",
+    "ParentGroup": null,
+    "ParentProduct.GlobalKey__c": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+    "Sequence": 2
+  }
+}

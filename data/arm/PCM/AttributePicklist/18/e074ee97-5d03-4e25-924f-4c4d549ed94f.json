@@ -1,0 +1,13 @@
+{
+  "globalKey": "e074ee97-5d03-4e25-924f-4c4d549ed94f",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "DISSIZE001",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "e074ee97-5d03-4e25-924f-4c4d549ed94f",
+    "Name": "Display Size Picklist",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

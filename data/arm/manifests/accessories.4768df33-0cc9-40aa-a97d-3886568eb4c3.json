@@ -1,0 +1,82 @@
+{
+  "component": "accessories",
+  "componentGlobalKey": "4768df33-0cc9-40aa-a97d-3886568eb4c3",
+  "componentObject": "ProductCategory",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:3f29bd2d-2210-416a-8d39-8dc420038ec3",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:3f29bd2d-2210-416a-8d39-8dc420038ec3",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:4768df33-0cc9-40aa-a97d-3886568eb4c3",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:4768df33-0cc9-40aa-a97d-3886568eb4c3",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:a2e37c3f-8876-4467-aad2-78774caace6e",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:a2e37c3f-8876-4467-aad2-78774caace6e",
+      "required": true,
+      "to": "ProductCatalog:73ab393d-c546-4cab-899d-ae2bdfe3acaf"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+      "label": "Hardware Catalog",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "3f29bd2d-2210-416a-8d39-8dc420038ec3",
+      "label": "Desktops",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "4768df33-0cc9-40aa-a97d-3886568eb4c3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "a2e37c3f-8876-4467-aad2-78774caace6e",
+      "label": "Laptops",
+      "object": "ProductCategory"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "4768df33-0cc9-40aa-a97d-3886568eb4c3",
+      "object": "ProductCategory"
+    }
+  ]
+}

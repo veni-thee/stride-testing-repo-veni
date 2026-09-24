@@ -1,0 +1,21 @@
+{
+  "globalKey": "c6110962-e78b-4175-a8a4-6899320fbbe8",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": "PCR0090CD",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "PasteRatio",
+    "GlobalKey__c": "c6110962-e78b-4175-a8a4-6899320fbbe8",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Paste Ratio",
+    "Name": "Paste Ratio",
+    "Picklist.GlobalKey__c": "882bfe6f-8438-4fc4-a061-6a0550e7a792",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

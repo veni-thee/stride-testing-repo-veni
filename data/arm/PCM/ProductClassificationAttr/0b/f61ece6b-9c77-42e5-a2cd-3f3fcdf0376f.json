@@ -1,0 +1,29 @@
+{
+  "globalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+    "AttributeNameOverride": "Car Accessories Attributes",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Car Accessories Attributes",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

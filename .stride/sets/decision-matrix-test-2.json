@@ -1,0 +1,37 @@
+{
+  "slug": "decision-matrix-test-2",
+  "name": "decision-matrix-test-2",
+  "createdAt": "2026-08-26T12:03:19.087Z",
+  "updatedAt": "2026-08-26T12:03:19.087Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "DecisionMatrixDefinition",
+          "fullName": "Decision_Matrix_Test_2"
+        }
+      ]
+    },
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductCategoryProduct",
+          "intent": "picked",
+          "records": [
+            "8aefdb1e-15e9-4733-b748-aa9b425ac2f2"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductCategoryProduct"
+        ]
+      }
+    }
+  },
+  "branch": "feature/decision-matrix-test-2",
+  "baseBranch": "main"
+}

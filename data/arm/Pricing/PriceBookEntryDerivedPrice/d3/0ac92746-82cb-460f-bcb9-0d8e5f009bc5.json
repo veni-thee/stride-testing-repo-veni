@@ -1,0 +1,15 @@
+{
+  "globalKey": "0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+  "object": "PriceBookEntryDerivedPrice",
+  "record": {
+    "ContributingProduct.GlobalKey__c": "ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+    "DerivedPricingScope": "Both",
+    "EffectiveFrom": "2024-08-01T08:31:00.000+0000",
+    "EffectiveTo": null,
+    "Formula": "TotalPrice * 0.40",
+    "GlobalKey__c": "0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+    "Pricebook.Name": "Standard Price Book",
+    "PricebookEntry.GlobalKey__c": "64588376-b69f-474d-b38e-3cc3cd6ca340",
+    "PricingSource": "Product"
+  }
+}

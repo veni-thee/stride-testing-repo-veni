@@ -1,0 +1,21 @@
+{
+  "globalKey": "4494a83d-142b-438c-9afd-8cd9f8321ae7",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Memory",
+    "GlobalKey__c": "4494a83d-142b-438c-9afd-8cd9f8321ae7",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Memory",
+    "Name": "Memory",
+    "Picklist.GlobalKey__c": "2aa259f5-62aa-4307-b9ee-d70b0e82f404",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

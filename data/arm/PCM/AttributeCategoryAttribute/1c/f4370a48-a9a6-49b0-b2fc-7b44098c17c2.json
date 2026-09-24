@@ -1,0 +1,9 @@
+{
+  "globalKey": "f4370a48-a9a6-49b0-b2fc-7b44098c17c2",
+  "object": "AttributeCategoryAttribute",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "4735e11f-531e-4050-8ef3-57dba76c3cfc",
+    "AttributeDefinition.GlobalKey__c": "a5b61add-22ec-44d3-99b7-d7b622705368",
+    "GlobalKey__c": "f4370a48-a9a6-49b0-b2fc-7b44098c17c2"
+  }
+}

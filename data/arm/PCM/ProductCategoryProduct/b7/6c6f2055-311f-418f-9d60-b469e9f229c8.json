@@ -1,0 +1,9 @@
+{
+  "globalKey": "6c6f2055-311f-418f-9d60-b469e9f229c8",
+  "object": "ProductCategoryProduct",
+  "record": {
+    "GlobalKey__c": "6c6f2055-311f-418f-9d60-b469e9f229c8",
+    "Product.GlobalKey__c": "df13b7fd-f679-4c0d-9aa7-ffb1afe814e0",
+    "ProductCategory.GlobalKey__c": "b42ee6b2-2d97-4126-946e-f34a5b509398"
+  }
+}

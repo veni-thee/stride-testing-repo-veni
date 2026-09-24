@@ -1,0 +1,37 @@
+{
+  "slug": "product-qual",
+  "name": "product-qual",
+  "createdAt": "2026-08-24T10:02:07.105Z",
+  "updatedAt": "2026-08-24T10:02:07.105Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductQualification",
+          "intent": "picked",
+          "records": [
+            "1f6df089-8c72-436e-9fa5-b05af8b81675"
+          ]
+        },
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "19a5ad1e-1534-49cb-acbc-502a181368df"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2",
+          "ProductQualification"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product-qual",
+  "baseBranch": "main"
+}

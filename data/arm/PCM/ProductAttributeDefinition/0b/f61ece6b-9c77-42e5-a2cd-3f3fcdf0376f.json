@@ -1,0 +1,31 @@
+{
+  "globalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+  "object": "ProductAttributeDefinition",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+    "AttributeNameOverride": "Car Accessories Attributes",
+    "DefaultValue": "In-house Installer",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Car Accessories Attributes",
+    "OverriddenProductAttributeDefinition": null,
+    "OverrideContextId": null,
+    "Product2.GlobalKey__c": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+    "ProductClassificationAttribute.GlobalKey__c": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

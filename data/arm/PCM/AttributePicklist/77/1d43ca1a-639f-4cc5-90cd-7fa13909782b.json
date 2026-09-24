@@ -1,0 +1,13 @@
+{
+  "globalKey": "1d43ca1a-639f-4cc5-90cd-7fa13909782b",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PICK001",
+    "DataType": "Text",
+    "Description": "All color values",
+    "GlobalKey__c": "1d43ca1a-639f-4cc5-90cd-7fa13909782b",
+    "Name": "Color",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

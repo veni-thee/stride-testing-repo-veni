@@ -1,0 +1,10 @@
+{
+  "globalKey": "81cdb486-22d4-4704-90ef-4391152d5e9c",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "PRO",
+    "Description": null,
+    "GlobalKey__c": "81cdb486-22d4-4704-90ef-4391152d5e9c",
+    "Name": "Processor"
+  }
+}

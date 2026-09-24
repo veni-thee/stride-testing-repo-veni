@@ -1,0 +1,288 @@
+{
+  "component": "lucidchart",
+  "componentGlobalKey": "0af34531-7cc2-418c-a266-a470070f1175",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:64588376-b69f-474d-b38e-3cc3cd6ca340",
+      "required": true,
+      "to": "Product2:0af34531-7cc2-418c-a266-a470070f1175"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:64588376-b69f-474d-b38e-3cc3cd6ca340",
+      "required": true,
+      "to": "Product2:0af34531-7cc2-418c-a266-a470070f1175"
+    },
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+      "required": true,
+      "to": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+      "required": true,
+      "to": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3"
+    },
+    {
+      "direction": "forward",
+      "field": "PricebookEntryId",
+      "from": "PriceBookEntryDerivedPrice:0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "required": true,
+      "to": "PricebookEntry:64588376-b69f-474d-b38e-3cc3cd6ca340"
+    },
+    {
+      "direction": "reverse",
+      "field": "PricebookEntryId",
+      "from": "PriceBookEntryDerivedPrice:0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "required": true,
+      "to": "PricebookEntry:64588376-b69f-474d-b38e-3cc3cd6ca340"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "PriceBookEntryDerivedPrice:0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "required": true,
+      "to": "Product2:0af34531-7cc2-418c-a266-a470070f1175"
+    },
+    {
+      "direction": "forward",
+      "field": "ContributingProductId",
+      "from": "PriceBookEntryDerivedPrice:0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "required": true,
+      "to": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:0af34531-7cc2-418c-a266-a470070f1175",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:ab50efd2-6e98-4b71-97fc-a8b111f37ddb",
+      "required": true,
+      "to": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:ab50efd2-6e98-4b71-97fc-a8b111f37ddb",
+      "required": false,
+      "to": "Product2:ba086f22-51ed-4179-a32c-5447a9b3bbd3"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:ab50efd2-6e98-4b71-97fc-a8b111f37ddb",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:ab50efd2-6e98-4b71-97fc-a8b111f37ddb",
+      "required": true,
+      "to": "ProductCategory:910b2f06-c2f5-44b6-a68d-c6cd90c1554d"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:b97eed38-7ad0-4703-ab68-f9279b412db0",
+      "required": true,
+      "to": "Product2:0af34531-7cc2-418c-a266-a470070f1175"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:b97eed38-7ad0-4703-ab68-f9279b412db0",
+      "required": false,
+      "to": "Product2:0af34531-7cc2-418c-a266-a470070f1175"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:b97eed38-7ad0-4703-ab68-f9279b412db0",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:b97eed38-7ad0-4703-ab68-f9279b412db0",
+      "required": true,
+      "to": "ProductCategory:910b2f06-c2f5-44b6-a68d-c6cd90c1554d"
+    },
+    {
+      "direction": "forward",
+      "field": "DefaultTaxTreatmentId",
+      "from": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "required": true,
+      "to": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186"
+    },
+    {
+      "direction": "forward",
+      "field": "LegalEntityId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "LegalEntity:d98684cb-1afd-4797-8368-a82187f09cb2"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "reverse",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": true,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "64588376-b69f-474d-b38e-3cc3cd6ca340",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "64588376-b69f-474d-b38e-3cc3cd6ca340",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Term Based - Monthly",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Term Based - Monthly",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "fromObject": "PriceBookEntryDerivedPrice",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "fromObject": "PriceBookEntryDerivedPrice",
+      "reason": "byName",
+      "ref": "Term Based - Monthly",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "0af34531-7cc2-418c-a266-a470070f1175",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "d98684cb-1afd-4797-8368-a82187f09cb2",
+      "label": "Default Legal Entity - US",
+      "object": "LegalEntity"
+    },
+    {
+      "globalKey": "64588376-b69f-474d-b38e-3cc3cd6ca340",
+      "label": "Lucidchart",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+      "label": "Google Workspace",
+      "object": "PricebookEntry"
+    },
+    {
+      "displayLabel": "Google Workspace ↔ Lucidchart",
+      "globalKey": "0ac92746-82cb-460f-bcb9-0d8e5f009bc5",
+      "label": "00000002",
+      "object": "PriceBookEntryDerivedPrice"
+    },
+    {
+      "globalKey": "0af34531-7cc2-418c-a266-a470070f1175",
+      "label": "Lucidchart",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+      "label": "Google Workspace",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+      "label": "Software Catalog",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "910b2f06-c2f5-44b6-a68d-c6cd90c1554d",
+      "label": "Productivity Software",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Productivity Software ↔ Google Workspace ↔ Software Catalog",
+      "globalKey": "ab50efd2-6e98-4b71-97fc-a8b111f37ddb",
+      "label": "00000018",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "displayLabel": "Productivity Software ↔ Lucidchart ↔ Software Catalog",
+      "globalKey": "b97eed38-7ad0-4703-ab68-f9279b412db0",
+      "label": "00000020",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "globalKey": "2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "label": "Tax Policy for LE",
+      "object": "TaxPolicy"
+    },
+    {
+      "globalKey": "9693a930-2178-4008-a1bd-4cbca9565186",
+      "label": "Tax Treatment for US LE",
+      "object": "TaxTreatment"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "0af34531-7cc2-418c-a266-a470070f1175",
+      "object": "Product2"
+    }
+  ]
+}

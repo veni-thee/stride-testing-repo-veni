@@ -1,0 +1,14 @@
+{
+  "globalKey": "cdebe378-4c7c-4350-8693-9ab08973910e",
+  "object": "ProductQualification",
+  "record": {
+    "EffectiveFromDate": "2024-08-01",
+    "EffectiveToDate": "2026-11-01",
+    "GlobalKey__c": "cdebe378-4c7c-4350-8693-9ab08973910e",
+    "MaxNumberOfEmployees__c": null,
+    "MinNumberOfEmployees__c": 1000,
+    "ParentProduct.GlobalKey__c": "270b3d81-4d74-4bb2-8766-752f8ccb3cf5",
+    "Product.GlobalKey__c": "3999ea5c-9196-421c-aa95-340685992e05",
+    "RootProduct.GlobalKey__c": "64c1711a-a2b6-45dd-8328-98f67443f958"
+  }
+}

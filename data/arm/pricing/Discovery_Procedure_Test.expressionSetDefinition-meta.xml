@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextDefinitions>SalesTransactionContext__stdctx</contextDefinitions>
+    <executionMode>Cloud</executionMode>
+    <executionScale>Low</executionScale>
+    <interfaceSourceType>DiscoveryProcedure</interfaceSourceType>
+    <label>Discovery Procedure Test</label>
+    <processType>PricingDiscovery</processType>
+    <template>false</template>
+    <versions>
+        <fullName>Discovery_Procedure_Test_V1</fullName>
+        <decimalScale>2</decimalScale>
+        <expressionSetDefinition>Discovery_Procedure_Test</expressionSetDefinition>
+        <interfaceSourceType>DiscoveryProcedure</interfaceSourceType>
+        <label>Discovery Procedure Test V1</label>
+        <processType>PricingDiscovery</processType>
+        <shouldShowExplExternally>false</shouldShowExplExternally>
+        <startDate>2026-08-25T06:51:11.000Z</startDate>
+        <status>Draft</status>
+        <versionNumber>1</versionNumber>
+    </versions>
+</ExpressionSetDefinition>

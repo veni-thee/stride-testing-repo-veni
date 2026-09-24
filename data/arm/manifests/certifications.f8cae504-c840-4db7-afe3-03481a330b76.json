@@ -1,0 +1,349 @@
+{
+  "component": "certifications",
+  "componentGlobalKey": "f8cae504-c840-4db7-afe3-03481a330b76",
+  "componentObject": "ProductComponentGroup",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:0eb7df43-0be3-4d05-bb71-07c202cbc16c",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:62aa07b8-341d-4ef6-9a84-8c82334340f1",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "Product2:a50e990a-8631-4bc1-9495-b7f98ca8bebf",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:029d92cd-b964-4057-ba7d-2dce21d53171",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:029d92cd-b964-4057-ba7d-2dce21d53171",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentGroupId",
+      "from": "ProductComponentGroup:029d92cd-b964-4057-ba7d-2dce21d53171",
+      "required": true,
+      "to": "ProductComponentGroup:f8cae504-c840-4db7-afe3-03481a330b76"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:7d21d102-dea9-4823-85bc-3805ef75f35a",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:7d21d102-dea9-4823-85bc-3805ef75f35a",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentGroupId",
+      "from": "ProductComponentGroup:eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+      "required": true,
+      "to": "ProductComponentGroup:f8cae504-c840-4db7-afe3-03481a330b76"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:f8cae504-c840-4db7-afe3-03481a330b76",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductComponentGroup:f8cae504-c840-4db7-afe3-03481a330b76",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ChildProductId",
+      "from": "ProductRelatedComponent:13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "required": true,
+      "to": "Product2:a50e990a-8631-4bc1-9495-b7f98ca8bebf"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductComponentGroupId",
+      "from": "ProductRelatedComponent:13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "required": false,
+      "to": "ProductComponentGroup:7d21d102-dea9-4823-85bc-3805ef75f35a"
+    },
+    {
+      "direction": "forward",
+      "field": "ChildProductId",
+      "from": "ProductRelatedComponent:5ba0a007-abd7-4178-a054-7d71553f4656",
+      "required": true,
+      "to": "Product2:0eb7df43-0be3-4d05-bb71-07c202cbc16c"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:5ba0a007-abd7-4178-a054-7d71553f4656",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:5ba0a007-abd7-4178-a054-7d71553f4656",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductComponentGroupId",
+      "from": "ProductRelatedComponent:5ba0a007-abd7-4178-a054-7d71553f4656",
+      "required": false,
+      "to": "ProductComponentGroup:029d92cd-b964-4057-ba7d-2dce21d53171"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "required": true,
+      "to": "Product2:4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+    },
+    {
+      "direction": "forward",
+      "field": "ChildProductId",
+      "from": "ProductRelatedComponent:c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "required": true,
+      "to": "Product2:62aa07b8-341d-4ef6-9a84-8c82334340f1"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductComponentGroupId",
+      "from": "ProductRelatedComponent:c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "required": false,
+      "to": "ProductComponentGroup:eaf731ce-55f9-45c2-8f1c-3dc8620da9ac"
+    },
+    {
+      "direction": "forward",
+      "field": "DefaultTaxTreatmentId",
+      "from": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "required": true,
+      "to": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186"
+    },
+    {
+      "direction": "forward",
+      "field": "LegalEntityId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "LegalEntity:d98684cb-1afd-4797-8368-a82187f09cb2"
+    },
+    {
+      "direction": "forward",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": false,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    },
+    {
+      "direction": "reverse",
+      "field": "TaxPolicyId",
+      "from": "TaxTreatment:9693a930-2178-4008-a1bd-4cbca9565186",
+      "required": true,
+      "to": "TaxPolicy:2e2e746c-df5f-46d1-b976-62043f7ad44b"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "0eb7df43-0be3-4d05-bb71-07c202cbc16c",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "62aa07b8-341d-4ef6-9a84-8c82334340f1",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "a50e990a-8631-4bc1-9495-b7f98ca8bebf",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "fromObject": "ProductRelatedComponent",
+      "reason": "byName",
+      "ref": "Bundle to Bundle Component Relationship",
+      "targetObject": "ProductRelationshipType"
+    },
+    {
+      "fromGlobalKey": "5ba0a007-abd7-4178-a054-7d71553f4656",
+      "fromObject": "ProductRelatedComponent",
+      "reason": "byName",
+      "ref": "Bundle to Bundle Component Relationship",
+      "targetObject": "ProductRelationshipType"
+    },
+    {
+      "fromGlobalKey": "c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "fromObject": "ProductRelatedComponent",
+      "reason": "byName",
+      "ref": "Bundle to Bundle Component Relationship",
+      "targetObject": "ProductRelationshipType"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "d98684cb-1afd-4797-8368-a82187f09cb2",
+      "label": "Default Legal Entity - US",
+      "object": "LegalEntity"
+    },
+    {
+      "globalKey": "0eb7df43-0be3-4d05-bb71-07c202cbc16c",
+      "label": "AI Specialist Certification",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+      "label": "Advanced Training",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "62aa07b8-341d-4ef6-9a84-8c82334340f1",
+      "label": "LLM Certification",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "a50e990a-8631-4bc1-9495-b7f98ca8bebf",
+      "label": "LLM Training",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "029d92cd-b964-4057-ba7d-2dce21d53171",
+      "label": "AI Certifications",
+      "object": "ProductComponentGroup"
+    },
+    {
+      "globalKey": "7d21d102-dea9-4823-85bc-3805ef75f35a",
+      "label": "Trainings",
+      "object": "ProductComponentGroup"
+    },
+    {
+      "globalKey": "eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+      "label": "LLM Certifications",
+      "object": "ProductComponentGroup"
+    },
+    {
+      "globalKey": "f8cae504-c840-4db7-afe3-03481a330b76",
+      "label": "Certifications",
+      "object": "ProductComponentGroup"
+    },
+    {
+      "displayLabel": "LLM Training ↔ Advanced Training ↔ Trainings",
+      "globalKey": "13ded7d0-b6c4-4430-8aab-a58a380f589c",
+      "label": "PRC-000000018",
+      "object": "ProductRelatedComponent"
+    },
+    {
+      "displayLabel": "AI Specialist Certification ↔ Advanced Training ↔ AI Certifications",
+      "globalKey": "5ba0a007-abd7-4178-a054-7d71553f4656",
+      "label": "PRC-000000024",
+      "object": "ProductRelatedComponent"
+    },
+    {
+      "displayLabel": "LLM Certification ↔ Advanced Training ↔ LLM Certifications",
+      "globalKey": "c8373a62-4e6e-48ee-823d-85999c1a320e",
+      "label": "PRC-000000025",
+      "object": "ProductRelatedComponent"
+    },
+    {
+      "globalKey": "2e2e746c-df5f-46d1-b976-62043f7ad44b",
+      "label": "Tax Policy for LE",
+      "object": "TaxPolicy"
+    },
+    {
+      "globalKey": "9693a930-2178-4008-a1bd-4cbca9565186",
+      "label": "Tax Treatment for US LE",
+      "object": "TaxTreatment"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "f8cae504-c840-4db7-afe3-03481a330b76",
+      "object": "ProductComponentGroup"
+    }
+  ]
+}

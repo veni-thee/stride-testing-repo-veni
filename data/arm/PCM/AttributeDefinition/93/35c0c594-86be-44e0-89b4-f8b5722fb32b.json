@@ -1,0 +1,21 @@
+{
+  "globalKey": "35c0c594-86be-44e0-89b4-f8b5722fb32b",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": "Cash & Card",
+    "Description": null,
+    "DeveloperName": "Register_Type",
+    "GlobalKey__c": "35c0c594-86be-44e0-89b4-f8b5722fb32b",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Type",
+    "Name": "Register Type",
+    "Picklist.GlobalKey__c": "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

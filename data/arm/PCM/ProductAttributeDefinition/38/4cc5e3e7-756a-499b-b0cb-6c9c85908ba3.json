@@ -1,0 +1,31 @@
+{
+  "globalKey": "4cc5e3e7-756a-499b-b0cb-6c9c85908ba3",
+  "object": "ProductAttributeDefinition",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "4735e11f-531e-4050-8ef3-57dba76c3cfc",
+    "AttributeDefinition.GlobalKey__c": "a5b61add-22ec-44d3-99b7-d7b622705368",
+    "AttributeNameOverride": "Storage",
+    "DefaultValue": "SSD Hard Drive 256GB",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "4cc5e3e7-756a-499b-b0cb-6c9c85908ba3",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": true,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Storage",
+    "OverriddenProductAttributeDefinition": null,
+    "OverrideContextId": null,
+    "Product2.GlobalKey__c": "d385382e-c431-456a-a9e4-42778aa703e3",
+    "ProductClassificationAttribute.GlobalKey__c": "af073129-920d-4769-8d8d-f9604a08832c",
+    "Sequence": 0,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "component": "software-catalog",
+  "componentGlobalKey": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+  "componentObject": "ProductCatalog",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:910b2f06-c2f5-44b6-a68d-c6cd90c1554d",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:910b2f06-c2f5-44b6-a68d-c6cd90c1554d",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:936c5bfd-a712-4756-a82a-2e334c46b1d9",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:936c5bfd-a712-4756-a82a-2e334c46b1d9",
+      "required": true,
+      "to": "ProductCatalog:e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+      "label": "Software Catalog",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "910b2f06-c2f5-44b6-a68d-c6cd90c1554d",
+      "label": "Productivity Software",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "936c5bfd-a712-4756-a82a-2e334c46b1d9",
+      "label": "Protection Software",
+      "object": "ProductCategory"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+      "object": "ProductCatalog"
+    }
+  ]
+}

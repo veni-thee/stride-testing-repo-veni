@@ -1,0 +1,11 @@
+{
+  "globalKey": "e776ab5e-dba0-4c0f-81a3-06b4b1d1c97a|ja",
+  "object": "Product2DataTranslation",
+  "record": {
+    "Description": "Desuku toppu",
+    "HelpText": null,
+    "Language": "ja",
+    "Name": "デスクトップ",
+    "Parent.GlobalKey__c": "e776ab5e-dba0-4c0f-81a3-06b4b1d1c97a"
+  }
+}

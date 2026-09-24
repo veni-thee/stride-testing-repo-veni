@@ -1,0 +1,14 @@
+{
+  "globalKey": "3f29bd2d-2210-416a-8d39-8dc420038ec3",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "73ab393d-c546-4cab-899d-ae2bdfe3acaf",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "3f29bd2d-2210-416a-8d39-8dc420038ec3",
+    "IsNavigational": true,
+    "Name": "Desktops",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}

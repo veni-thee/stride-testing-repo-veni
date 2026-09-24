@@ -1,0 +1,20 @@
+{
+  "slug": "discovery-procedure",
+  "name": "discovery-procedure",
+  "createdAt": "2026-08-25T06:52:43.190Z",
+  "updatedAt": "2026-08-25T06:52:43.190Z",
+  "version": 1,
+  "lanes": {
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Procedure_Test",
+          "usageType": "PricingDiscovery",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/discovery-procedure",
+  "baseBranch": "main"
+}

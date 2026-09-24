@@ -1,0 +1,29 @@
+{
+  "slug": "product2-door-visor",
+  "name": "product2-door-visor",
+  "createdAt": "2026-08-26T06:38:38.298Z",
+  "updatedAt": "2026-08-26T06:38:38.298Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product2-door-visor",
+  "baseBranch": "main"
+}

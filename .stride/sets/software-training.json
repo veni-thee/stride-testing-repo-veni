@@ -1,0 +1,37 @@
+{
+  "slug": "software-training",
+  "name": "software-training",
+  "createdAt": "2026-08-20T05:49:23.341Z",
+  "updatedAt": "2026-08-20T05:49:23.341Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributePicklistValue",
+          "intent": "picked",
+          "records": [
+            "7e7ed0c2-8b65-4db5-98fe-541992693208"
+          ]
+        },
+        {
+          "object": "AttributePicklist",
+          "intent": "picked",
+          "records": [
+            "5513c255-77a6-42eb-a122-4f263d1154a3"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributePicklist",
+          "AttributePicklistValue"
+        ]
+      }
+    }
+  },
+  "branch": "feature/software-training",
+  "baseBranch": "main"
+}

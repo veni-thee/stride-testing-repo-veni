@@ -1,0 +1,29 @@
+{
+  "slug": "product-attribute-definition",
+  "name": "product-attribute-definition",
+  "createdAt": "2026-08-27T08:27:25.958Z",
+  "updatedAt": "2026-08-27T08:27:25.958Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductAttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductAttributeDefinition"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product-attribute-definition",
+  "baseBranch": "main"
+}

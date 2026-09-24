@@ -1,0 +1,21 @@
+{
+  "globalKey": "134809ab-8884-4d0c-866b-74b62ab47976",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Screen_Size",
+    "GlobalKey__c": "134809ab-8884-4d0c-866b-74b62ab47976",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Screen Size",
+    "Name": "Screen Size",
+    "Picklist.GlobalKey__c": "e074ee97-5d03-4e25-924f-4c4d549ed94f",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
