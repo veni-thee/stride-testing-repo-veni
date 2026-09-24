@@ -1,0 +1,16 @@
+{
+  "globalKey": "37355c36-1432-4c38-b713-9d548cbbecfe",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Chrome",
+    "DisplayValue": "Chrome",
+    "GlobalKey__c": "37355c36-1432-4c38-b713-9d548cbbecfe",
+    "IsDefault": false,
+    "Name": "Chrome",
+    "Picklist.GlobalKey__c": "f19fd4aa-46cd-42f2-b2b5-dea72973b1fc",
+    "Sequence": 10,
+    "Status": "Active",
+    "Value": "Chrome"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "globalKey": "887593d5-1207-4105-85d5-cabf65d82280",
+  "object": "AttrPicklistExcludedValue",
+  "record": {
+    "AttributeId": {
+      "__polyType": "ProductClassificationAttr",
+      "GlobalKey__c": "b0b410ec-8388-4b10-91ee-3152daf1dee8"
+    },
+    "AttributePicklistValue.GlobalKey__c": "37355c36-1432-4c38-b713-9d548cbbecfe",
+    "GlobalKey__c": "887593d5-1207-4105-85d5-cabf65d82280",
+    "Name": "Chrome"
+  }
+}
