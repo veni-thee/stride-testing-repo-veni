@@ -1,0 +1,51 @@
+{
+  "slug": "attr-cat-test",
+  "name": "attr-cat-test",
+  "createdAt": "2026-09-24T04:50:42.403Z",
+  "updatedAt": "2026-09-24T04:50:42.403Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+            "61b4a318-7f6a-44ab-a385-1af2b4729e52"
+          ]
+        },
+        {
+          "object": "AttributePicklist",
+          "intent": "picked",
+          "records": [
+            "1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeDefinition",
+          "AttributePicklist"
+        ]
+      }
+    }
+  },
+  "branch": "feature/attr-cat-test",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/attr-cat-test.json",
+    "data/arm/PCM/AttributeDefinition/29/f6065e9a-265e-4055-aa0f-1e0f7bbc2429.json",
+    "data/arm/PCM/AttributeDefinition/d8/61b4a318-7f6a-44ab-a385-1af2b4729e52.json",
+    "data/arm/PCM/AttributePicklist/35/0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c.json",
+    "data/arm/PCM/AttributePicklist/77/1d43ca1a-639f-4cc5-90cd-7fa13909782b.json",
+    "data/arm/PCM/AttributePicklistValue/5c/32684dea-e42f-4101-b455-9bfb2779f617.json",
+    "data/arm/PCM/AttributePicklistValue/65/2dfbd6ce-c638-4152-bde9-f92abcd8fac0.json",
+    "data/arm/PCM/AttributePicklistValue/b7/3e64e9cb-5a7a-4f77-8d3c-1d15ed54d5ae.json",
+    "data/arm/PCM/AttributePicklistValue/f3/37278b9b-957c-4ba2-9784-5ebfa544332a.json",
+    "data/arm/PCM/AttributePicklistValue/f8/f8415efa-0901-473c-b83e-42316c7bf28d.json",
+    "data/arm/manifests/tabletcolor.f6065e9a-265e-4055-aa0f-1e0f7bbc2429.json"
+  ]
+}
