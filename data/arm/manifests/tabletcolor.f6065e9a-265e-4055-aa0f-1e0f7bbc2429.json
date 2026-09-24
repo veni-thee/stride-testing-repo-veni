@@ -1,0 +1,153 @@
+{
+  "component": "tabletcolor",
+  "componentGlobalKey": "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+  "componentObject": "AttributeDefinition",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributeDefinition:61b4a318-7f6a-44ab-a385-1af2b4729e52",
+      "required": false,
+      "to": "AttributePicklist:0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributeDefinition:f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+      "required": false,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:2dfbd6ce-c638-4152-bde9-f92abcd8fac0",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:2dfbd6ce-c638-4152-bde9-f92abcd8fac0",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:32684dea-e42f-4101-b455-9bfb2779f617",
+      "required": true,
+      "to": "AttributePicklist:0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:32684dea-e42f-4101-b455-9bfb2779f617",
+      "required": true,
+      "to": "AttributePicklist:0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:37278b9b-957c-4ba2-9784-5ebfa544332a",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:37278b9b-957c-4ba2-9784-5ebfa544332a",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:3e64e9cb-5a7a-4f77-8d3c-1d15ed54d5ae",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:3e64e9cb-5a7a-4f77-8d3c-1d15ed54d5ae",
+      "required": true,
+      "to": "AttributePicklist:1d43ca1a-639f-4cc5-90cd-7fa13909782b"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:f8415efa-0901-473c-b83e-42316c7bf28d",
+      "required": true,
+      "to": "AttributePicklist:0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:f8415efa-0901-473c-b83e-42316c7bf28d",
+      "required": true,
+      "to": "AttributePicklist:0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "61b4a318-7f6a-44ab-a385-1af2b4729e52",
+      "label": "TabletStorageSize",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+      "label": "TabletColor",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+      "label": "Storage Capacity",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "1d43ca1a-639f-4cc5-90cd-7fa13909782b",
+      "label": "Color",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "2dfbd6ce-c638-4152-bde9-f92abcd8fac0",
+      "label": "Black",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "32684dea-e42f-4101-b455-9bfb2779f617",
+      "label": "128GB",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "37278b9b-957c-4ba2-9784-5ebfa544332a",
+      "label": "Grey",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "3e64e9cb-5a7a-4f77-8d3c-1d15ed54d5ae",
+      "label": "White",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "f8415efa-0901-473c-b83e-42316c7bf28d",
+      "label": "256GB",
+      "object": "AttributePicklistValue"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "61b4a318-7f6a-44ab-a385-1af2b4729e52",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "f6065e9a-265e-4055-aa0f-1e0f7bbc2429",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "1d43ca1a-639f-4cc5-90cd-7fa13909782b",
+      "object": "AttributePicklist"
+    }
+  ]
+}
