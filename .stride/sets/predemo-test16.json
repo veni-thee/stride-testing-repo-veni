@@ -1,0 +1,30 @@
+{
+  "slug": "predemo-test16",
+  "name": "predemo-test16",
+  "createdAt": "2026-09-24T07:55:32.903Z",
+  "updatedAt": "2026-09-24T07:55:32.903Z",
+  "version": 1,
+  "lanes": {
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_DashCam_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        },
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_DashCam2_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/predemo-test16",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test16.json",
+    "data/arm/pricing/Discovery_Pricing_Procedure_DashCam2_Test.expressionSetDefinition-meta.xml",
+    "data/arm/pricing/Discovery_Pricing_Procedure_DashCam_Test.expressionSetDefinition-meta.xml"
+  ]
+}
