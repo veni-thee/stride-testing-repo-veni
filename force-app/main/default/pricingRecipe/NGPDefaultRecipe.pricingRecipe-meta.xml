@@ -79,18 +79,6 @@
     </pricingRecipeTableMapping>
     <pricingRecipeTableMapping>
         <isInternal>false</isInternal>
-        <lookupTableDeveloperName>Decision_Table_UCover_Test_CLONE</lookupTableDeveloperName>
-        <pricingComponentType>LISTPRICE</pricingComponentType>
-        <pricingProcedureOutputMapList>
-            <fieldName>Price__c</fieldName>
-            <isPricingRecipeActive>false</isPricingRecipeActive>
-            <outputFieldName>0lPdL000000Zmhi</outputFieldName>
-            <outputType>UnitPrice</outputType>
-        </pricingProcedureOutputMapList>
-        <pricingRecipe>NGPDefaultRecipe</pricingRecipe>
-    </pricingRecipeTableMapping>
-    <pricingRecipeTableMapping>
-        <isInternal>false</isInternal>
         <lookupTableDeveloperName>Decision_Table_Dash_Cam_Test_CLONE</lookupTableDeveloperName>
         <pricingComponentType>LISTPRICE</pricingComponentType>
         <pricingProcedureOutputMapList>
