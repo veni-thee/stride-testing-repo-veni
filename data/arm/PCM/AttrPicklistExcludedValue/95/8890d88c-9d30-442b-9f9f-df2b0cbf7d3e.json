@@ -1,0 +1,13 @@
+{
+  "globalKey": "8890d88c-9d30-442b-9f9f-df2b0cbf7d3e",
+  "object": "AttrPicklistExcludedValue",
+  "record": {
+    "AttributeId": {
+      "__polyType": "ProductClassificationAttr",
+      "GlobalKey__c": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+    },
+    "AttributePicklistValue.GlobalKey__c": "9ed74257-ae4a-44bb-81a2-4748147899a3",
+    "GlobalKey__c": "8890d88c-9d30-442b-9f9f-df2b0cbf7d3e",
+    "Name": "No installation needed"
+  }
+}
