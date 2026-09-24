@@ -1,0 +1,42 @@
+{
+  "slug": "predemo-test13",
+  "name": "predemo-test13",
+  "createdAt": "2026-09-24T07:32:01.709Z",
+  "updatedAt": "2026-09-24T07:32:01.709Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "CustomTest__c"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_DashCam_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_Dash_Cam_Test_CLONE",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/predemo-test13",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test13.json",
+    "data/arm/decisionTables/Decision_Table_Dash_Cam_Test_CLONE.decisionTable.json",
+    "data/arm/pricing/Discovery_Pricing_Procedure_DashCam_Test.expressionSetDefinition-meta.xml",
+    "force-app/main/default/objects/CustomTest__c/CustomTest__c.object-meta.xml"
+  ]
+}
