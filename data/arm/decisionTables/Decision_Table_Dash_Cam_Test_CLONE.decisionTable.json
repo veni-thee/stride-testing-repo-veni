@@ -79,7 +79,7 @@
     "setupName": "Decision Table Dash Cam Test CLONE",
     "sourceConditionLogic": null,
     "sourceObject": "CustomTest__c",
-    "status": "Active",
+    "status": "Inactive",
     "type": "LowVolume",
     "usageType": null
   }
