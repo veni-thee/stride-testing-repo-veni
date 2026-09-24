@@ -1,0 +1,14 @@
+{
+  "globalKey": "b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+    "IsNavigational": true,
+    "Name": "Speakers",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}
