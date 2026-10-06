@@ -1,0 +1,28 @@
+{
+  "component": "000000004",
+  "componentGlobalKey": "a46de58b-4c8d-410f-bb18-3297ec665749",
+  "componentObject": "FulfillmentFalloutRule",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "a46de58b-4c8d-410f-bb18-3297ec665749",
+      "fromObject": "FulfillmentFalloutRule",
+      "reason": "byName",
+      "ref": "LogisticsPlaceOrderService",
+      "targetObject": "IntegrationProviderDef"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "a46de58b-4c8d-410f-bb18-3297ec665749",
+      "label": "000000004",
+      "object": "FulfillmentFalloutRule"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "a46de58b-4c8d-410f-bb18-3297ec665749",
+      "object": "FulfillmentFalloutRule"
+    }
+  ]
+}
