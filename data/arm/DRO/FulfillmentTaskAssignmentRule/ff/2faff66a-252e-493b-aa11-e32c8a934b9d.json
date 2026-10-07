@@ -4,9 +4,11 @@
   "record": {
     "ConditionData": null,
     "ConditionId": null,
+    "DestinationId": null,
     "GlobalKey__c": "2faff66a-252e-493b-aa11-e32c8a934b9d",
     "Name": "360 Camera - Manual Task Routing",
     "Priority": 1,
+    "Source.Name": "DRO Fulfilment Queue",
     "TaskAllocationType": "RoundRobin",
     "UsageType": "Fulfillment"
   }
