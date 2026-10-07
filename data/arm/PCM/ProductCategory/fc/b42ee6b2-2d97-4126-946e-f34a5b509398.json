@@ -1,0 +1,14 @@
+{
+  "globalKey": "b42ee6b2-2d97-4126-946e-f34a5b509398",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "565ef96d-8663-49f8-98b2-0aa88f8b8f18",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "b42ee6b2-2d97-4126-946e-f34a5b509398",
+    "IsNavigational": true,
+    "Name": "Warranty",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}

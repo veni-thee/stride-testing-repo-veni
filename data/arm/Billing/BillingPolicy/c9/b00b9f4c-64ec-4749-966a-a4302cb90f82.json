@@ -1,0 +1,12 @@
+{
+  "globalKey": "b00b9f4c-64ec-4749-966a-a4302cb90f82",
+  "object": "BillingPolicy",
+  "record": {
+    "BillingTreatmentSelection": "LegalEntity",
+    "DefaultBillingTreatment.GlobalKey__c": "84202e30-2644-404f-a67f-8158e7fd6b2e",
+    "Description": null,
+    "GlobalKey__c": "b00b9f4c-64ec-4749-966a-a4302cb90f82",
+    "Name": "Billing Policy - Advance",
+    "Status": "Active"
+  }
+}

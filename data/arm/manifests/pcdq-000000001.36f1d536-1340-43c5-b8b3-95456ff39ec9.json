@@ -1,0 +1,107 @@
+{
+  "component": "pcdq-000000001",
+  "componentGlobalKey": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+  "componentObject": "ProductCategoryDisqual",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "reverse",
+      "field": "CatalogId",
+      "from": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "CategoryId",
+      "from": "ProductCategoryDisqual:36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "required": true,
+      "to": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9"
+    },
+    {
+      "direction": "reverse",
+      "field": "CategoryId",
+      "from": "ProductCategoryDisqual:36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "required": true,
+      "to": "ProductCategory:b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9"
+    },
+    {
+      "direction": "forward",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:66049b58-b1f0-43fa-8275-2733a85aa823",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "CategoryId",
+      "from": "ProductCategoryQualification:66049b58-b1f0-43fa-8275-2733a85aa823",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9",
+      "label": "Speakers",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Speakers",
+      "globalKey": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "label": "PCDQ-000000001",
+      "object": "ProductCategoryDisqual"
+    },
+    {
+      "displayLabel": "Accessories",
+      "globalKey": "66049b58-b1f0-43fa-8275-2733a85aa823",
+      "label": "PCQ-000000001",
+      "object": "ProductCategoryQualification"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "object": "ProductCategory"
+    },
+    {
+      "globalKey": "36f1d536-1340-43c5-b8b3-95456ff39ec9",
+      "object": "ProductCategoryDisqual"
+    }
+  ]
+}

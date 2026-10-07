@@ -1,0 +1,14 @@
+{
+  "globalKey": "936c5bfd-a712-4756-a82a-2e334c46b1d9",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "936c5bfd-a712-4756-a82a-2e334c46b1d9",
+    "IsNavigational": true,
+    "Name": "Protection Software",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "developerName": "StandardDecisionTable_V4",
+  "metadata": {
+    "collectOperator": "None",
+    "conditionCriteria": "1",
+    "conditionType": "All",
+    "dataSourceType": "SingleSobject",
+    "dataSpaceName": null,
+    "decisionTableParameters": [
+      {
+        "dataType": "String",
+        "decimalScale": null,
+        "domainObject": null,
+        "fieldName": "UnitPrice",
+        "fieldPath": "UnitPrice",
+        "isGroupByField": false,
+        "isPriorityField": null,
+        "isRequired": false,
+        "length": null,
+        "operator": null,
+        "sequence": null,
+        "sortType": null,
+        "usage": "OUTPUT"
+      },
+      {
+        "dataType": "String",
+        "decimalScale": null,
+        "domainObject": null,
+        "fieldName": "Id",
+        "fieldPath": "Id",
+        "isGroupByField": false,
+        "isPriorityField": null,
+        "isRequired": true,
+        "length": null,
+        "operator": "Equals",
+        "sequence": 1,
+        "sortType": null,
+        "usage": "INPUT"
+      }
+    ],
+    "decisionTableSourceCriterias": [],
+    "description": "For Testing Only",
+    "doesConsiderNullValue": false,
+    "dtRowLevelOverrideType": "None",
+    "executionType": null,
+    "filterResultBy": "OutputOrder",
+    "isIncrementalSyncEnabled": false,
+    "isVersioned": false,
+    "setupName": "Standard Decision Table V4",
+    "sourceConditionLogic": null,
+    "sourceObject": "OrderItem",
+    "status": "Draft",
+    "type": "LowVolume",
+    "usageType": null
+  }
+}

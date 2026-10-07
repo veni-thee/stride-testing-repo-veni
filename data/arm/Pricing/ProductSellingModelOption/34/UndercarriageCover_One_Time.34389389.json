@@ -1,0 +1,10 @@
+{
+  "globalKey": "UndercarriageCover|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": true,
+    "Product2.GlobalKey__c": "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "globalKey": "6fbcc7c7-520a-4505-afeb-608ba029d714",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "REGTYP",
+    "Description": null,
+    "GlobalKey__c": "6fbcc7c7-520a-4505-afeb-608ba029d714",
+    "Name": "Register Type"
+  }
+}

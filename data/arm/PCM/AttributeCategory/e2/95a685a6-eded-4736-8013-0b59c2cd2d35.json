@@ -1,0 +1,10 @@
+{
+  "globalKey": "95a685a6-eded-4736-8013-0b59c2cd2d35",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "AddOnAttributes",
+    "Description": null,
+    "GlobalKey__c": "95a685a6-eded-4736-8013-0b59c2cd2d35",
+    "Name": "Add-On Attributes"
+  }
+}

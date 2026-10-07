@@ -1,0 +1,16 @@
+{
+  "globalKey": "8bab3c3a-5c34-4cc6-ae3d-a834d7fffb7e",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 1TB",
+    "DisplayValue": "SSD Hard Drive 1TB",
+    "GlobalKey__c": "8bab3c3a-5c34-4cc6-ae3d-a834d7fffb7e",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 1TB",
+    "Picklist.GlobalKey__c": "ad5ba7c5-d3c2-432b-917c-e4860b6a4e10",
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 1TB"
+  }
+}

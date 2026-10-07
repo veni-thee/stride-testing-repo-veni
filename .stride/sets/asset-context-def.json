@@ -1,0 +1,19 @@
+{
+  "slug": "asset-context-def",
+  "name": "asset-context-def",
+  "createdAt": "2026-08-18T11:23:31.391Z",
+  "updatedAt": "2026-08-18T11:23:31.391Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "AssetContextExt"
+        }
+      ]
+    }
+  },
+  "branch": "feature/asset-context-def",
+  "baseBranch": "main"
+}

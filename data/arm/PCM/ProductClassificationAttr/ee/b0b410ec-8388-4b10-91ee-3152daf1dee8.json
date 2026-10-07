@@ -1,0 +1,29 @@
+{
+  "globalKey": "b0b410ec-8388-4b10-91ee-3152daf1dee8",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "b4edd6c9-331d-492e-bdad-864589ce5465",
+    "AttributeNameOverride": "Paint Finish",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "b0b410ec-8388-4b10-91ee-3152daf1dee8",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Paint Finish",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

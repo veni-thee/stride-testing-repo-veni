@@ -1,0 +1,23 @@
+{
+  "slug": "decision-matrix-definition-version2",
+  "name": "decision-matrix-definition-version2",
+  "createdAt": "2026-08-25T10:32:23.039Z",
+  "updatedAt": "2026-08-25T10:32:23.039Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "DecisionMatrixDefinitionVersion",
+          "fullName": "DecisionMatrixTest_V1"
+        },
+        {
+          "type": "DecisionMatrixDefinitionVersion",
+          "fullName": "DecisionMatrixTest_V2"
+        }
+      ]
+    }
+  },
+  "branch": "feature/decision-matrix-definition-version2",
+  "baseBranch": "main"
+}

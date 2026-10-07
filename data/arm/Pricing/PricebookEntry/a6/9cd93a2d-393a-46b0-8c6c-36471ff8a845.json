@@ -1,0 +1,14 @@
+{
+  "globalKey": "9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+  "object": "PricebookEntry",
+  "record": {
+    "GlobalKey__c": "9cd93a2d-393a-46b0-8c6c-36471ff8a845",
+    "IsActive": true,
+    "IsDerived": false,
+    "Pricebook2.Name": "Standard Price Book",
+    "Product2.GlobalKey__c": "ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+    "ProductSellingModel.Name": "Term Based - Monthly",
+    "UnitPrice": 25,
+    "UseStandardPrice": false
+  }
+}

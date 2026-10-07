@@ -1,0 +1,28 @@
+{
+  "slug": "context-definition-order-item",
+  "name": "context-definition-order-item",
+  "createdAt": "2026-09-07T10:24:35.079Z",
+  "updatedAt": "2026-09-07T10:24:35.079Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "OrderItem"
+        },
+        {
+          "type": "ContextDefinition",
+          "fullName": "RLM_SalesTransactionContext"
+        }
+      ]
+    }
+  },
+  "branch": "feature/context-definition-order-item",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/context-definition-order-item.json",
+    "force-app/main/default/contextDefinitions/RLM_SalesTransactionContext.contextDefinition-meta.xml",
+    "force-app/main/default/objects/OrderItem/OrderItem.object-meta.xml"
+  ]
+}

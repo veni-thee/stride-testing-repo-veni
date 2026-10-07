@@ -1,0 +1,19 @@
+{
+  "slug": "rule-library-definition",
+  "name": "rule-library-definition",
+  "createdAt": "2026-08-25T11:24:42.312Z",
+  "updatedAt": "2026-08-25T11:24:42.312Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "RuleLibraryDefinition",
+          "fullName": "RuleLibraryTest"
+        }
+      ]
+    }
+  },
+  "branch": "feature/rule-library-definition",
+  "baseBranch": "main"
+}

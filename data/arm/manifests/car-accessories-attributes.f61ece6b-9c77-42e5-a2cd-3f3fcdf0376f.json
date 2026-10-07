@@ -1,0 +1,315 @@
+{
+  "component": "car-accessories-attributes",
+  "componentGlobalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+  "componentObject": "ProductAttributeDefinition",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "AttributeCategoryId",
+      "from": "AttributeCategoryAttribute:11601ea2-5537-4c3d-af6c-ccc3e03a05bd",
+      "required": true,
+      "to": "AttributeCategory:1dee92c4-d00c-4c05-8bac-3ba4be64c110"
+    },
+    {
+      "direction": "reverse",
+      "field": "AttributeCategoryId",
+      "from": "AttributeCategoryAttribute:11601ea2-5537-4c3d-af6c-ccc3e03a05bd",
+      "required": true,
+      "to": "AttributeCategory:1dee92c4-d00c-4c05-8bac-3ba4be64c110"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "AttributeCategoryAttribute:11601ea2-5537-4c3d-af6c-ccc3e03a05bd",
+      "required": true,
+      "to": "AttributeDefinition:bf34ff19-e126-4aa1-bca5-ef9ee6b00bce"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributeDefinition:bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+      "required": false,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:9ed74257-ae4a-44bb-81a2-4748147899a3",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:9ed74257-ae4a-44bb-81a2-4748147899a3",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+      "required": true,
+      "to": "AttributePicklist:79b01841-96a4-4d96-9c62-1358d0889495"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributePicklistValueId",
+      "from": "AttrPicklistExcludedValue:8da9b2ab-0f8b-4ab2-8568-67ef0ec7efd7",
+      "required": true,
+      "to": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5"
+    },
+    {
+      "direction": "reverse",
+      "field": "AttributePicklistValueId",
+      "from": "AttrPicklistExcludedValue:8da9b2ab-0f8b-4ab2-8568-67ef0ec7efd7",
+      "required": true,
+      "to": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeId",
+      "from": "AttrPicklistExcludedValue:8da9b2ab-0f8b-4ab2-8568-67ef0ec7efd7",
+      "required": true,
+      "to": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributePicklistValueId",
+      "from": "AttrPicklistExcludedValue:cc5513b7-45ed-4759-86de-187fd79bb217",
+      "required": true,
+      "to": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5"
+    },
+    {
+      "direction": "reverse",
+      "field": "AttributePicklistValueId",
+      "from": "AttrPicklistExcludedValue:cc5513b7-45ed-4759-86de-187fd79bb217",
+      "required": true,
+      "to": "AttributePicklistValue:ac94ebcb-7fd1-4612-aa79-1c0136ef29b5"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeId",
+      "from": "AttrPicklistExcludedValue:cc5513b7-45ed-4759-86de-187fd79bb217",
+      "required": true,
+      "to": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+    },
+    {
+      "direction": "forward",
+      "field": "BasedOnId",
+      "from": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "required": false,
+      "to": "ProductClassification:94e4318c-86d7-4997-9655-1b284acc5cd0"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeCategoryId",
+      "from": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": false,
+      "to": "AttributeCategory:1dee92c4-d00c-4c05-8bac-3ba4be64c110"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "AttributeDefinition:bf34ff19-e126-4aa1-bca5-ef9ee6b00bce"
+    },
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationAttributeId",
+      "from": "ProductAttributeDefinition:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": false,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeCategoryId",
+      "from": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": false,
+      "to": "AttributeCategory:1dee92c4-d00c-4c05-8bac-3ba4be64c110"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "AttributeDefinition:bf34ff19-e126-4aa1-bca5-ef9ee6b00bce"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "ProductClassification:94e4318c-86d7-4997-9655-1b284acc5cd0"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "required": true,
+      "to": "ProductClassification:94e4318c-86d7-4997-9655-1b284acc5cd0"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+      "label": "Car Accessories Category",
+      "object": "AttributeCategory"
+    },
+    {
+      "displayLabel": "Car Accessories Category ↔ Car Accessories Attributes",
+      "globalKey": "11601ea2-5537-4c3d-af6c-ccc3e03a05bd",
+      "label": "ACA-0000016",
+      "object": "AttributeCategoryAttribute"
+    },
+    {
+      "globalKey": "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+      "label": "Car Accessories Attributes",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "79b01841-96a4-4d96-9c62-1358d0889495",
+      "label": "Installation Type",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "9ed74257-ae4a-44bb-81a2-4748147899a3",
+      "label": "No installation needed",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+      "label": "Customer Self-Install",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+      "label": "In-house Installer",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "8da9b2ab-0f8b-4ab2-8568-67ef0ec7efd7",
+      "label": "Customer Self-Install",
+      "object": "AttrPicklistExcludedValue"
+    },
+    {
+      "globalKey": "cc5513b7-45ed-4759-86de-187fd79bb217",
+      "label": "Customer Self-Install",
+      "object": "AttrPicklistExcludedValue"
+    },
+    {
+      "globalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "label": "Door Visor",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "label": "Car Accessories Attributes",
+      "object": "ProductAttributeDefinition"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Accessories ↔ Door Visor ↔ Add-Ons",
+      "globalKey": "8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "label": "00000033",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "globalKey": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+      "label": "Car Accessories",
+      "object": "ProductClassification"
+    },
+    {
+      "globalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "label": "Car Accessories Attributes",
+      "object": "ProductClassificationAttr"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f",
+      "object": "ProductAttributeDefinition"
+    }
+  ]
+}
