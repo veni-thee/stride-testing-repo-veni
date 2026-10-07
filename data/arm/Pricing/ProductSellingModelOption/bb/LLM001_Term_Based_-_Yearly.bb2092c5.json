@@ -1,0 +1,10 @@
+{
+  "globalKey": "LLM001|Term Based - Yearly",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": true,
+    "Product2.GlobalKey__c": "62aa07b8-341d-4ef6-9a84-8c82334340f1",
+    "ProductSellingModel.Name": "Term Based - Yearly",
+    "ProrationPolicy.Name": "Default Proration Policy"
+  }
+}

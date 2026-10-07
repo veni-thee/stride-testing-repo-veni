@@ -1,0 +1,59 @@
+{
+  "slug": "demo-test2",
+  "name": "demo-test2",
+  "createdAt": "2026-09-24T09:42:57.001Z",
+  "updatedAt": "2026-09-24T09:42:57.001Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_UCover_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_UCover_Test_CLONE",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/demo-test2",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/demo-test2.json",
+    "data/arm/PCM/Product2/ba/d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3.json",
+    "data/arm/PCM/ProductCatalog/8a/155ebcd2-bae4-4e62-9d8d-3c80864b6396.json",
+    "data/arm/PCM/ProductCatalogDataTranslation/df/AddOns_ja.df612704.json",
+    "data/arm/PCM/ProductCategory/53/b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3.json",
+    "data/arm/PCM/ProductCategoryProduct/82/e7628d50-68ea-4dc5-a9f1-40597d48efa6.json",
+    "data/arm/Pricing/PricebookEntry/90/29272653-69d4-4204-8666-e51227e41755.json",
+    "data/arm/Pricing/ProductSellingModelOption/34/UndercarriageCover_One_Time.34389389.json",
+    "data/arm/decisionTables/Decision_Table_UCover_Test_CLONE.decisionTable.json",
+    "data/arm/manifests/undercarriage-cover.d5b1bd4d-1270-4884-81f7-1f12ce9aa3b3.json",
+    "data/arm/pricing/Discovery_Pricing_Procedure_UCover_Test.expressionSetDefinition-meta.xml"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "product-disqual",
+  "name": "product-disqual",
+  "createdAt": "2026-08-24T09:02:14.014Z",
+  "updatedAt": "2026-08-24T09:02:14.014Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductDisqualification",
+          "intent": "picked",
+          "records": [
+            "c32f6153-30a5-4a4f-9e4d-bb6f0ab0f8d3"
+          ]
+        },
+        {
+          "object": "ProductClassification",
+          "intent": "picked",
+          "records": [
+            "21f083e1-264d-46f8-a160-eaccb770c01e"
+          ]
+        },
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "3999ea5c-9196-421c-aa95-340685992e05"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2",
+          "ProductClassification",
+          "ProductDisqualification"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product-disqual",
+  "baseBranch": "main"
+}

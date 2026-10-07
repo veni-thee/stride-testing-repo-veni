@@ -1,0 +1,52 @@
+{
+  "component": "e-commerce",
+  "componentGlobalKey": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+  "componentObject": "ProductClassification",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductClassificationAttr:b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+      "required": true,
+      "to": "AttributeDefinition:1dd50ace-2e90-40c9-8369-785c257ac51a"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+      "required": true,
+      "to": "ProductClassification:c4ab187a-c30c-441c-8fae-ca5f98ad21a1"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+      "required": true,
+      "to": "ProductClassification:c4ab187a-c30c-441c-8fae-ca5f98ad21a1"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "1dd50ace-2e90-40c9-8369-785c257ac51a",
+      "label": "Advance Ecommerce",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+      "label": "E Commerce",
+      "object": "ProductClassification"
+    },
+    {
+      "globalKey": "b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+      "label": "Advance Ecommerce",
+      "object": "ProductClassificationAttr"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+      "object": "ProductClassification"
+    }
+  ]
+}

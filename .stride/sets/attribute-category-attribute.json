@@ -1,0 +1,63 @@
+{
+  "slug": "attribute-category-attribute",
+  "name": "attribute-category-attribute",
+  "createdAt": "2026-08-27T06:15:26.746Z",
+  "updatedAt": "2026-08-27T06:15:26.746Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributeCategoryAttribute",
+          "intent": "picked",
+          "records": [
+            "11601ea2-5537-4c3d-af6c-ccc3e03a05bd"
+          ]
+        },
+        {
+          "object": "AttributeCategory",
+          "intent": "picked",
+          "records": [
+            "1dee92c4-d00c-4c05-8bac-3ba4be64c110"
+          ]
+        },
+        {
+          "object": "AttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce"
+          ]
+        },
+        {
+          "object": "AttributePicklist",
+          "intent": "picked",
+          "records": [
+            "79b01841-96a4-4d96-9c62-1358d0889495"
+          ]
+        },
+        {
+          "object": "AttributePicklistValue",
+          "intent": "picked",
+          "records": [
+            "d5df1bbb-1707-4be3-a09a-5c1fa680579c",
+            "ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+            "9ed74257-ae4a-44bb-81a2-4748147899a3"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeCategory",
+          "AttributeCategoryAttribute",
+          "AttributeDefinition",
+          "AttributePicklist",
+          "AttributePicklistValue"
+        ]
+      }
+    }
+  },
+  "branch": "feature/attribute-category-attribute",
+  "baseBranch": "main"
+}

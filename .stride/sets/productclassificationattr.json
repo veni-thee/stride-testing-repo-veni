@@ -1,0 +1,29 @@
+{
+  "slug": "productclassificationattr",
+  "name": "ProductClassificationAttr",
+  "createdAt": "2026-09-03T06:22:46.415Z",
+  "updatedAt": "2026-09-03T06:22:46.415Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductClassificationAttr",
+          "intent": "picked",
+          "records": [
+            "c0d59146-e1ba-458c-baa7-d0e5362e554d"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductClassificationAttr"
+        ]
+      }
+    }
+  },
+  "branch": "feature/productclassificationattr",
+  "baseBranch": "main"
+}

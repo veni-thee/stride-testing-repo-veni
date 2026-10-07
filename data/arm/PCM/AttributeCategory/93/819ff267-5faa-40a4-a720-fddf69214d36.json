@@ -1,0 +1,10 @@
+{
+  "globalKey": "819ff267-5faa-40a4-a720-fddf69214d36",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "PP001",
+    "Description": null,
+    "GlobalKey__c": "819ff267-5faa-40a4-a720-fddf69214d36",
+    "Name": "Paper"
+  }
+}

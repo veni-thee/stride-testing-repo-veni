@@ -1,0 +1,21 @@
+{
+  "globalKey": "03c3d022-32fd-4d00-b28c-1d124741e566",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Display",
+    "GlobalKey__c": "03c3d022-32fd-4d00-b28c-1d124741e566",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Display",
+    "Name": "Display",
+    "Picklist.GlobalKey__c": "0426970f-4b3b-48b3-a114-9d32c06e1098",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

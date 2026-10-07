@@ -1,0 +1,10 @@
+{
+  "globalKey": "LCP001|Term Based - Monthly",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": true,
+    "Product2.GlobalKey__c": "19a5ad1e-1534-49cb-acbc-502a181368df",
+    "ProductSellingModel.Name": "Term Based - Monthly",
+    "ProrationPolicy.Name": "Default Proration Policy"
+  }
+}

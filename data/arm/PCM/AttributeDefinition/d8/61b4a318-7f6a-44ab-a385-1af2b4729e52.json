@@ -1,0 +1,21 @@
+{
+  "globalKey": "61b4a318-7f6a-44ab-a385-1af2b4729e52",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": "128GB",
+    "Description": null,
+    "DeveloperName": "tablet_storage_size",
+    "GlobalKey__c": "61b4a318-7f6a-44ab-a385-1af2b4729e52",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Tablet Storage Size",
+    "Name": "TabletStorageSize",
+    "Picklist.GlobalKey__c": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

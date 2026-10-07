@@ -1,0 +1,16 @@
+{
+  "globalKey": "fe4ecda0-2ca3-43ab-bb67-81ac36352ae8",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Intel Iris Xe Graphics",
+    "DisplayValue": "Intel Iris Xe Graphics",
+    "GlobalKey__c": "fe4ecda0-2ca3-43ab-bb67-81ac36352ae8",
+    "IsDefault": false,
+    "Name": "Intel Iris Xe Graphics",
+    "Picklist.GlobalKey__c": "6f5db830-9831-4aab-9a5e-834b3c39e717",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Intel Iris Xe Graphics"
+  }
+}

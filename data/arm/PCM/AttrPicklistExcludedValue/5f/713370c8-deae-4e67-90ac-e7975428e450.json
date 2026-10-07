@@ -1,0 +1,13 @@
+{
+  "globalKey": "713370c8-deae-4e67-90ac-e7975428e450",
+  "object": "AttrPicklistExcludedValue",
+  "record": {
+    "AttributeId": {
+      "__polyType": "ProductAttributeDefinition",
+      "GlobalKey__c": "1a59dd52-df64-4a78-9654-90d4d9d1dd97"
+    },
+    "AttributePicklistValue.GlobalKey__c": "ebf604db-5692-47ed-82e6-eb66f186014a",
+    "GlobalKey__c": "713370c8-deae-4e67-90ac-e7975428e450",
+    "Name": "Bluetooth"
+  }
+}

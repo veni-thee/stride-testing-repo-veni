@@ -1,0 +1,16 @@
+{
+  "globalKey": "1fbdd193-9759-4cbe-8877-bac7c6c2e669",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "IN001",
+    "DisplayValue": "Inkjet",
+    "GlobalKey__c": "1fbdd193-9759-4cbe-8877-bac7c6c2e669",
+    "IsDefault": false,
+    "Name": "Inkjet",
+    "Picklist.GlobalKey__c": "c718fda7-9bab-474e-b0e3-d20eeff6a069",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Inkjet"
+  }
+}

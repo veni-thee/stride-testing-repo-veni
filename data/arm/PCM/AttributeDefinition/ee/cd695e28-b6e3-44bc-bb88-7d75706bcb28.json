@@ -1,0 +1,21 @@
+{
+  "globalKey": "cd695e28-b6e3-44bc-bb88-7d75706bcb28",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Processor",
+    "GlobalKey__c": "cd695e28-b6e3-44bc-bb88-7d75706bcb28",
+    "IsActive": true,
+    "IsRequired": true,
+    "Label": "Processor",
+    "Name": "Processor",
+    "Picklist.GlobalKey__c": "7dad05a9-f186-43bc-8daa-38517f69a3d7",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

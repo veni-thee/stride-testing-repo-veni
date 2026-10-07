@@ -1,0 +1,59 @@
+{
+  "component": "paper-size-picklist",
+  "componentGlobalKey": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+  "componentObject": "AttributePicklist",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:5b3803fd-e81b-4793-905f-83ea15d96608",
+      "required": true,
+      "to": "AttributePicklist:0f25cb9b-0934-492f-ae57-e720b8faf1a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:5b3803fd-e81b-4793-905f-83ea15d96608",
+      "required": true,
+      "to": "AttributePicklist:0f25cb9b-0934-492f-ae57-e720b8faf1a3"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:ad0a5c9d-2005-4e8d-937b-9dd25d6593c2",
+      "required": true,
+      "to": "AttributePicklist:0f25cb9b-0934-492f-ae57-e720b8faf1a3"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:ad0a5c9d-2005-4e8d-937b-9dd25d6593c2",
+      "required": true,
+      "to": "AttributePicklist:0f25cb9b-0934-492f-ae57-e720b8faf1a3"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+      "label": "Paper Size Picklist",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "5b3803fd-e81b-4793-905f-83ea15d96608",
+      "label": "Letter",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "ad0a5c9d-2005-4e8d-937b-9dd25d6593c2",
+      "label": "A4",
+      "object": "AttributePicklistValue"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+      "object": "AttributePicklist"
+    }
+  ]
+}

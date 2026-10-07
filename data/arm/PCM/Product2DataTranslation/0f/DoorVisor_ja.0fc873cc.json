@@ -1,0 +1,11 @@
+{
+  "globalKey": "DoorVisor|ja",
+  "object": "Product2DataTranslation",
+  "record": {
+    "Description": "Doa baizā",
+    "HelpText": null,
+    "Language": "ja",
+    "Name": "ドアバイザー",
+    "Parent.GlobalKey__c": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+  }
+}

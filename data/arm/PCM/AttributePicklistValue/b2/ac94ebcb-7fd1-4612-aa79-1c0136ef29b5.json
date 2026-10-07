@@ -1,0 +1,16 @@
+{
+  "globalKey": "ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "CustomerSelfInstall",
+    "DisplayValue": "Customer Self-Install",
+    "GlobalKey__c": "ac94ebcb-7fd1-4612-aa79-1c0136ef29b5",
+    "IsDefault": false,
+    "Name": "Customer Self-Install",
+    "Picklist.GlobalKey__c": "79b01841-96a4-4d96-9c62-1358d0889495",
+    "Sequence": null,
+    "Status": "Active",
+    "Value": "Customer Self-Install"
+  }
+}

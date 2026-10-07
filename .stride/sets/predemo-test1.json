@@ -1,0 +1,125 @@
+{
+  "slug": "predemo-test1",
+  "name": "predemo-test1",
+  "createdAt": "2026-09-24T05:25:15.462Z",
+  "updatedAt": "2026-09-24T05:25:15.462Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttributePicklist",
+          "intent": "picked",
+          "records": [
+            "5c08cea9-9cdf-45d7-b874-1e2a7f69027a"
+          ]
+        },
+        {
+          "object": "AttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "b0ba465b-7e27-4097-b53c-fcf8c187b07e"
+          ]
+        },
+        {
+          "object": "AttributeCategory",
+          "intent": "picked",
+          "records": [
+            "b6db0efa-7680-4313-94de-5d07385af8fa"
+          ]
+        },
+        {
+          "object": "ProductClassification",
+          "intent": "picked",
+          "records": [
+            "94e4318c-86d7-4997-9655-1b284acc5cd0"
+          ]
+        },
+        {
+          "object": "ProductAttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "1a59dd52-df64-4a78-9654-90d4d9d1dd97"
+          ]
+        },
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "10431138-c2ed-43f1-9419-f37e5682e28e"
+          ]
+        },
+        {
+          "object": "AttributePicklistValue",
+          "intent": "picked",
+          "records": [
+            "a59cf455-b6df-43ea-84d4-006e5ebee0b3",
+            "ebf604db-5692-47ed-82e6-eb66f186014a"
+          ]
+        },
+        {
+          "object": "ProductClassificationAttr",
+          "intent": "picked",
+          "records": [
+            "97ff94ab-e534-40f7-bf45-840fbdc085d1"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeCategory",
+          "AttributeDefinition",
+          "AttributePicklist",
+          "AttributePicklistValue",
+          "Product2",
+          "ProductAttributeDefinition",
+          "ProductClassification",
+          "ProductClassificationAttr"
+        ]
+      }
+    }
+  },
+  "branch": "feature/predemo-test1",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test1.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/5f/713370c8-deae-4e67-90ac-e7975428e450.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/91/236f12fb-5d59-47aa-bb70-b79eae5b727c.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/93/67ffb1d7-9ded-400d-925a-c636daaaf036.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/95/8890d88c-9d30-442b-9f9f-df2b0cbf7d3e.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/a7/f241d978-720a-49cf-a161-60d9a376fcc6.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/be/7300278a-903e-4eaf-b84f-1a452c2f102e.json",
+    "data/arm/PCM/AttrPicklistExcludedValue/c8/887593d5-1207-4105-85d5-cabf65d82280.json",
+    "data/arm/PCM/AttributeCategory/41/b6db0efa-7680-4313-94de-5d07385af8fa.json",
+    "data/arm/PCM/AttributeCategory/bc/1dee92c4-d00c-4c05-8bac-3ba4be64c110.json",
+    "data/arm/PCM/AttributeCategoryAttribute/20/8b5af789-cf0c-4c3f-9ef1-83e4b862f5b2.json",
+    "data/arm/PCM/AttributeCategoryAttribute/36/5db4998b-bd52-4425-8264-3d7da977281f.json",
+    "data/arm/PCM/AttributeCategoryAttribute/66/11601ea2-5537-4c3d-af6c-ccc3e03a05bd.json",
+    "data/arm/PCM/AttributeCategoryAttribute/dd/a9347146-5c26-4db6-beeb-3be5edf0728b.json",
+    "data/arm/PCM/AttributeDefinition/00/bf34ff19-e126-4aa1-bca5-ef9ee6b00bce.json",
+    "data/arm/PCM/AttributeDefinition/5d/d1242292-d46e-43bf-9bd0-bcc67c7ee7bd.json",
+    "data/arm/PCM/AttributeDefinition/62/b4edd6c9-331d-492e-bdad-864589ce5465.json",
+    "data/arm/PCM/AttributeDefinition/80/b0ba465b-7e27-4097-b53c-fcf8c187b07e.json",
+    "data/arm/PCM/AttributePicklist/12/f19fd4aa-46cd-42f2-b2b5-dea72973b1fc.json",
+    "data/arm/PCM/AttributePicklist/6b/5c08cea9-9cdf-45d7-b874-1e2a7f69027a.json",
+    "data/arm/PCM/AttributePicklist/8c/79b01841-96a4-4d96-9c62-1358d0889495.json",
+    "data/arm/PCM/AttributePicklistValue/33/0c6544d7-0042-4d67-9f10-fc536fdd2e1f.json",
+    "data/arm/PCM/AttributePicklistValue/4c/d5df1bbb-1707-4be3-a09a-5c1fa680579c.json",
+    "data/arm/PCM/AttributePicklistValue/8b/ebf604db-5692-47ed-82e6-eb66f186014a.json",
+    "data/arm/PCM/AttributePicklistValue/a4/9ed74257-ae4a-44bb-81a2-4748147899a3.json",
+    "data/arm/PCM/AttributePicklistValue/af/37355c36-1432-4c38-b713-9d548cbbecfe.json",
+    "data/arm/PCM/AttributePicklistValue/b2/ac94ebcb-7fd1-4612-aa79-1c0136ef29b5.json",
+    "data/arm/PCM/AttributePicklistValue/e9/a59cf455-b6df-43ea-84d4-006e5ebee0b3.json",
+    "data/arm/PCM/Product2/5a/10431138-c2ed-43f1-9419-f37e5682e28e.json",
+    "data/arm/PCM/Product2/6b/2bcec96c-22dc-4be5-9e27-293a434228cd.json",
+    "data/arm/PCM/ProductAttributeDefinition/1e/115b9cb2-144f-4fd1-80f0-f1f24f99e8a1.json",
+    "data/arm/PCM/ProductAttributeDefinition/bd/1a59dd52-df64-4a78-9654-90d4d9d1dd97.json",
+    "data/arm/PCM/ProductClassification/7c/94e4318c-86d7-4997-9655-1b284acc5cd0.json",
+    "data/arm/PCM/ProductClassificationAttr/0b/f61ece6b-9c77-42e5-a2cd-3f3fcdf0376f.json",
+    "data/arm/PCM/ProductClassificationAttr/0e/97ff94ab-e534-40f7-bf45-840fbdc085d1.json",
+    "data/arm/PCM/ProductClassificationAttr/ee/b0b410ec-8388-4b10-91ee-3152daf1dee8.json",
+    "data/arm/manifests/connection-type.5c08cea9-9cdf-45d7-b874-1e2a7f69027a.json"
+  ]
+}

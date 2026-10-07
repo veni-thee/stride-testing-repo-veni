@@ -1,0 +1,14 @@
+{
+  "globalKey": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+  "object": "FulfillmentStepJeopardyRule",
+  "record": {
+    "EstimatedDuration": 5,
+    "EstimatedDurationUnit": "Minutes",
+    "FlowDefinition": null,
+    "GlobalKey__c": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+    "IntegrationDefinition.DeveloperName": "LogisticsPlaceOrderService",
+    "JeopardyThreshold": 2,
+    "JeopardyThresholdUnit": "Minutes",
+    "StepType": "Callout"
+  }
+}
