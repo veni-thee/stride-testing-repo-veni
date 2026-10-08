@@ -1,0 +1,21 @@
+{
+  "globalKey": "a2d206d9-b866-4d0f-bc94-d312bfc8ab7d",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Number",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": "Number of installations, set by decomposition enrichment from 360 Camera",
+    "DeveloperName": "Install_Quantity",
+    "GlobalKey__c": "a2d206d9-b866-4d0f-bc94-d312bfc8ab7d",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Install Quantity",
+    "Name": "Install Quantity",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
