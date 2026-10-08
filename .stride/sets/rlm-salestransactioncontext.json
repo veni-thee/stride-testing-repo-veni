@@ -1,0 +1,23 @@
+{
+  "slug": "rlm-salestransactioncontext",
+  "name": "RLM_SalesTransactionContext",
+  "createdAt": "2026-09-07T09:46:28.477Z",
+  "updatedAt": "2026-09-07T09:46:28.477Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "RLM_SalesTransactionContext"
+        }
+      ]
+    }
+  },
+  "branch": "feature/rlm-salestransactioncontext",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/rlm-salestransactioncontext.json",
+    "force-app/main/default/contextDefinitions/RLM_SalesTransactionContext.contextDefinition-meta.xml"
+  ]
+}

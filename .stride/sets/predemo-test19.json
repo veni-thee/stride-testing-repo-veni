@@ -1,0 +1,86 @@
+{
+  "slug": "predemo-test19",
+  "name": "predemo-test19",
+  "createdAt": "2026-09-24T08:52:21.141Z",
+  "updatedAt": "2026-09-24T08:52:21.141Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+          ]
+        },
+        {
+          "object": "ProductCatalog",
+          "intent": "picked",
+          "records": [
+            "155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+          ]
+        },
+        {
+          "object": "ProductCategory",
+          "intent": "picked",
+          "records": [
+            "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+          ]
+        },
+        {
+          "object": "ProductCategoryProduct",
+          "intent": "picked",
+          "records": [
+            "1db85636-54ff-48a1-8867-b9f898aec91b"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2",
+          "ProductCatalog",
+          "ProductCategory",
+          "ProductCategoryProduct"
+        ]
+      }
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Rev_Mgmt_Default_Pricing_Procedure_CLONE",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_Dash_Cam3_Test",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/predemo-test19",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test19.json",
+    "data/arm/PCM/Product2/31/d3509fbe-d448-491d-9c68-9b9b79b7b9d2.json",
+    "data/arm/PCM/ProductCatalog/8a/155ebcd2-bae4-4e62-9d8d-3c80864b6396.json",
+    "data/arm/PCM/ProductCatalogDataTranslation/df/AddOns_ja.df612704.json",
+    "data/arm/PCM/ProductCategory/4f/b62ba2ae-4ab7-4b16-b730-43a93ec3f5e9.json",
+    "data/arm/PCM/ProductCategory/53/b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3.json",
+    "data/arm/PCM/ProductCategory/79/5e0ebf8c-13c5-43d1-82e9-1000d48995f0.json",
+    "data/arm/PCM/ProductCategoryDisqual/db/36f1d536-1340-43c5-b8b3-95456ff39ec9.json",
+    "data/arm/PCM/ProductCategoryProduct/8d/1db85636-54ff-48a1-8867-b9f898aec91b.json",
+    "data/arm/PCM/ProductCategoryQualification/b6/66049b58-b1f0-43fa-8275-2733a85aa823.json",
+    "data/arm/PCM/ProductCategoryQualification/d3/7917890f-48d6-4c30-bde1-ee176ef05b6c.json",
+    "data/arm/decisionTables/Decision_Table_Dash_Cam3_Test.decisionTable.json",
+    "data/arm/manifests/360-camera.d3509fbe-d448-491d-9c68-9b9b79b7b9d2.json",
+    "data/arm/pricing/Rev_Mgmt_Default_Pricing_Procedure_CLONE.expressionSetDefinition-meta.xml"
+  ]
+}

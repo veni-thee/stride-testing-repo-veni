@@ -1,0 +1,10 @@
+{
+  "globalKey": "3db1e0cd-516f-5175-b2ec-87e566e72245",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "NewAttrCategoryTest",
+    "Description": null,
+    "GlobalKey__c": "3db1e0cd-516f-5175-b2ec-87e566e72245",
+    "Name": "New Attr Category Test"
+  }
+}

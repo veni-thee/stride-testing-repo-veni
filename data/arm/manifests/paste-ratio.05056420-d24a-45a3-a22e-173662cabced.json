@@ -1,0 +1,115 @@
+{
+  "component": "paste-ratio",
+  "componentGlobalKey": "05056420-d24a-45a3-a22e-173662cabced",
+  "componentObject": "AttributeCategory",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "AttributeCategoryId",
+      "from": "AttributeCategoryAttribute:c42a0448-7e18-438d-bcbf-86e172919284",
+      "required": true,
+      "to": "AttributeCategory:05056420-d24a-45a3-a22e-173662cabced"
+    },
+    {
+      "direction": "reverse",
+      "field": "AttributeCategoryId",
+      "from": "AttributeCategoryAttribute:c42a0448-7e18-438d-bcbf-86e172919284",
+      "required": true,
+      "to": "AttributeCategory:05056420-d24a-45a3-a22e-173662cabced"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "AttributeCategoryAttribute:c42a0448-7e18-438d-bcbf-86e172919284",
+      "required": true,
+      "to": "AttributeDefinition:c6110962-e78b-4175-a8a4-6899320fbbe8"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributeDefinition:c6110962-e78b-4175-a8a4-6899320fbbe8",
+      "required": false,
+      "to": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792"
+    },
+    {
+      "direction": "forward",
+      "field": "UnitOfMeasureId",
+      "from": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792",
+      "required": false,
+      "to": "UnitOfMeasure:898c34e5-ab5e-464e-ab2d-85e46d0b8b4f"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:957dc0c4-a239-402e-b9a7-1181342d92d6",
+      "required": true,
+      "to": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:957dc0c4-a239-402e-b9a7-1181342d92d6",
+      "required": true,
+      "to": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792"
+    },
+    {
+      "direction": "forward",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:f3789557-ce32-43fd-a650-6df23dc43423",
+      "required": true,
+      "to": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792"
+    },
+    {
+      "direction": "reverse",
+      "field": "PicklistId",
+      "from": "AttributePicklistValue:f3789557-ce32-43fd-a650-6df23dc43423",
+      "required": true,
+      "to": "AttributePicklist:882bfe6f-8438-4fc4-a061-6a0550e7a792"
+    }
+  ],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "05056420-d24a-45a3-a22e-173662cabced",
+      "label": "Paste Ratio",
+      "object": "AttributeCategory"
+    },
+    {
+      "displayLabel": "Paste Ratio",
+      "globalKey": "c42a0448-7e18-438d-bcbf-86e172919284",
+      "label": "ACA-0000015",
+      "object": "AttributeCategoryAttribute"
+    },
+    {
+      "globalKey": "c6110962-e78b-4175-a8a4-6899320fbbe8",
+      "label": "Paste Ratio",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "882bfe6f-8438-4fc4-a061-6a0550e7a792",
+      "label": "Paste Color Ratio",
+      "object": "AttributePicklist"
+    },
+    {
+      "globalKey": "957dc0c4-a239-402e-b9a7-1181342d92d6",
+      "label": "PasteColorRatio325",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "f3789557-ce32-43fd-a650-6df23dc43423",
+      "label": "PasteColorRatio225",
+      "object": "AttributePicklistValue"
+    },
+    {
+      "globalKey": "898c34e5-ab5e-464e-ab2d-85e46d0b8b4f",
+      "label": "Millilitres",
+      "object": "UnitOfMeasure"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "05056420-d24a-45a3-a22e-173662cabced",
+      "object": "AttributeCategory"
+    }
+  ]
+}

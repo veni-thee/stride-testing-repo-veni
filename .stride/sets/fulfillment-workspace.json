@@ -1,0 +1,45 @@
+{
+  "slug": "fulfillment-workspace",
+  "name": "fulfillment-workspace",
+  "createdAt": "2026-10-07T08:47:33.319Z",
+  "updatedAt": "2026-10-07T08:47:33.319Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "FulfillmentWorkspace",
+          "intent": "picked",
+          "records": [
+            "e411a709-966e-4650-b1e6-6544714bc0a9"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "FulfillmentWorkspace"
+        ]
+      }
+    }
+  },
+  "branch": "feature/fulfillment-workspace",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/fulfillment-workspace.json",
+    "data/arm/DRO/FulfillmentStepDefinition/5d/0f923c5e-7231-489e-bf1e-7639e69dd822.json",
+    "data/arm/DRO/FulfillmentStepDefinition/6a/5cfcf9be-ff96-4dfb-87b6-f8245368d2ec.json",
+    "data/arm/DRO/FulfillmentStepDefinition/76/3bfbd0f2-973a-490f-b525-a5c951f0619c.json",
+    "data/arm/DRO/FulfillmentStepDefinition/ec/d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f.json",
+    "data/arm/DRO/FulfillmentStepDefinitionGroup/63/b8e9ea95-76ff-4c16-9cd9-84c7aadea096.json",
+    "data/arm/DRO/FulfillmentStepDefinitionGroup/b0/9dc82750-85b1-40bb-a9f1-0a88ddc73619.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/54/4b4e4754-bb83-455d-b7d8-87714c092ed0.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/b4/a7d4217a-ea50-4f82-9381-136844dd54ca.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/be/5fcb650e-0370-4ca2-a050-9f67db0f044a.json",
+    "data/arm/DRO/FulfillmentWorkspace/dd/e411a709-966e-4650-b1e6-6544714bc0a9.json",
+    "data/arm/DRO/FulfillmentWorkspaceItem/71/3aaaf882-7835-4423-a1ff-b4a2b428db8a.json",
+    "data/arm/DRO/FulfillmentWorkspaceItem/84/8c0c7e6d-506e-47b2-942e-69270a95c70c.json",
+    "data/arm/manifests/360-camera-fulfillment.e411a709-966e-4650-b1e6-6544714bc0a9.json"
+  ]
+}

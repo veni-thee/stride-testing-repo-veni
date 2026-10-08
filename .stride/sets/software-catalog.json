@@ -1,0 +1,29 @@
+{
+  "slug": "software-catalog",
+  "name": "software-catalog",
+  "createdAt": "2026-08-20T06:34:24.360Z",
+  "updatedAt": "2026-08-20T06:34:24.360Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductCatalog",
+          "intent": "picked",
+          "records": [
+            "e8c6599d-4e3a-4437-9bb6-9fda50e8bc75"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductCatalog"
+        ]
+      }
+    }
+  },
+  "branch": "feature/software-catalog",
+  "baseBranch": "main"
+}

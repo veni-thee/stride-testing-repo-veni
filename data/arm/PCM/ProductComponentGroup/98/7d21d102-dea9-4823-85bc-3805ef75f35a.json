@@ -1,0 +1,15 @@
+{
+  "globalKey": "7d21d102-dea9-4823-85bc-3805ef75f35a",
+  "object": "ProductComponentGroup",
+  "record": {
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "7d21d102-dea9-4823-85bc-3805ef75f35a",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Trainings",
+    "ParentGroup": null,
+    "ParentProduct.GlobalKey__c": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+    "Sequence": 0
+  }
+}

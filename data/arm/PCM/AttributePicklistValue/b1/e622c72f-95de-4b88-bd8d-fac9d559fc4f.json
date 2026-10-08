@@ -1,0 +1,16 @@
+{
+  "globalKey": "e622c72f-95de-4b88-bd8d-fac9d559fc4f",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Security Training",
+    "DisplayValue": "Security Training",
+    "GlobalKey__c": "e622c72f-95de-4b88-bd8d-fac9d559fc4f",
+    "IsDefault": false,
+    "Name": "Security Training",
+    "Picklist.GlobalKey__c": "5513c255-77a6-42eb-a122-4f263d1154a3",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Security Training"
+  }
+}

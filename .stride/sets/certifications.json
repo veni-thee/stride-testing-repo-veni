@@ -1,0 +1,37 @@
+{
+  "slug": "certifications",
+  "name": "certifications",
+  "createdAt": "2026-08-20T11:43:59.937Z",
+  "updatedAt": "2026-08-20T11:43:59.937Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductComponentGroup",
+          "intent": "picked",
+          "records": [
+            "f8cae504-c840-4db7-afe3-03481a330b76"
+          ]
+        },
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "4d0f2dc6-2758-4489-a3f7-f260ca201f40"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2",
+          "ProductComponentGroup"
+        ]
+      }
+    }
+  },
+  "branch": "feature/certifications",
+  "baseBranch": "main"
+}

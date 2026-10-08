@@ -1,0 +1,28 @@
+{
+  "component": "000000006",
+  "componentGlobalKey": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+  "componentObject": "FulfillmentStepJeopardyRule",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+      "fromObject": "FulfillmentStepJeopardyRule",
+      "reason": "byName",
+      "ref": "LogisticsPlaceOrderService",
+      "targetObject": "IntegrationProviderDef"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+      "label": "000000006",
+      "object": "FulfillmentStepJeopardyRule"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "9c928fc5-a13e-43ec-80e2-b56ab9805234",
+      "object": "FulfillmentStepJeopardyRule"
+    }
+  ]
+}

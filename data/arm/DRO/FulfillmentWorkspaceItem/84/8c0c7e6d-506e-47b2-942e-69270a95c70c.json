@@ -1,0 +1,10 @@
+{
+  "globalKey": "8c0c7e6d-506e-47b2-942e-69270a95c70c",
+  "object": "FulfillmentWorkspaceItem",
+  "record": {
+    "FulfillmentStepDefinitionGroup.GlobalKey__c": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
+    "FulfillmentWorkspace.GlobalKey__c": "e411a709-966e-4650-b1e6-6544714bc0a9",
+    "GlobalKey__c": "8c0c7e6d-506e-47b2-942e-69270a95c70c",
+    "ShowOrder": 1
+  }
+}

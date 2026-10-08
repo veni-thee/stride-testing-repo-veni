@@ -1,0 +1,16 @@
+{
+  "globalKey": "f8415efa-0901-473c-b83e-42316c7bf28d",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "PICKVAL102",
+    "DisplayValue": "256GB",
+    "GlobalKey__c": "f8415efa-0901-473c-b83e-42316c7bf28d",
+    "IsDefault": false,
+    "Name": "256GB",
+    "Picklist.GlobalKey__c": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "256GB"
+  }
+}
