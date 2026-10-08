@@ -2,7 +2,6 @@
   "globalKey": "0f923c5e-7231-489e-bf1e-7639e69dd822",
   "object": "FulfillmentStepDefinition",
   "record": {
-    "AssignedToId": null,
     "CustomConfigParameter": null,
     "CustomFulfillmentScope": null,
     "ExecuteOnConditionData": null,
@@ -15,7 +14,6 @@
     "OmniscriptName": null,
     "ResumeOnConditionData": null,
     "ResumeOnRuleId": null,
-    "RunAsUser": null,
     "Scope": "Plan",
     "StepDefinitionGroup.GlobalKey__c": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
     "StepType": "Callout",
