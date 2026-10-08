@@ -1,0 +1,21 @@
+{
+  "globalKey": "a3a916c0-1294-4ebd-ac7d-5849990134d2",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Text",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Register",
+    "GlobalKey__c": "a3a916c0-1294-4ebd-ac7d-5849990134d2",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Register",
+    "Name": "Register",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

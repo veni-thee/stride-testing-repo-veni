@@ -1,0 +1,21 @@
+{
+  "globalKey": "9d5c60b2-4755-44cf-be88-c655dcce87be",
+  "object": "ProductDecompEnrichmentRule",
+  "record": {
+    "CalculationDefinitionId": null,
+    "CalculationMethod": "Expression-Set",
+    "DecompositionRule.GlobalKey__c": "da9e5ac5-6fa1-493a-b009-5eac80567660",
+    "DestinationApiName": "Quantity",
+    "DestinationAttributeDefinition.GlobalKey__c": "a2d206d9-b866-4d0f-bc94-d312bfc8ab7d",
+    "DestinationAttributeIdentifier": "0tjdL000000NbZxQAK",
+    "DestinationContextTag": "LineItemQuantity",
+    "DestinationType": "Attribute",
+    "GlobalKey__c": "9d5c60b2-4755-44cf-be88-c655dcce87be",
+    "ListMappingGroup": null,
+    "SourceApiName": "Quantity",
+    "SourceAttributeDefinition": null,
+    "SourceAttributeIdentifier": null,
+    "SourceContextTag": "LineItemQuantity",
+    "SourceType": "Field"
+  }
+}
