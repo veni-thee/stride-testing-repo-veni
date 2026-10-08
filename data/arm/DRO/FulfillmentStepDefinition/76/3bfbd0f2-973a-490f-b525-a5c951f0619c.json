@@ -2,7 +2,11 @@
   "globalKey": "3bfbd0f2-973a-490f-b525-a5c951f0619c",
   "object": "FulfillmentStepDefinition",
   "record": {
-    "AssignedToId": null,
+    "AssignedToId": {
+      "__polyType": "Group",
+      "__byName": "DRO_Manual_Task_Allocation",
+      "__byField": "DeveloperName"
+    },
     "CustomConfigParameter": null,
     "CustomFulfillmentScope": null,
     "ExecuteOnConditionData": null,
