@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleLibraryDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextDefinition>RevSalesTransactionContext</contextDefinition>
+    <contextRuleStatus>Draft</contextRuleStatus>
+    <label>Rule Library Test</label>
+    <usageType>Default</usageType>
+</RuleLibraryDefinition>

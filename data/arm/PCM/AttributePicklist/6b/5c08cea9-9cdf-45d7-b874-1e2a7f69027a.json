@@ -1,0 +1,13 @@
+{
+  "globalKey": "5c08cea9-9cdf-45d7-b874-1e2a7f69027a",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "ConnectionType",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "5c08cea9-9cdf-45d7-b874-1e2a7f69027a",
+    "Name": "Connection Type",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

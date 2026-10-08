@@ -1,0 +1,9 @@
+{
+  "globalKey": "e411a709-966e-4650-b1e6-6544714bc0a9",
+  "object": "FulfillmentWorkspace",
+  "record": {
+    "Description": "Procure, ship, install and activate 360 Camera orders",
+    "GlobalKey__c": "e411a709-966e-4650-b1e6-6544714bc0a9",
+    "Name": "360 Camera Fulfillment"
+  }
+}

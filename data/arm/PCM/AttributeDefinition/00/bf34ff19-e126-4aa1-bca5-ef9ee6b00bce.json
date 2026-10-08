@@ -1,0 +1,21 @@
+{
+  "globalKey": "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": "CarAccessoriesAttributes",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Car_Accessories_Attributes",
+    "GlobalKey__c": "bf34ff19-e126-4aa1-bca5-ef9ee6b00bce",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Car Accessories Attributes",
+    "Name": "Car Accessories Attributes",
+    "Picklist.GlobalKey__c": "79b01841-96a4-4d96-9c62-1358d0889495",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

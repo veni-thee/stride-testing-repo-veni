@@ -1,0 +1,29 @@
+{
+  "globalKey": "b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory": null,
+    "AttributeDefinition.GlobalKey__c": "1dd50ace-2e90-40c9-8369-785c257ac51a",
+    "AttributeNameOverride": "Advance Ecommerce",
+    "DefaultValue": "false",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "b2acc9a9-5b18-4af5-850a-30a64fd2d8e6",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Advance Ecommerce",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+    "Sequence": 0,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

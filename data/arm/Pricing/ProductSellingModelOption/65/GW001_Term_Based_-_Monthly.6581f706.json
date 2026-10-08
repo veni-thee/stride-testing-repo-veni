@@ -1,0 +1,10 @@
+{
+  "globalKey": "GW001|Term Based - Monthly",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": true,
+    "Product2.GlobalKey__c": "ba086f22-51ed-4179-a32c-5447a9b3bbd3",
+    "ProductSellingModel.Name": "Term Based - Monthly",
+    "ProrationPolicy.Name": "Default Proration Policy"
+  }
+}

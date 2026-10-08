@@ -1,0 +1,29 @@
+{
+  "slug": "lucidchart",
+  "name": "lucidchart",
+  "createdAt": "2026-08-20T06:12:05.156Z",
+  "updatedAt": "2026-08-20T06:12:05.156Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "0af34531-7cc2-418c-a266-a470070f1175"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    }
+  },
+  "branch": "feature/lucidchart",
+  "baseBranch": "main"
+}

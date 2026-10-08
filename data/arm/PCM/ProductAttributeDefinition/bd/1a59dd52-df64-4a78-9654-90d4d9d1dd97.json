@@ -1,0 +1,31 @@
+{
+  "globalKey": "1a59dd52-df64-4a78-9654-90d4d9d1dd97",
+  "object": "ProductAttributeDefinition",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "b0ba465b-7e27-4097-b53c-fcf8c187b07e",
+    "AttributeNameOverride": "Connection Type",
+    "DefaultValue": "Wired",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "1a59dd52-df64-4a78-9654-90d4d9d1dd97",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Connection Type",
+    "OverriddenProductAttributeDefinition": null,
+    "OverrideContextId": null,
+    "Product2.GlobalKey__c": "10431138-c2ed-43f1-9419-f37e5682e28e",
+    "ProductClassificationAttribute.GlobalKey__c": "97ff94ab-e534-40f7-bf45-840fbdc085d1",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

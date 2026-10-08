@@ -1,0 +1,29 @@
+{
+  "globalKey": "97ff94ab-e534-40f7-bf45-840fbdc085d1",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "b0ba465b-7e27-4097-b53c-fcf8c187b07e",
+    "AttributeNameOverride": "Connection Type",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "97ff94ab-e534-40f7-bf45-840fbdc085d1",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Connection Type",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "94e4318c-86d7-4997-9655-1b284acc5cd0",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

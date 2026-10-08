@@ -1,0 +1,9 @@
+{
+  "globalKey": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
+  "object": "FulfillmentStepDefinitionGroup",
+  "record": {
+    "GlobalKey__c": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
+    "Name": "360 Camera - Install & Activate",
+    "UsageType": "Fulfillment"
+  }
+}

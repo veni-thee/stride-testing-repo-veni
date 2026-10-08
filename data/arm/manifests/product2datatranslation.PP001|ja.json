@@ -1,0 +1,14 @@
+{
+  "component": "product2datatranslation",
+  "componentGlobalKey": "PP001|ja",
+  "componentObject": "Product2DataTranslation",
+  "edges": [],
+  "leaves": [],
+  "nodes": [],
+  "roots": [
+    {
+      "globalKey": "PP001|ja",
+      "object": "Product2DataTranslation"
+    }
+  ]
+}

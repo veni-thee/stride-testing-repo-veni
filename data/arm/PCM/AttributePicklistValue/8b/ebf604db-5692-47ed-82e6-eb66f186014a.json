@@ -1,0 +1,16 @@
+{
+  "globalKey": "ebf604db-5692-47ed-82e6-eb66f186014a",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Bluetooth",
+    "DisplayValue": "Bluetooth",
+    "GlobalKey__c": "ebf604db-5692-47ed-82e6-eb66f186014a",
+    "IsDefault": false,
+    "Name": "Bluetooth",
+    "Picklist.GlobalKey__c": "5c08cea9-9cdf-45d7-b874-1e2a7f69027a",
+    "Sequence": 20,
+    "Status": "Active",
+    "Value": "Bluetooth"
+  }
+}

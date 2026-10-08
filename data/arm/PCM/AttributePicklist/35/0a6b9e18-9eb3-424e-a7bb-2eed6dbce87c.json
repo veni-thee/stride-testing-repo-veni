@@ -1,0 +1,13 @@
+{
+  "globalKey": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PICK100",
+    "DataType": "Text",
+    "Description": "All storage sizes for tablets",
+    "GlobalKey__c": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+    "Name": "Storage Capacity",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

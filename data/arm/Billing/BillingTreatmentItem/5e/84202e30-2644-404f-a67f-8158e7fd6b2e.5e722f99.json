@@ -1,0 +1,23 @@
+{
+  "globalKey": "84202e30-2644-404f-a67f-8158e7fd6b2e",
+  "object": "BillingTreatmentItem",
+  "record": {
+    "BillingTreatment.GlobalKey__c": "84202e30-2644-404f-a67f-8158e7fd6b2e",
+    "BillingType": "Advance",
+    "Controller": "BillingScheduleGroup",
+    "Description": null,
+    "FlatAmount": null,
+    "GlobalKey__c": null,
+    "Handling0Amount": "CreateInvoice",
+    "MilestoneStartDate": null,
+    "MilestoneStartDateOffset": null,
+    "MilestoneStartDateOffsetUnit": null,
+    "MilestoneType": null,
+    "Name": "Billing Treatment Item - Advance",
+    "Percentage": null,
+    "ProcessingOrder": 1,
+    "Sequencing": "Manual",
+    "Status": "Active",
+    "Type": "Remainder"
+  }
+}

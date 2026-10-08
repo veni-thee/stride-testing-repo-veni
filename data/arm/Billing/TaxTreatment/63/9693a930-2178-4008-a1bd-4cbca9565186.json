@@ -1,0 +1,18 @@
+{
+  "globalKey": "9693a930-2178-4008-a1bd-4cbca9565186",
+  "object": "TaxTreatment",
+  "record": {
+    "Description": null,
+    "GlobalKey__c": "9693a930-2178-4008-a1bd-4cbca9565186",
+    "IsTaxable": false,
+    "LegalEntity.GlobalKey__c": "d98684cb-1afd-4797-8368-a82187f09cb2",
+    "Name": "Tax Treatment for US LE",
+    "Product": null,
+    "ProductCode": null,
+    "ShouldUseTaxTreatmentItems": false,
+    "Status": "Active",
+    "TaxCode": null,
+    "TaxEngine": null,
+    "TaxPolicy.GlobalKey__c": "2e2e746c-df5f-46d1-b976-62043f7ad44b"
+  }
+}

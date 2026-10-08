@@ -1,0 +1,11 @@
+{
+  "globalKey": "PP001|ja",
+  "object": "Product2DataTranslation",
+  "record": {
+    "Description": "Purintā yōshi",
+    "HelpText": null,
+    "Language": "ja",
+    "Name": "プリンター用紙",
+    "Parent.GlobalKey__c": "3999ea5c-9196-421c-aa95-340685992e05"
+  }
+}

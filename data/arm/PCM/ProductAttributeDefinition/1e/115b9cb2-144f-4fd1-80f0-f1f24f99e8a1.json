@@ -1,0 +1,31 @@
+{
+  "globalKey": "115b9cb2-144f-4fd1-80f0-f1f24f99e8a1",
+  "object": "ProductAttributeDefinition",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "1dee92c4-d00c-4c05-8bac-3ba4be64c110",
+    "AttributeDefinition.GlobalKey__c": "b4edd6c9-331d-492e-bdad-864589ce5465",
+    "AttributeNameOverride": "Paint Finish",
+    "DefaultValue": "Matte",
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "115b9cb2-144f-4fd1-80f0-f1f24f99e8a1",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Paint Finish",
+    "OverriddenProductAttributeDefinition": null,
+    "OverrideContextId": null,
+    "Product2.GlobalKey__c": "2bcec96c-22dc-4be5-9e27-293a434228cd",
+    "ProductClassificationAttribute.GlobalKey__c": "b0b410ec-8388-4b10-91ee-3152daf1dee8",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
