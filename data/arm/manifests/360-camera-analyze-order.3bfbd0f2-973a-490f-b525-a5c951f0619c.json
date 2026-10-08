@@ -202,14 +202,6 @@
     {
       "globalKey": "d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
       "object": "FulfillmentStepDefinition"
-    },
-    {
-      "globalKey": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
-      "object": "FulfillmentStepDefinitionGroup"
-    },
-    {
-      "globalKey": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
-      "object": "FulfillmentStepDefinitionGroup"
     }
   ]
 }
