@@ -1,0 +1,263 @@
+{
+  "component": "pdevm-000000001",
+  "componentGlobalKey": "992369a4-076f-4480-9558-b6bdf955b9da",
+  "componentObject": "ProdtDecompEnrchVarMap",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "ProductDecompEnrichmentRuleId",
+      "from": "ProdtDecompEnrchVarMap:992369a4-076f-4480-9558-b6bdf955b9da",
+      "required": true,
+      "to": "ProductDecompEnrichmentRule:9d5c60b2-4755-44cf-be88-c655dcce87be"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductDecompEnrichmentRuleId",
+      "from": "ProdtDecompEnrchVarMap:992369a4-076f-4480-9558-b6bdf955b9da",
+      "required": true,
+      "to": "ProductDecompEnrichmentRule:9d5c60b2-4755-44cf-be88-c655dcce87be"
+    },
+    {
+      "direction": "forward",
+      "field": "BasedOnId",
+      "from": "Product2:c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c",
+      "required": false,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "Product2:d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": false,
+      "to": "Product2:d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductClassificationAttr:28c3553b-e8d7-4b15-8057-4818929b2cf8",
+      "required": true,
+      "to": "AttributeDefinition:a3a916c0-1294-4ebd-ac7d-5849990134d2"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:28c3553b-e8d7-4b15-8057-4818929b2cf8",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:28c3553b-e8d7-4b15-8057-4818929b2cf8",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductClassificationAttr:34befe80-00a4-4b14-8757-a5732bbd8bfa",
+      "required": true,
+      "to": "AttributeDefinition:a2d206d9-b866-4d0f-bc94-d312bfc8ab7d"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:34befe80-00a4-4b14-8757-a5732bbd8bfa",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:34befe80-00a4-4b14-8757-a5732bbd8bfa",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "forward",
+      "field": "AttributeDefinitionId",
+      "from": "ProductClassificationAttr:b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+      "required": true,
+      "to": "AttributeDefinition:d2c265fa-56a9-4279-951f-8999522406a3"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductClassificationId",
+      "from": "ProductClassificationAttr:b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+      "required": true,
+      "to": "ProductClassification:3ae73eea-4503-4995-9857-feb9fa124a9e"
+    },
+    {
+      "direction": "forward",
+      "field": "DestinationAttributeDefinitionId",
+      "from": "ProductDecompEnrichmentRule:9d5c60b2-4755-44cf-be88-c655dcce87be",
+      "required": false,
+      "to": "AttributeDefinition:a2d206d9-b866-4d0f-bc94-d312bfc8ab7d"
+    },
+    {
+      "direction": "forward",
+      "field": "DecompositionRuleId",
+      "from": "ProductDecompEnrichmentRule:9d5c60b2-4755-44cf-be88-c655dcce87be",
+      "required": true,
+      "to": "ProductFulfillmentDecompRule:da9e5ac5-6fa1-493a-b009-5eac80567660"
+    },
+    {
+      "direction": "reverse",
+      "field": "DecompositionRuleId",
+      "from": "ProductDecompEnrichmentRule:9d5c60b2-4755-44cf-be88-c655dcce87be",
+      "required": true,
+      "to": "ProductFulfillmentDecompRule:da9e5ac5-6fa1-493a-b009-5eac80567660"
+    },
+    {
+      "direction": "forward",
+      "field": "DestinationProductId",
+      "from": "ProductFulfillmentDecompRule:da9e5ac5-6fa1-493a-b009-5eac80567660",
+      "required": false,
+      "to": "Product2:c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c"
+    },
+    {
+      "direction": "forward",
+      "field": "SourceProductId",
+      "from": "ProductFulfillmentDecompRule:da9e5ac5-6fa1-493a-b009-5eac80567660",
+      "required": false,
+      "to": "Product2:d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Technical"
+    },
+    {
+      "fromGlobalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "a2d206d9-b866-4d0f-bc94-d312bfc8ab7d",
+      "label": "Install Quantity",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "a3a916c0-1294-4ebd-ac7d-5849990134d2",
+      "label": "Register",
+      "object": "AttributeDefinition"
+    },
+    {
+      "globalKey": "d2c265fa-56a9-4279-951f-8999522406a3",
+      "label": "Scanner",
+      "object": "AttributeDefinition"
+    },
+    {
+      "displayLabel": "PDE-000000007",
+      "globalKey": "992369a4-076f-4480-9558-b6bdf955b9da",
+      "label": "PDEVM-000000001",
+      "object": "ProdtDecompEnrchVarMap"
+    },
+    {
+      "globalKey": "c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c",
+      "label": "Installation Service",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+      "label": "360 Camera",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Accessories ↔ 360 Camera ↔ Add-Ons",
+      "globalKey": "1db85636-54ff-48a1-8867-b9f898aec91b",
+      "label": "00000043",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "globalKey": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+      "label": "Installation",
+      "object": "ProductClassification"
+    },
+    {
+      "globalKey": "28c3553b-e8d7-4b15-8057-4818929b2cf8",
+      "label": "Register",
+      "object": "ProductClassificationAttr"
+    },
+    {
+      "globalKey": "34befe80-00a4-4b14-8757-a5732bbd8bfa",
+      "label": "Install Quantity",
+      "object": "ProductClassificationAttr"
+    },
+    {
+      "globalKey": "b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+      "label": "Scanner",
+      "object": "ProductClassificationAttr"
+    },
+    {
+      "displayLabel": "360 Camera - Installation ↔ Install Quantity",
+      "globalKey": "9d5c60b2-4755-44cf-be88-c655dcce87be",
+      "label": "PDE-000000007",
+      "object": "ProductDecompEnrichmentRule"
+    },
+    {
+      "globalKey": "da9e5ac5-6fa1-493a-b009-5eac80567660",
+      "label": "360 Camera - Installation",
+      "object": "ProductFulfillmentDecompRule"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "992369a4-076f-4480-9558-b6bdf955b9da",
+      "object": "ProdtDecompEnrchVarMap"
+    }
+  ]
+}
