@@ -1,0 +1,49 @@
+{
+  "slug": "prodt-decomp-enrch-var-map",
+  "name": "prodt-decomp-enrch-var-map",
+  "createdAt": "2026-10-08T15:46:27.746Z",
+  "updatedAt": "2026-10-08T15:46:27.746Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProdtDecompEnrchVarMap",
+          "intent": "picked",
+          "records": [
+            "992369a4-076f-4480-9558-b6bdf955b9da"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProdtDecompEnrchVarMap"
+        ]
+      }
+    }
+  },
+  "branch": "feature/prodt-decomp-enrch-var-map",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/prodt-decomp-enrch-var-map.json",
+    "data/arm/DRO/ProdtDecompEnrchVarMap/03/992369a4-076f-4480-9558-b6bdf955b9da.json",
+    "data/arm/DRO/ProductDecompEnrichmentRule/33/9d5c60b2-4755-44cf-be88-c655dcce87be.json",
+    "data/arm/DRO/ProductFulfillmentDecompRule/5f/da9e5ac5-6fa1-493a-b009-5eac80567660.json",
+    "data/arm/PCM/AttributeDefinition/27/a2d206d9-b866-4d0f-bc94-d312bfc8ab7d.json",
+    "data/arm/PCM/AttributeDefinition/33/a3a916c0-1294-4ebd-ac7d-5849990134d2.json",
+    "data/arm/PCM/AttributeDefinition/ff/d2c265fa-56a9-4279-951f-8999522406a3.json",
+    "data/arm/PCM/Product2/31/d3509fbe-d448-491d-9c68-9b9b79b7b9d2.json",
+    "data/arm/PCM/Product2/cc/c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c.json",
+    "data/arm/PCM/ProductCatalog/8a/155ebcd2-bae4-4e62-9d8d-3c80864b6396.json",
+    "data/arm/PCM/ProductCatalogDataTranslation/df/AddOns_ja.df612704.json",
+    "data/arm/PCM/ProductCategory/53/b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3.json",
+    "data/arm/PCM/ProductCategoryProduct/8d/1db85636-54ff-48a1-8867-b9f898aec91b.json",
+    "data/arm/PCM/ProductClassification/f0/3ae73eea-4503-4995-9857-feb9fa124a9e.json",
+    "data/arm/PCM/ProductClassificationAttr/02/28c3553b-e8d7-4b15-8057-4818929b2cf8.json",
+    "data/arm/PCM/ProductClassificationAttr/48/34befe80-00a4-4b14-8757-a5732bbd8bfa.json",
+    "data/arm/PCM/ProductClassificationAttr/48/b794d40f-8c74-48cf-a2fa-3d4d22eb38c2.json",
+    "data/arm/manifests/pdevm-000000001.992369a4-076f-4480-9558-b6bdf955b9da.json"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "globalKey": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "INSTL",
+    "GlobalKey__c": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+    "Name": "Installation",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}
