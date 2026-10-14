@@ -2,7 +2,11 @@
   "globalKey": "9d5c60b2-4755-44cf-be88-c655dcce87be",
   "object": "ProductDecompEnrichmentRule",
   "record": {
-    "CalculationDefinitionId": null,
+    "CalculationDefinitionId": {
+      "__polyType": "ExpressionSet",
+      "__byName": "Camera360_Install_Enrichment",
+      "__byField": "ApiName"
+    },
     "CalculationMethod": "Expression-Set",
     "DecompositionRule.GlobalKey__c": "da9e5ac5-6fa1-493a-b009-5eac80567660",
     "DestinationApiName": "Quantity",
