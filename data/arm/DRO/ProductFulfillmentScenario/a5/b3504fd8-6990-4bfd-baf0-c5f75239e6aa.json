@@ -1,0 +1,17 @@
+{
+  "globalKey": "b3504fd8-6990-4bfd-baf0-c5f75239e6aa",
+  "object": "ProductFulfillmentScenario",
+  "record": {
+    "Action": "Add;Amend",
+    "ConditionData": null,
+    "FulfillmentStepDefnGroup.GlobalKey__c": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
+    "GlobalKey__c": "b3504fd8-6990-4bfd-baf0-c5f75239e6aa",
+    "Name": "360 Camera Installation (Add)",
+    "Product.GlobalKey__c": "c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c",
+    "ProductClassification": null,
+    "ScenarioRule": null,
+    "SourceClassIdentifier": null,
+    "SourceIdentifier": "01tdL00000fCY5YQAW",
+    "UsageType": "Fulfillment"
+  }
+}
