@@ -258,6 +258,10 @@
     {
       "globalKey": "992369a4-076f-4480-9558-b6bdf955b9da",
       "object": "ProdtDecompEnrchVarMap"
+    },
+    {
+      "globalKey": "9d5c60b2-4755-44cf-be88-c655dcce87be",
+      "object": "ProductDecompEnrichmentRule"
     }
   ]
 }
