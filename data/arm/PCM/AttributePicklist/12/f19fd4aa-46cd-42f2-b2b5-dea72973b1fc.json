@@ -1,0 +1,13 @@
+{
+  "globalKey": "f19fd4aa-46cd-42f2-b2b5-dea72973b1fc",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PaintFinish",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "f19fd4aa-46cd-42f2-b2b5-dea72973b1fc",
+    "Name": "Paint Finish",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}
