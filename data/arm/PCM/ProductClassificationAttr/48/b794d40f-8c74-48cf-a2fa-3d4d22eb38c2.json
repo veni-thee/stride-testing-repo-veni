@@ -1,0 +1,29 @@
+{
+  "globalKey": "b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory": null,
+    "AttributeDefinition.GlobalKey__c": "d2c265fa-56a9-4279-951f-8999522406a3",
+    "AttributeNameOverride": "Scanner",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "b794d40f-8c74-48cf-a2fa-3d4d22eb38c2",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Scanner",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+    "Sequence": 0,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
