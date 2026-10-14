@@ -1,0 +1,16 @@
+{
+  "globalKey": "aa78e300-1d4b-4aaf-aefc-8df00bbe9365",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "SSD Hard Drive 2TB",
+    "DisplayValue": "SSD Hard Drive 2TB",
+    "GlobalKey__c": "aa78e300-1d4b-4aaf-aefc-8df00bbe9365",
+    "IsDefault": false,
+    "Name": "SSD Hard Drive 2TB",
+    "Picklist.GlobalKey__c": "ad5ba7c5-d3c2-432b-917c-e4860b6a4e10",
+    "Sequence": 4,
+    "Status": "Active",
+    "Value": "SSD Hard Drive 2TB"
+  }
+}

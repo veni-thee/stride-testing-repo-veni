@@ -1,0 +1,9 @@
+{
+  "globalKey": "4695d919-cca1-4f81-b143-e57620d8b384",
+  "object": "ProductCategoryProduct",
+  "record": {
+    "GlobalKey__c": "4695d919-cca1-4f81-b143-e57620d8b384",
+    "Product.GlobalKey__c": "3999ea5c-9196-421c-aa95-340685992e05",
+    "ProductCategory.GlobalKey__c": "4768df33-0cc9-40aa-a97d-3886568eb4c3"
+  }
+}

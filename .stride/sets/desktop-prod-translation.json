@@ -1,0 +1,29 @@
+{
+  "slug": "desktop-prod-translation",
+  "name": "desktop-prod-translation",
+  "createdAt": "2026-09-04T08:37:25.900Z",
+  "updatedAt": "2026-09-04T08:37:25.900Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2DataTranslation",
+          "intent": "picked",
+          "records": [
+            "e776ab5e-dba0-4c0f-81a3-06b4b1d1c97a|ja"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2DataTranslation"
+        ]
+      }
+    }
+  },
+  "branch": "feature/desktop-prod-translation",
+  "baseBranch": "main"
+}

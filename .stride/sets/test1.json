@@ -1,0 +1,23 @@
+{
+  "slug": "test1",
+  "name": "test1",
+  "createdAt": "2026-09-10T13:51:26.013Z",
+  "updatedAt": "2026-09-10T13:51:26.013Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "SalesTransactionContextExt_256"
+        }
+      ]
+    }
+  },
+  "branch": "feature/test1",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/test1.json",
+    "force-app/main/default/contextDefinitions/SalesTransactionContextExt_256.contextDefinition-meta.xml"
+  ]
+}

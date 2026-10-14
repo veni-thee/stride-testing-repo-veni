@@ -1,0 +1,53 @@
+{
+  "slug": "product-classification-attr",
+  "name": "product-classification-attr",
+  "createdAt": "2026-08-27T08:57:14.420Z",
+  "updatedAt": "2026-08-27T08:57:14.420Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductClassificationAttr",
+          "intent": "picked",
+          "records": [
+            "71e48f8e-c467-4d59-842f-e8929f9f3f10"
+          ]
+        },
+        {
+          "object": "AttributeDefinition",
+          "intent": "picked",
+          "records": [
+            "35c0c594-86be-44e0-89b4-f8b5722fb32b"
+          ]
+        },
+        {
+          "object": "AttributeCategory",
+          "intent": "picked",
+          "records": [
+            "6fbcc7c7-520a-4505-afeb-608ba029d714"
+          ]
+        },
+        {
+          "object": "AttributePicklist",
+          "intent": "picked",
+          "records": [
+            "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttributeCategory",
+          "AttributeDefinition",
+          "AttributePicklist",
+          "ProductClassificationAttr"
+        ]
+      }
+    }
+  },
+  "branch": "feature/product-classification-attr",
+  "baseBranch": "main"
+}

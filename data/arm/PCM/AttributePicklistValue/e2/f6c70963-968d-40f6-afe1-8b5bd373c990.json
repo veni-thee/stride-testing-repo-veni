@@ -1,0 +1,16 @@
+{
+  "globalKey": "f6c70963-968d-40f6-afe1-8b5bd373c990",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "Cash Only",
+    "DisplayValue": "Cash Only",
+    "GlobalKey__c": "f6c70963-968d-40f6-afe1-8b5bd373c990",
+    "IsDefault": false,
+    "Name": "Cash Only",
+    "Picklist.GlobalKey__c": "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "Cash Only"
+  }
+}

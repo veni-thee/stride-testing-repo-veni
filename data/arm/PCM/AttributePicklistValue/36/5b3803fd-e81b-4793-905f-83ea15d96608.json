@@ -1,0 +1,16 @@
+{
+  "globalKey": "5b3803fd-e81b-4793-905f-83ea15d96608",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "L001",
+    "DisplayValue": "Letter",
+    "GlobalKey__c": "5b3803fd-e81b-4793-905f-83ea15d96608",
+    "IsDefault": false,
+    "Name": "Letter",
+    "Picklist.GlobalKey__c": "0f25cb9b-0934-492f-ae57-e720b8faf1a3",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "Letter"
+  }
+}

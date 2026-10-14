@@ -1,0 +1,34 @@
+{
+  "slug": "fulfillment-task-assignment-rule-test3",
+  "name": "fulfillment-task-assignment-rule-test3",
+  "createdAt": "2026-10-08T15:22:12.844Z",
+  "updatedAt": "2026-10-08T15:22:12.844Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "FulfillmentTaskAssignmentRule",
+          "intent": "picked",
+          "records": [
+            "2faff66a-252e-493b-aa11-e32c8a934b9d"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "FulfillmentTaskAssignmentRule"
+        ]
+      }
+    }
+  },
+  "branch": "feature/fulfillment-task-assignment-rule-test3",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/fulfillment-task-assignment-rule-test3.json",
+    "data/arm/DRO/FulfillmentTaskAssignmentRule/ff/2faff66a-252e-493b-aa11-e32c8a934b9d.json",
+    "data/arm/manifests/360-camera-manual-task-routing.2faff66a-252e-493b-aa11-e32c8a934b9d.json"
+  ]
+}

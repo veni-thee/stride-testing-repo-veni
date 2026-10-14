@@ -1,0 +1,15 @@
+{
+  "globalKey": "029d92cd-b964-4057-ba7d-2dce21d53171",
+  "object": "ProductComponentGroup",
+  "record": {
+    "Code": "CS001011",
+    "Description": null,
+    "GlobalKey__c": "029d92cd-b964-4057-ba7d-2dce21d53171",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "AI Certifications",
+    "ParentGroup.GlobalKey__c": "f8cae504-c840-4db7-afe3-03481a330b76",
+    "ParentProduct.GlobalKey__c": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+    "Sequence": 1
+  }
+}

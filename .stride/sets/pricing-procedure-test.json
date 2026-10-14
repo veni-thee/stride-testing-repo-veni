@@ -1,0 +1,20 @@
+{
+  "slug": "pricing-procedure-test",
+  "name": "pricing-procedure-test",
+  "createdAt": "2026-08-25T07:09:42.736Z",
+  "updatedAt": "2026-08-25T07:09:42.736Z",
+  "version": 1,
+  "lanes": {
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Pricing_Procedure_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/pricing-procedure-test",
+  "baseBranch": "main"
+}

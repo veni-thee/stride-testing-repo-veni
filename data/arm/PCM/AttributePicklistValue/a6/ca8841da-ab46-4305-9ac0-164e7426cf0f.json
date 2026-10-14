@@ -1,0 +1,16 @@
+{
+  "globalKey": "ca8841da-ab46-4305-9ac0-164e7426cf0f",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "i5-CPU 4.4GHz",
+    "DisplayValue": "i5-CPU 4.4GHz",
+    "GlobalKey__c": "ca8841da-ab46-4305-9ac0-164e7426cf0f",
+    "IsDefault": true,
+    "Name": "i5-CPU 4.4GHz",
+    "Picklist.GlobalKey__c": "7dad05a9-f186-43bc-8daa-38517f69a3d7",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "i5-CPU 4.4GHz"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "globalKey": "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "R0001",
+    "DataType": "Text",
+    "Description": "Register Type",
+    "GlobalKey__c": "b07bb29d-f8d1-4c31-8feb-0ba9b3ffeda5",
+    "Name": "Register Type",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

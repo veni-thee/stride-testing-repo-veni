@@ -1,0 +1,22 @@
+{
+  "component": "productclassificationattr",
+  "componentGlobalKey": "c0d59146-e1ba-458c-baa7-d0e5362e554d",
+  "componentObject": "ProductClassificationAttr",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "c0d59146-e1ba-458c-baa7-d0e5362e554d",
+      "fromObject": "ProductClassificationAttr",
+      "reason": "dangling",
+      "ref": "ProductClassificationAttr:c0d59146-e1ba-458c-baa7-d0e5362e554d",
+      "targetObject": "ProductClassificationAttr"
+    }
+  ],
+  "nodes": [],
+  "roots": [
+    {
+      "globalKey": "c0d59146-e1ba-458c-baa7-d0e5362e554d",
+      "object": "ProductClassificationAttr"
+    }
+  ]
+}

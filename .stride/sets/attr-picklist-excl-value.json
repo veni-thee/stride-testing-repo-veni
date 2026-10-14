@@ -1,0 +1,29 @@
+{
+  "slug": "attr-picklist-excl-value",
+  "name": "attr-picklist-excl-value",
+  "createdAt": "2026-08-27T07:27:55.856Z",
+  "updatedAt": "2026-08-27T07:27:55.856Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "AttrPicklistExcludedValue",
+          "intent": "picked",
+          "records": [
+            "cc5513b7-45ed-4759-86de-187fd79bb217"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "AttrPicklistExcludedValue"
+        ]
+      }
+    }
+  },
+  "branch": "feature/attr-picklist-excl-value",
+  "baseBranch": "main"
+}

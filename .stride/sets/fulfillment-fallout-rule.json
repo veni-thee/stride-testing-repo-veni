@@ -1,0 +1,34 @@
+{
+  "slug": "fulfillment-fallout-rule",
+  "name": "fulfillment-fallout-rule",
+  "createdAt": "2026-10-06T10:42:16.040Z",
+  "updatedAt": "2026-10-06T10:42:16.040Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "FulfillmentFalloutRule",
+          "intent": "picked",
+          "records": [
+            "a46de58b-4c8d-410f-bb18-3297ec665749"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "FulfillmentFalloutRule"
+        ]
+      }
+    }
+  },
+  "branch": "feature/fulfillment-fallout-rule",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/fulfillment-fallout-rule.json",
+    "data/arm/DRO/FulfillmentFalloutRule/00/a46de58b-4c8d-410f-bb18-3297ec665749.json",
+    "data/arm/manifests/000000004.a46de58b-4c8d-410f-bb18-3297ec665749.json"
+  ]
+}

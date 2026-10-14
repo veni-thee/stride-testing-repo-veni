@@ -1,0 +1,34 @@
+{
+  "slug": "printer-paper-translate",
+  "name": "printer-paper-translate",
+  "createdAt": "2026-09-23T12:52:21.770Z",
+  "updatedAt": "2026-09-23T12:52:21.770Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2DataTranslation",
+          "intent": "picked",
+          "records": [
+            "PP001|ja"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2DataTranslation"
+        ]
+      }
+    }
+  },
+  "branch": "feature/printer-paper-translate",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/printer-paper-translate.json",
+    "data/arm/PCM/Product2DataTranslation/cd/PP001_ja.cd193b9c.json",
+    "data/arm/manifests/product2datatranslation.PP001|ja.json"
+  ]
+}

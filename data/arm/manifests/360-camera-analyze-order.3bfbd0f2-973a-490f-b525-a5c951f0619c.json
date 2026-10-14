@@ -1,0 +1,207 @@
+{
+  "component": "360-camera-analyze-order",
+  "componentGlobalKey": "3bfbd0f2-973a-490f-b525-a5c951f0619c",
+  "componentObject": "FulfillmentStepDefinition",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:0f923c5e-7231-489e-bf1e-7639e69dd822",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:b8e9ea95-76ff-4c16-9cd9-84c7aadea096"
+    },
+    {
+      "direction": "reverse",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:0f923c5e-7231-489e-bf1e-7639e69dd822",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:b8e9ea95-76ff-4c16-9cd9-84c7aadea096"
+    },
+    {
+      "direction": "forward",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:3bfbd0f2-973a-490f-b525-a5c951f0619c",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:9dc82750-85b1-40bb-a9f1-0a88ddc73619"
+    },
+    {
+      "direction": "reverse",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:3bfbd0f2-973a-490f-b525-a5c951f0619c",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:9dc82750-85b1-40bb-a9f1-0a88ddc73619"
+    },
+    {
+      "direction": "forward",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:9dc82750-85b1-40bb-a9f1-0a88ddc73619"
+    },
+    {
+      "direction": "reverse",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:9dc82750-85b1-40bb-a9f1-0a88ddc73619"
+    },
+    {
+      "direction": "forward",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:b8e9ea95-76ff-4c16-9cd9-84c7aadea096"
+    },
+    {
+      "direction": "reverse",
+      "field": "StepDefinitionGroupId",
+      "from": "FulfillmentStepDefinition:d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
+      "required": true,
+      "to": "FulfillmentStepDefinitionGroup:b8e9ea95-76ff-4c16-9cd9-84c7aadea096"
+    },
+    {
+      "direction": "forward",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:4b4e4754-bb83-455d-b7d8-87714c092ed0",
+      "required": true,
+      "to": "FulfillmentStepDefinition:0f923c5e-7231-489e-bf1e-7639e69dd822"
+    },
+    {
+      "direction": "reverse",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:4b4e4754-bb83-455d-b7d8-87714c092ed0",
+      "required": true,
+      "to": "FulfillmentStepDefinition:0f923c5e-7231-489e-bf1e-7639e69dd822"
+    },
+    {
+      "direction": "forward",
+      "field": "DependsOnStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:4b4e4754-bb83-455d-b7d8-87714c092ed0",
+      "required": true,
+      "to": "FulfillmentStepDefinition:5cfcf9be-ff96-4dfb-87b6-f8245368d2ec"
+    },
+    {
+      "direction": "forward",
+      "field": "DependsOnStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:5fcb650e-0370-4ca2-a050-9f67db0f044a",
+      "required": true,
+      "to": "FulfillmentStepDefinition:3bfbd0f2-973a-490f-b525-a5c951f0619c"
+    },
+    {
+      "direction": "forward",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:5fcb650e-0370-4ca2-a050-9f67db0f044a",
+      "required": true,
+      "to": "FulfillmentStepDefinition:5cfcf9be-ff96-4dfb-87b6-f8245368d2ec"
+    },
+    {
+      "direction": "reverse",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:5fcb650e-0370-4ca2-a050-9f67db0f044a",
+      "required": true,
+      "to": "FulfillmentStepDefinition:5cfcf9be-ff96-4dfb-87b6-f8245368d2ec"
+    },
+    {
+      "direction": "forward",
+      "field": "DependsOnStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:a7d4217a-ea50-4f82-9381-136844dd54ca",
+      "required": true,
+      "to": "FulfillmentStepDefinition:0f923c5e-7231-489e-bf1e-7639e69dd822"
+    },
+    {
+      "direction": "forward",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:a7d4217a-ea50-4f82-9381-136844dd54ca",
+      "required": true,
+      "to": "FulfillmentStepDefinition:d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f"
+    },
+    {
+      "direction": "reverse",
+      "field": "FulfillmentStepDefinitionId",
+      "from": "FulfillmentStepDependencyDef:a7d4217a-ea50-4f82-9381-136844dd54ca",
+      "required": true,
+      "to": "FulfillmentStepDefinition:d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "0f923c5e-7231-489e-bf1e-7639e69dd822",
+      "fromObject": "FulfillmentStepDefinition",
+      "reason": "byName",
+      "ref": "DROOrderFulfillmentService",
+      "targetObject": "IntegrationProviderDef"
+    },
+    {
+      "fromGlobalKey": "5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+      "fromObject": "FulfillmentStepDefinition",
+      "reason": "byName",
+      "ref": "LogisticsPlaceOrderService",
+      "targetObject": "IntegrationProviderDef"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "0f923c5e-7231-489e-bf1e-7639e69dd822",
+      "label": "360 Camera - Activate Camera",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "3bfbd0f2-973a-490f-b525-a5c951f0619c",
+      "label": "360 Camera - Analyze Order",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+      "label": "360 Camera - Ship Camera",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
+      "label": "360 Camera - Fulfilled",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
+      "label": "360 Camera - Procure & Ship",
+      "object": "FulfillmentStepDefinitionGroup"
+    },
+    {
+      "globalKey": "b8e9ea95-76ff-4c16-9cd9-84c7aadea096",
+      "label": "360 Camera - Install & Activate",
+      "object": "FulfillmentStepDefinitionGroup"
+    },
+    {
+      "globalKey": "4b4e4754-bb83-455d-b7d8-87714c092ed0",
+      "label": "360Cam_AC_SC",
+      "object": "FulfillmentStepDependencyDef"
+    },
+    {
+      "globalKey": "5fcb650e-0370-4ca2-a050-9f67db0f044a",
+      "label": "360Cam_SC_AO",
+      "object": "FulfillmentStepDependencyDef"
+    },
+    {
+      "globalKey": "a7d4217a-ea50-4f82-9381-136844dd54ca",
+      "label": "360Cam_F_AC",
+      "object": "FulfillmentStepDependencyDef"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "0f923c5e-7231-489e-bf1e-7639e69dd822",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "3bfbd0f2-973a-490f-b525-a5c951f0619c",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+      "object": "FulfillmentStepDefinition"
+    },
+    {
+      "globalKey": "d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
+      "object": "FulfillmentStepDefinition"
+    }
+  ]
+}

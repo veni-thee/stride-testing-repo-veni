@@ -1,0 +1,20 @@
+{
+  "component": "360-camera-manual-task-routing",
+  "componentGlobalKey": "2faff66a-252e-493b-aa11-e32c8a934b9d",
+  "componentObject": "FulfillmentTaskAssignmentRule",
+  "edges": [],
+  "leaves": [],
+  "nodes": [
+    {
+      "globalKey": "2faff66a-252e-493b-aa11-e32c8a934b9d",
+      "label": "360 Camera - Manual Task Routing",
+      "object": "FulfillmentTaskAssignmentRule"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "2faff66a-252e-493b-aa11-e32c8a934b9d",
+      "object": "FulfillmentTaskAssignmentRule"
+    }
+  ]
+}

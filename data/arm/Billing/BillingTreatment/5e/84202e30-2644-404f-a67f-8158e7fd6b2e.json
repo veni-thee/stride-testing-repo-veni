@@ -1,0 +1,15 @@
+{
+  "globalKey": "84202e30-2644-404f-a67f-8158e7fd6b2e",
+  "object": "BillingTreatment",
+  "record": {
+    "BillingPolicy.GlobalKey__c": "b00b9f4c-64ec-4749-966a-a4302cb90f82",
+    "CanChangeBillingFrequency": false,
+    "Description": null,
+    "ExcludeFromBilling": "No",
+    "GlobalKey__c": "84202e30-2644-404f-a67f-8158e7fd6b2e",
+    "IsMilestoneBilling": false,
+    "LegalEntity.GlobalKey__c": "d98684cb-1afd-4797-8368-a82187f09cb2",
+    "Name": "Billing Treatment - Advance",
+    "Status": "Active"
+  }
+}

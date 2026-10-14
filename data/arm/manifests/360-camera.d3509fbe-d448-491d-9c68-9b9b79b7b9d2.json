@@ -1,0 +1,81 @@
+{
+  "component": "360-camera",
+  "componentGlobalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "Product2:d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": false,
+      "to": "Product2:d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:1db85636-54ff-48a1-8867-b9f898aec91b",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+      "label": "360 Camera",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Accessories ↔ 360 Camera ↔ Add-Ons",
+      "globalKey": "1db85636-54ff-48a1-8867-b9f898aec91b",
+      "label": "00000043",
+      "object": "ProductCategoryProduct"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "d3509fbe-d448-491d-9c68-9b9b79b7b9d2"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+      "object": "Product2"
+    }
+  ]
+}

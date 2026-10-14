@@ -1,0 +1,27 @@
+{
+  "component": "door-visor",
+  "componentGlobalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+  "componentObject": "Product2",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "label": "Door Visor",
+      "object": "Product2"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "object": "Product2"
+    }
+  ]
+}

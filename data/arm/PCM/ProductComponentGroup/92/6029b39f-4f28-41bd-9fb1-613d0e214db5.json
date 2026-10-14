@@ -1,0 +1,15 @@
+{
+  "globalKey": "6029b39f-4f28-41bd-9fb1-613d0e214db5",
+  "object": "ProductComponentGroup",
+  "record": {
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "6029b39f-4f28-41bd-9fb1-613d0e214db5",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "Printer Accessories",
+    "ParentGroup": null,
+    "ParentProduct.GlobalKey__c": "270b3d81-4d74-4bb2-8766-752f8ccb3cf5",
+    "Sequence": 2
+  }
+}

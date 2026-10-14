@@ -1,0 +1,15 @@
+{
+  "globalKey": "eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+  "object": "ProductComponentGroup",
+  "record": {
+    "Code": "CS001012",
+    "Description": null,
+    "GlobalKey__c": "eaf731ce-55f9-45c2-8f1c-3dc8620da9ac",
+    "MaxBundleComponents": null,
+    "MinBundleComponents": null,
+    "Name": "LLM Certifications",
+    "ParentGroup.GlobalKey__c": "f8cae504-c840-4db7-afe3-03481a330b76",
+    "ParentProduct.GlobalKey__c": "4d0f2dc6-2758-4489-a3f7-f260ca201f40",
+    "Sequence": 2
+  }
+}

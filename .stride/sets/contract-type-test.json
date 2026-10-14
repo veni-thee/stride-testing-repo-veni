@@ -1,0 +1,28 @@
+{
+  "slug": "contract-type-test",
+  "name": "contract-type-test",
+  "createdAt": "2026-08-25T07:32:19.043Z",
+  "updatedAt": "2026-08-25T07:32:19.043Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContractType",
+          "fullName": "ContractTypeTest"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Pricing_Procedure_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/contract-type-test",
+  "baseBranch": "main"
+}

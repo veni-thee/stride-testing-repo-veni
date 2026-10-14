@@ -1,0 +1,16 @@
+{
+  "globalKey": "7204c217-b87f-4b52-8de4-44a4b3efad5e",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "2k Built-in Display",
+    "DisplayValue": "2k Built-in Display",
+    "GlobalKey__c": "7204c217-b87f-4b52-8de4-44a4b3efad5e",
+    "IsDefault": false,
+    "Name": "2k Built-in Display",
+    "Picklist.GlobalKey__c": "0426970f-4b3b-48b3-a114-9d32c06e1098",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "2k Built-in Display"
+  }
+}
