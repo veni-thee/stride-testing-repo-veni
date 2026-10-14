@@ -1,0 +1,21 @@
+{
+  "globalKey": "d2c265fa-56a9-4279-951f-8999522406a3",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Text",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "Scanner",
+    "GlobalKey__c": "d2c265fa-56a9-4279-951f-8999522406a3",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Scanner",
+    "Name": "Scanner",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "globalKey": "28c3553b-e8d7-4b15-8057-4818929b2cf8",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory": null,
+    "AttributeDefinition.GlobalKey__c": "a3a916c0-1294-4ebd-ac7d-5849990134d2",
+    "AttributeNameOverride": "Register",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "28c3553b-e8d7-4b15-8057-4818929b2cf8",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Register",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+    "Sequence": 0,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}

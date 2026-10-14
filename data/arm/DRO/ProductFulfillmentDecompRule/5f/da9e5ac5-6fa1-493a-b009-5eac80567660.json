@@ -1,0 +1,17 @@
+{
+  "globalKey": "da9e5ac5-6fa1-493a-b009-5eac80567660",
+  "object": "ProductFulfillmentDecompRule",
+  "record": {
+    "ConditionData": null,
+    "DestinationIdentifier": "01tdL00000fCY5YQAW",
+    "DestinationProduct.GlobalKey__c": "c9a07a84-e1a4-42a8-94c0-f3cbcd6cdc2c",
+    "ExecuteOnRule": null,
+    "GlobalKey__c": "da9e5ac5-6fa1-493a-b009-5eac80567660",
+    "Name": "360 Camera - Installation",
+    "Priority": 1,
+    "SourceClassIdentifier": null,
+    "SourceIdentifier": "01tdL00000h8Nd0QAE",
+    "SourceProduct.GlobalKey__c": "d3509fbe-d448-491d-9c68-9b9b79b7b9d2",
+    "SourceProductClassification": null
+  }
+}
