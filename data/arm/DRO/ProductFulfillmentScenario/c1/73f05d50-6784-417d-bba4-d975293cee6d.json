@@ -1,0 +1,17 @@
+{
+  "globalKey": "73f05d50-6784-417d-bba4-d975293cee6d",
+  "object": "ProductFulfillmentScenario",
+  "record": {
+    "Action": "Add",
+    "ConditionData": null,
+    "FulfillmentStepDefnGroup.GlobalKey__c": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
+    "GlobalKey__c": "73f05d50-6784-417d-bba4-d975293cee6d",
+    "Name": "360 Camera Tech Product (Add)",
+    "Product.GlobalKey__c": "dd86ba7a-39b0-4b07-a537-dea4850bb7ed",
+    "ProductClassification": null,
+    "ScenarioRule": null,
+    "SourceClassIdentifier": null,
+    "SourceIdentifier": "01tdL00000hPFSvQAO",
+    "UsageType": "Fulfillment"
+  }
+}
