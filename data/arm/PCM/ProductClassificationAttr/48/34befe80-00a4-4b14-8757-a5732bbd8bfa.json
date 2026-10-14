@@ -1,0 +1,29 @@
+{
+  "globalKey": "34befe80-00a4-4b14-8757-a5732bbd8bfa",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory": null,
+    "AttributeDefinition.GlobalKey__c": "a2d206d9-b866-4d0f-bc94-d312bfc8ab7d",
+    "AttributeNameOverride": "Install Quantity",
+    "DefaultValue": null,
+    "Description": "Number of installations, set by decomposition enrichment from 360 Camera",
+    "DisplayType": null,
+    "GlobalKey__c": "34befe80-00a4-4b14-8757-a5732bbd8bfa",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "Install Quantity",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "3ae73eea-4503-4995-9857-feb9fa124a9e",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
