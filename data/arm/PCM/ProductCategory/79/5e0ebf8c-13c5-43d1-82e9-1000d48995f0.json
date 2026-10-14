@@ -1,0 +1,14 @@
+{
+  "globalKey": "5e0ebf8c-13c5-43d1-82e9-1000d48995f0",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "5e0ebf8c-13c5-43d1-82e9-1000d48995f0",
+    "IsNavigational": true,
+    "Name": "Tires",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}

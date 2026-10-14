@@ -1,0 +1,9 @@
+{
+  "globalKey": "c5028f28-b8b6-4935-af15-0e191b5a076f",
+  "object": "ProductCategoryProduct",
+  "record": {
+    "GlobalKey__c": "c5028f28-b8b6-4935-af15-0e191b5a076f",
+    "Product.GlobalKey__c": "d385382e-c431-456a-a9e4-42778aa703e3",
+    "ProductCategory.GlobalKey__c": "a2e37c3f-8876-4467-aad2-78774caace6e"
+  }
+}

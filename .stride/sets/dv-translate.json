@@ -1,0 +1,34 @@
+{
+  "slug": "dv-translate",
+  "name": "dv-translate",
+  "createdAt": "2026-09-23T09:03:11.945Z",
+  "updatedAt": "2026-09-23T09:03:11.945Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2DataTranslation",
+          "intent": "picked",
+          "records": [
+            "DoorVisor|ja"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2DataTranslation"
+        ]
+      }
+    }
+  },
+  "branch": "feature/dv-translate",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/dv-translate.json",
+    "data/arm/PCM/Product2DataTranslation/0f/DoorVisor_ja.0fc873cc.json",
+    "data/arm/manifests/product2datatranslation.DoorVisor|ja.json"
+  ]
+}

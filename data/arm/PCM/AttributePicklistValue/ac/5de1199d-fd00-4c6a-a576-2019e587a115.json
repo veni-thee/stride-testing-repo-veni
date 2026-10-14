@@ -1,0 +1,16 @@
+{
+  "globalKey": "5de1199d-fd00-4c6a-a576-2019e587a115",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "15IN",
+    "DisplayValue": "15 Inch",
+    "GlobalKey__c": "5de1199d-fd00-4c6a-a576-2019e587a115",
+    "IsDefault": false,
+    "Name": "15 Inch",
+    "Picklist.GlobalKey__c": "e074ee97-5d03-4e25-924f-4c4d549ed94f",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "15 Inch"
+  }
+}

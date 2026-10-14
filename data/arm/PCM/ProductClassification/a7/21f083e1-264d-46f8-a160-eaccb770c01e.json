@@ -1,0 +1,11 @@
+{
+  "globalKey": "21f083e1-264d-46f8-a160-eaccb770c01e",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "P001",
+    "GlobalKey__c": "21f083e1-264d-46f8-a160-eaccb770c01e",
+    "Name": "Paper",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}

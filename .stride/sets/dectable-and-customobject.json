@@ -1,0 +1,32 @@
+{
+  "slug": "dectable-and-customobject",
+  "name": "dectable-and-customobject",
+  "createdAt": "2026-10-14T09:27:47.038Z",
+  "updatedAt": "2026-10-14T09:27:47.038Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "CustomTest__c"
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_Test_for_BackSync",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/dectable-and-customobject",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/dectable-and-customobject.json",
+    "data/arm/decisionTables/Decision_Table_Test_for_BackSync.decisionTable.json",
+    "force-app/main/default/objects/CustomTest__c/CustomTest__c.object-meta.xml"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "component": "productcatalogdatatranslation",
+  "componentGlobalKey": "AddOns|ja",
+  "componentObject": "ProductCatalogDataTranslation",
+  "edges": [],
+  "leaves": [],
+  "nodes": [],
+  "roots": [
+    {
+      "globalKey": "AddOns|ja",
+      "object": "ProductCatalogDataTranslation"
+    }
+  ]
+}

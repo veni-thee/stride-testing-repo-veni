@@ -1,0 +1,45 @@
+{
+  "slug": "fulfillment-step-definition3",
+  "name": "fulfillment-step-definition3",
+  "createdAt": "2026-10-08T14:52:19.418Z",
+  "updatedAt": "2026-10-08T14:52:19.418Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "FulfillmentStepDefinition",
+          "intent": "picked",
+          "records": [
+            "3bfbd0f2-973a-490f-b525-a5c951f0619c",
+            "5cfcf9be-ff96-4dfb-87b6-f8245368d2ec",
+            "0f923c5e-7231-489e-bf1e-7639e69dd822",
+            "d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "FulfillmentStepDefinition"
+        ]
+      }
+    }
+  },
+  "branch": "feature/fulfillment-step-definition3",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/fulfillment-step-definition3.json",
+    "data/arm/DRO/FulfillmentStepDefinition/5d/0f923c5e-7231-489e-bf1e-7639e69dd822.json",
+    "data/arm/DRO/FulfillmentStepDefinition/6a/5cfcf9be-ff96-4dfb-87b6-f8245368d2ec.json",
+    "data/arm/DRO/FulfillmentStepDefinition/76/3bfbd0f2-973a-490f-b525-a5c951f0619c.json",
+    "data/arm/DRO/FulfillmentStepDefinition/ec/d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f.json",
+    "data/arm/DRO/FulfillmentStepDefinitionGroup/63/b8e9ea95-76ff-4c16-9cd9-84c7aadea096.json",
+    "data/arm/DRO/FulfillmentStepDefinitionGroup/b0/9dc82750-85b1-40bb-a9f1-0a88ddc73619.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/54/4b4e4754-bb83-455d-b7d8-87714c092ed0.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/b4/a7d4217a-ea50-4f82-9381-136844dd54ca.json",
+    "data/arm/DRO/FulfillmentStepDependencyDef/be/5fcb650e-0370-4ca2-a050-9f67db0f044a.json",
+    "data/arm/manifests/360-camera-analyze-order.3bfbd0f2-973a-490f-b525-a5c951f0619c.json"
+  ]
+}

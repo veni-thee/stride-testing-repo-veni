@@ -1,0 +1,21 @@
+{
+  "globalKey": "7f3ed65b-d284-4555-b6d2-522d82dfc267",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Text",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "POS_Code",
+    "GlobalKey__c": "7f3ed65b-d284-4555-b6d2-522d82dfc267",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "POS Code",
+    "Name": "POS Code",
+    "Picklist": null,
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

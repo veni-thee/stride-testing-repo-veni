@@ -1,0 +1,72 @@
+{
+  "component": "00000033",
+  "componentGlobalKey": "8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+  "componentObject": "ProductCategoryProduct",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": false,
+      "to": "Product2:fd171dc8-36e0-4b6d-9c7e-355b6881e94b"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "ProductCatalog:155ebcd2-bae4-4e62-9d8d-3c80864b6396"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "required": true,
+      "to": "ProductCategory:b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "fd171dc8-36e0-4b6d-9c7e-355b6881e94b",
+      "label": "Door Visor",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "155ebcd2-bae4-4e62-9d8d-3c80864b6396",
+      "label": "Add-Ons",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "b84d06fc-8a85-4bc9-a2d9-b76aadbed7a3",
+      "label": "Accessories",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "Accessories ↔ Door Visor ↔ Add-Ons",
+      "globalKey": "8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "label": "00000033",
+      "object": "ProductCategoryProduct"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "8aefdb1e-15e9-4733-b748-aa9b425ac2f2",
+      "object": "ProductCategoryProduct"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "add-on-translate",
+  "name": "add-on-translate",
+  "createdAt": "2026-09-23T12:47:21.486Z",
+  "updatedAt": "2026-09-23T12:47:21.486Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "ProductCatalogDataTranslation",
+          "intent": "picked",
+          "records": [
+            "AddOns|ja"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "ProductCatalogDataTranslation"
+        ]
+      }
+    }
+  },
+  "branch": "feature/add-on-translate",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/add-on-translate.json",
+    "data/arm/PCM/ProductCatalogDataTranslation/df/AddOns_ja.df612704.json",
+    "data/arm/manifests/productcatalogdatatranslation.AddOns|ja.json"
+  ]
+}

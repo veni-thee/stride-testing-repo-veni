@@ -1,0 +1,16 @@
+{
+  "globalKey": "32684dea-e42f-4101-b455-9bfb2779f617",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "PICKVAL101",
+    "DisplayValue": "128GB",
+    "GlobalKey__c": "32684dea-e42f-4101-b455-9bfb2779f617",
+    "IsDefault": true,
+    "Name": "128GB",
+    "Picklist.GlobalKey__c": "0a6b9e18-9eb3-424e-a7bb-2eed6dbce87c",
+    "Sequence": 1,
+    "Status": "Active",
+    "Value": "128GB"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "cd-and-orderitem",
+  "name": "cd-and-orderitem",
+  "createdAt": "2026-09-09T14:02:10.718Z",
+  "updatedAt": "2026-09-09T14:02:10.718Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "RLM_SalesTransactionContext"
+        },
+        {
+          "type": "CustomObject",
+          "fullName": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/cd-and-orderitem",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/cd-and-orderitem.json",
+    "force-app/main/default/contextDefinitions/RLM_SalesTransactionContext.contextDefinition-meta.xml",
+    "force-app/main/default/objects/OrderItem/OrderItem.object-meta.xml"
+  ]
+}

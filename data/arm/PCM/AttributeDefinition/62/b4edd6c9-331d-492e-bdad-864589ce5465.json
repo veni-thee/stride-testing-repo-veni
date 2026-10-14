@@ -1,0 +1,21 @@
+{
+  "globalKey": "b4edd6c9-331d-492e-bdad-864589ce5465",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": "PaintFinish",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "PaintFinish",
+    "GlobalKey__c": "b4edd6c9-331d-492e-bdad-864589ce5465",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Paint Finish",
+    "Name": "Paint Finish",
+    "Picklist.GlobalKey__c": "f19fd4aa-46cd-42f2-b2b5-dea72973b1fc",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "globalKey": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "ECOM",
+    "GlobalKey__c": "c4ab187a-c30c-441c-8fae-ca5f98ad21a1",
+    "Name": "E Commerce",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}

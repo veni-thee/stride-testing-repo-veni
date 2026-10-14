@@ -1,0 +1,13 @@
+{
+  "globalKey": "882bfe6f-8438-4fc4-a061-6a0550e7a792",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "PCR0090345",
+    "DataType": "Number",
+    "Description": null,
+    "GlobalKey__c": "882bfe6f-8438-4fc4-a061-6a0550e7a792",
+    "Name": "Paste Color Ratio",
+    "Status": "Active",
+    "UnitOfMeasure.GlobalKey__c": "898c34e5-ab5e-464e-ab2d-85e46d0b8b4f"
+  }
+}

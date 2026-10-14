@@ -1,0 +1,14 @@
+{
+  "globalKey": "ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+  "object": "PricebookEntry",
+  "record": {
+    "GlobalKey__c": "ea7ffa75-c2fa-4b12-933d-8e0def1dbba6",
+    "IsActive": true,
+    "IsDerived": false,
+    "Pricebook2.Name": "Nonprofit",
+    "Product2.GlobalKey__c": "19a5ad1e-1534-49cb-acbc-502a181368df",
+    "ProductSellingModel.Name": "Term Based - Monthly",
+    "UnitPrice": 48.97,
+    "UseStandardPrice": false
+  }
+}

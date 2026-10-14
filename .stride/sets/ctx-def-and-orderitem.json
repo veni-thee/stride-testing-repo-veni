@@ -1,0 +1,28 @@
+{
+  "slug": "ctx-def-and-orderitem",
+  "name": "ctx-def-and-orderitem",
+  "createdAt": "2026-09-08T05:35:17.809Z",
+  "updatedAt": "2026-09-08T05:35:17.809Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "RLM_SalesTransactionContext"
+        },
+        {
+          "type": "CustomObject",
+          "fullName": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/ctx-def-and-orderitem",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/ctx-def-and-orderitem.json",
+    "force-app/main/default/contextDefinitions/RLM_SalesTransactionContext.contextDefinition-meta.xml",
+    "force-app/main/default/objects/OrderItem/OrderItem.object-meta.xml"
+  ]
+}

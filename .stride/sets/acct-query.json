@@ -1,0 +1,36 @@
+{
+  "slug": "acct-query",
+  "name": "acct-query",
+  "createdAt": "2026-08-18T13:23:36.650Z",
+  "updatedAt": "2026-08-18T13:23:36.650Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "AccountQuery"
+        }
+      ]
+    },
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Rev_Mgmt_Default_Pricing_Procedure",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "StandardDecisionTable",
+          "sourceObject": "OrderItem"
+        }
+      ]
+    }
+  },
+  "branch": "feature/acct-query",
+  "baseBranch": "main"
+}

@@ -1,0 +1,14 @@
+{
+  "globalKey": "a46de58b-4c8d-410f-bb18-3297ec665749",
+  "object": "FulfillmentFalloutRule",
+  "record": {
+    "ErrorCode": "500",
+    "FlowDefinitionName": null,
+    "GlobalKey__c": "a46de58b-4c8d-410f-bb18-3297ec665749",
+    "IntegrationDefinition.DeveloperName": "LogisticsPlaceOrderService",
+    "RetriesAllowed": 3,
+    "RetryIntervals": "5",
+    "RetryPolicy": "Monotonous",
+    "StepType": "Callout"
+  }
+}

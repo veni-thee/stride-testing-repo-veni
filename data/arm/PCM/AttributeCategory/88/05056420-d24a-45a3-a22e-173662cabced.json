@@ -1,0 +1,10 @@
+{
+  "globalKey": "05056420-d24a-45a3-a22e-173662cabced",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "PR098744",
+    "Description": null,
+    "GlobalKey__c": "05056420-d24a-45a3-a22e-173662cabced",
+    "Name": "Paste Ratio"
+  }
+}

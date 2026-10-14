@@ -1,0 +1,19 @@
+{
+  "slug": "weather-service",
+  "name": "weather-service",
+  "createdAt": "2026-08-18T10:18:22.221Z",
+  "updatedAt": "2026-08-18T10:18:22.221Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "WeatherService"
+        }
+      ]
+    }
+  },
+  "branch": "feature/weather-service",
+  "baseBranch": "main"
+}

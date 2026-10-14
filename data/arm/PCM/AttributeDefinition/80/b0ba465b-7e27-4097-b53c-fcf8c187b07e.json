@@ -1,0 +1,21 @@
+{
+  "globalKey": "b0ba465b-7e27-4097-b53c-fcf8c187b07e",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": "ConnectionType",
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "ConnectionType",
+    "GlobalKey__c": "b0ba465b-7e27-4097-b53c-fcf8c187b07e",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "Connection Type",
+    "Name": "Connection Type",
+    "Picklist.GlobalKey__c": "5c08cea9-9cdf-45d7-b874-1e2a7f69027a",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}
