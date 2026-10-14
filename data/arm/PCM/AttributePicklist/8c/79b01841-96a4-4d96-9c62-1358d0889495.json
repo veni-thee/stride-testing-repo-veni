@@ -1,0 +1,13 @@
+{
+  "globalKey": "79b01841-96a4-4d96-9c62-1358d0889495",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "InstallationType",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "79b01841-96a4-4d96-9c62-1358d0889495",
+    "Name": "Installation Type",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}
