@@ -1,0 +1,11 @@
+{
+  "globalKey": "a7d4217a-ea50-4f82-9381-136844dd54ca",
+  "object": "FulfillmentStepDependencyDef",
+  "record": {
+    "DependencyScope": "Plan",
+    "DependsOnStepDefinition.GlobalKey__c": "0f923c5e-7231-489e-bf1e-7639e69dd822",
+    "FulfillmentStepDefinition.GlobalKey__c": "d22e2eb0-cb7f-4389-8c38-4e3a2373ef7f",
+    "GlobalKey__c": "a7d4217a-ea50-4f82-9381-136844dd54ca",
+    "Name": "360Cam_F_AC"
+  }
+}

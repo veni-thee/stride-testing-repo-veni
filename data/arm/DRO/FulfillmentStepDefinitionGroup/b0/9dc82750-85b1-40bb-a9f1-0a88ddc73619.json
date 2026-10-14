@@ -1,0 +1,9 @@
+{
+  "globalKey": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
+  "object": "FulfillmentStepDefinitionGroup",
+  "record": {
+    "GlobalKey__c": "9dc82750-85b1-40bb-a9f1-0a88ddc73619",
+    "Name": "360 Camera - Procure & Ship",
+    "UsageType": "Fulfillment"
+  }
+}
