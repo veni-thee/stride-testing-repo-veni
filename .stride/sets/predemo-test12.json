@@ -1,0 +1,33 @@
+{
+  "slug": "predemo-test12",
+  "name": "predemo-test12",
+  "createdAt": "2026-09-24T07:26:51.792Z",
+  "updatedAt": "2026-09-24T07:26:51.792Z",
+  "version": 1,
+  "lanes": {
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Discovery_Pricing_Procedure_DashCam_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    },
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "Decision_Table_Dash_Cam_Test_CLONE",
+          "sourceObject": "CustomTest__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/predemo-test12",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/predemo-test12.json",
+    "data/arm/decisionTables/Decision_Table_Dash_Cam_Test_CLONE.decisionTable.json",
+    "data/arm/pricing/Discovery_Pricing_Procedure_DashCam_Test.expressionSetDefinition-meta.xml"
+  ]
+}
