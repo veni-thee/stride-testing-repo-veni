@@ -1,0 +1,23 @@
+{
+  "slug": "mactest-ps",
+  "name": "mactest-ps",
+  "createdAt": "2026-11-13T13:41:10.173Z",
+  "updatedAt": "2026-11-13T13:41:10.173Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "PermissionSet",
+          "fullName": "MACTEST_Access"
+        }
+      ]
+    }
+  },
+  "branch": "feature/mactest-ps",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/mactest-ps.json",
+    "force-app/main/default/permissionsets/MACTEST_Access.permissionset-meta.xml"
+  ]
+}
