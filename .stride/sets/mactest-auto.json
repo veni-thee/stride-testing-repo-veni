@@ -1,0 +1,24 @@
+{
+  "slug": "mactest-auto",
+  "name": "mactest-auto",
+  "createdAt": "2026-11-13T09:36:51.393Z",
+  "updatedAt": "2026-11-13T09:36:51.393Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomLabel",
+          "fullName": "EC_0002"
+        }
+      ]
+    }
+  },
+  "branch": "feature/mactest-auto",
+  "baseBranch": "main",
+  "description": "0.2.3 Mac test: auto hop",
+  "writtenPaths": [
+    ".stride/sets/mactest-auto.json",
+    "force-app/main/default/labels/CustomLabels.labels-meta.xml"
+  ]
+}
