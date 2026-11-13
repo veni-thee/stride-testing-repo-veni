@@ -1,0 +1,10 @@
+{
+  "globalKey": "MACTEST_SUPPORT|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": false,
+    "Product2.GlobalKey__c": "b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}
