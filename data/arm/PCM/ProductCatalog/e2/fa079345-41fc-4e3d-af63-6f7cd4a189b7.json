@@ -1,0 +1,13 @@
+{
+  "globalKey": "fa079345-41fc-4e3d-af63-6f7cd4a189b7",
+  "object": "ProductCatalog",
+  "record": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "GlobalKey__c": "fa079345-41fc-4e3d-af63-6f7cd4a189b7",
+    "Name": "MACTEST Catalog"
+  }
+}
