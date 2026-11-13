@@ -1,0 +1,49 @@
+{
+  "slug": "mactest-rc",
+  "name": "mactest-rc",
+  "createdAt": "2026-11-13T09:28:39.928Z",
+  "updatedAt": "2026-11-13T09:28:39.928Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "c6053c2d-6957-4e6f-b439-7d16993cb07c"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    }
+  },
+  "branch": "feature/mactest-rc",
+  "baseBranch": "main",
+  "description": "0.2.3 Mac test: --rc",
+  "writtenPaths": [
+    ".stride/sets/mactest-rc.json",
+    "data/arm/PCM/Product2/1f/b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4.json",
+    "data/arm/PCM/Product2/a7/c6053c2d-6957-4e6f-b439-7d16993cb07c.json",
+    "data/arm/PCM/Product2/de/af60a633-6eab-4101-9daf-4fbf4cff6cc6.json",
+    "data/arm/PCM/ProductCatalog/e2/fa079345-41fc-4e3d-af63-6f7cd4a189b7.json",
+    "data/arm/PCM/ProductCategory/cf/1efd8da3-b5a2-4460-a046-488e4acd8b41.json",
+    "data/arm/PCM/ProductCategoryProduct/7c/308a9d25-e71f-4543-9229-d139781347c9.json",
+    "data/arm/PCM/ProductClassification/c1/bd0dc500-0749-423b-91bd-8d23b21d4939.json",
+    "data/arm/PCM/ProductRelatedComponent/31/6911e90b-2721-4967-a220-507038878a54.json",
+    "data/arm/PCM/ProductRelatedComponent/43/62a33b51-5359-47bd-b16d-62225b39db21.json",
+    "data/arm/Pricing/PricebookEntry/48/3dd37bdb-113f-4f7f-9055-d260f55f4aae.json",
+    "data/arm/Pricing/PricebookEntry/91/afaac012-ddbc-43ec-8877-4635079e1c6d.json",
+    "data/arm/Pricing/PricebookEntry/97/6c438be1-4531-4ae5-bb5b-564fe712065a.json",
+    "data/arm/Pricing/ProductSellingModelOption/0e/MACTEST_ROUTER_One_Time.0e01eb86.json",
+    "data/arm/Pricing/ProductSellingModelOption/72/MACTEST_SUPPORT_One_Time.72db50ea.json",
+    "data/arm/Pricing/ProductSellingModelOption/90/MACTEST_BUNDLE_One_Time.90b88187.json",
+    "data/arm/manifests/mactest-bundle.c6053c2d-6957-4e6f-b439-7d16993cb07c.json"
+  ]
+}
