@@ -1,0 +1,23 @@
+{
+  "slug": "mactest-psg",
+  "name": "mactest-psg",
+  "createdAt": "2026-11-13T13:40:07.046Z",
+  "updatedAt": "2026-11-13T13:40:07.046Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "PermissionSetGroup",
+          "fullName": "MACTEST_PSG"
+        }
+      ]
+    }
+  },
+  "branch": "feature/mactest-psg",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/mactest-psg.json",
+    "force-app/main/default/permissionsetgroups/MACTEST_PSG.permissionsetgroup-meta.xml"
+  ]
+}
