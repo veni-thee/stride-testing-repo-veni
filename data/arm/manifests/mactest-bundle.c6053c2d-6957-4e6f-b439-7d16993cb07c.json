@@ -47,6 +47,13 @@
     },
     {
       "direction": "forward",
+      "field": "BasedOnId",
+      "from": "Product2:af60a633-6eab-4101-9daf-4fbf4cff6cc6",
+      "required": false,
+      "to": "ProductClassification:bd0dc500-0749-423b-91bd-8d23b21d4939"
+    },
+    {
+      "direction": "forward",
       "field": "ProductId",
       "from": "ProductCategoryProduct:308a9d25-e71f-4543-9229-d139781347c9",
       "required": true,
@@ -162,13 +169,6 @@
     {
       "fromGlobalKey": "af60a633-6eab-4101-9daf-4fbf4cff6cc6",
       "fromObject": "Product2",
-      "reason": "optional-skipped",
-      "ref": "BasedOnId",
-      "targetObject": "ProductClassification"
-    },
-    {
-      "fromGlobalKey": "af60a633-6eab-4101-9daf-4fbf4cff6cc6",
-      "fromObject": "Product2",
       "reason": "recordType",
       "ref": "Commercial"
     },
@@ -245,6 +245,11 @@
       "globalKey": "308a9d25-e71f-4543-9229-d139781347c9",
       "label": "00000044",
       "object": "ProductCategoryProduct"
+    },
+    {
+      "globalKey": "bd0dc500-0749-423b-91bd-8d23b21d4939",
+      "label": "MACTEST Classification",
+      "object": "ProductClassification"
     },
     {
       "displayLabel": "MACTEST Support ↔ MACTEST Bundle",
