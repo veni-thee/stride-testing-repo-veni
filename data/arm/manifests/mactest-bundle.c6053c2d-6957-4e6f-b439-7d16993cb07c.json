@@ -1,0 +1,284 @@
+{
+  "component": "mactest-bundle",
+  "componentGlobalKey": "c6053c2d-6957-4e6f-b439-7d16993cb07c",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:3dd37bdb-113f-4f7f-9055-d260f55f4aae",
+      "required": true,
+      "to": "Product2:b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:3dd37bdb-113f-4f7f-9055-d260f55f4aae",
+      "required": true,
+      "to": "Product2:b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4"
+    },
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:6c438be1-4531-4ae5-bb5b-564fe712065a",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:6c438be1-4531-4ae5-bb5b-564fe712065a",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:afaac012-ddbc-43ec-8877-4635079e1c6d",
+      "required": true,
+      "to": "Product2:af60a633-6eab-4101-9daf-4fbf4cff6cc6"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:afaac012-ddbc-43ec-8877-4635079e1c6d",
+      "required": true,
+      "to": "Product2:af60a633-6eab-4101-9daf-4fbf4cff6cc6"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:308a9d25-e71f-4543-9229-d139781347c9",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:308a9d25-e71f-4543-9229-d139781347c9",
+      "required": false,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:308a9d25-e71f-4543-9229-d139781347c9",
+      "required": true,
+      "to": "ProductCatalog:fa079345-41fc-4e3d-af63-6f7cd4a189b7"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:308a9d25-e71f-4543-9229-d139781347c9",
+      "required": true,
+      "to": "ProductCategory:1efd8da3-b5a2-4460-a046-488e4acd8b41"
+    },
+    {
+      "direction": "forward",
+      "field": "ChildProductId",
+      "from": "ProductRelatedComponent:62a33b51-5359-47bd-b16d-62225b39db21",
+      "required": true,
+      "to": "Product2:b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:62a33b51-5359-47bd-b16d-62225b39db21",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:62a33b51-5359-47bd-b16d-62225b39db21",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "forward",
+      "field": "ChildProductId",
+      "from": "ProductRelatedComponent:6911e90b-2721-4967-a220-507038878a54",
+      "required": true,
+      "to": "Product2:af60a633-6eab-4101-9daf-4fbf4cff6cc6"
+    },
+    {
+      "direction": "forward",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:6911e90b-2721-4967-a220-507038878a54",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    },
+    {
+      "direction": "reverse",
+      "field": "ParentProductId",
+      "from": "ProductRelatedComponent:6911e90b-2721-4967-a220-507038878a54",
+      "required": true,
+      "to": "Product2:c6053c2d-6957-4e6f-b439-7d16993cb07c"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "3dd37bdb-113f-4f7f-9055-d260f55f4aae",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "3dd37bdb-113f-4f7f-9055-d260f55f4aae",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "6c438be1-4531-4ae5-bb5b-564fe712065a",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "6c438be1-4531-4ae5-bb5b-564fe712065a",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "afaac012-ddbc-43ec-8877-4635079e1c6d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "afaac012-ddbc-43ec-8877-4635079e1c6d",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "af60a633-6eab-4101-9daf-4fbf4cff6cc6",
+      "fromObject": "Product2",
+      "reason": "optional-skipped",
+      "ref": "BasedOnId",
+      "targetObject": "ProductClassification"
+    },
+    {
+      "fromGlobalKey": "af60a633-6eab-4101-9daf-4fbf4cff6cc6",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "c6053c2d-6957-4e6f-b439-7d16993cb07c",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    },
+    {
+      "fromGlobalKey": "62a33b51-5359-47bd-b16d-62225b39db21",
+      "fromObject": "ProductRelatedComponent",
+      "reason": "byName",
+      "ref": "Bundle to Bundle Component Relationship",
+      "targetObject": "ProductRelationshipType"
+    },
+    {
+      "fromGlobalKey": "6911e90b-2721-4967-a220-507038878a54",
+      "fromObject": "ProductRelatedComponent",
+      "reason": "byName",
+      "ref": "Bundle to Bundle Component Relationship",
+      "targetObject": "ProductRelationshipType"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "3dd37bdb-113f-4f7f-9055-d260f55f4aae",
+      "label": "MACTEST Support",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "6c438be1-4531-4ae5-bb5b-564fe712065a",
+      "label": "MACTEST Bundle",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "afaac012-ddbc-43ec-8877-4635079e1c6d",
+      "label": "MACTEST Router",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "af60a633-6eab-4101-9daf-4fbf4cff6cc6",
+      "label": "MACTEST Router",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "b4f6ee7d-5d51-4b9a-a2d7-d0794dc72ea4",
+      "label": "MACTEST Support",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "c6053c2d-6957-4e6f-b439-7d16993cb07c",
+      "label": "MACTEST Bundle",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "fa079345-41fc-4e3d-af63-6f7cd4a189b7",
+      "label": "MACTEST Catalog",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "1efd8da3-b5a2-4460-a046-488e4acd8b41",
+      "label": "MACTEST Category",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "MACTEST Category ↔ MACTEST Bundle ↔ MACTEST Catalog",
+      "globalKey": "308a9d25-e71f-4543-9229-d139781347c9",
+      "label": "00000044",
+      "object": "ProductCategoryProduct"
+    },
+    {
+      "displayLabel": "MACTEST Support ↔ MACTEST Bundle",
+      "globalKey": "62a33b51-5359-47bd-b16d-62225b39db21",
+      "label": "PRC-000000045",
+      "object": "ProductRelatedComponent"
+    },
+    {
+      "displayLabel": "MACTEST Router ↔ MACTEST Bundle",
+      "globalKey": "6911e90b-2721-4967-a220-507038878a54",
+      "label": "PRC-000000044",
+      "object": "ProductRelatedComponent"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "c6053c2d-6957-4e6f-b439-7d16993cb07c"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    },
+    {
+      "complete": [
+        "c6053c2d-6957-4e6f-b439-7d16993cb07c"
+      ],
+      "object": "ProductRelatedComponent",
+      "viaField": "ParentProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "c6053c2d-6957-4e6f-b439-7d16993cb07c",
+      "object": "Product2"
+    }
+  ]
+}
