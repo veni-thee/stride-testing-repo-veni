@@ -25,4 +25,11 @@
         <shortDescription>EC-0003</shortDescription>
         <value>EC-0003: Invalid input. Please check Documentation.</value>
     </labels>
+    <labels>
+        <fullName>EC_0004</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EC_0004</shortDescription>
+        <value>EC-0004: Mac 0.2.5 retest</value>
+    </labels>
 </CustomLabels>
