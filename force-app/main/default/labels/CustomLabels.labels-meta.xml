@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>EC_0005</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EC_0005</shortDescription>
+        <value>EC-0005: Mac 0.2.5 auto hop</value>
+    </labels>
+</CustomLabels>
