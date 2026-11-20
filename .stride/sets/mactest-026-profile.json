@@ -1,0 +1,23 @@
+{
+  "slug": "mactest-026-profile",
+  "name": "mactest-026-profile",
+  "createdAt": "2026-11-20T13:20:14.585Z",
+  "updatedAt": "2026-11-20T13:20:14.585Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "Profile",
+          "fullName": "Admin"
+        }
+      ]
+    }
+  },
+  "branch": "feature/mactest-026-profile",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/mactest-026-profile.json",
+    "force-app/main/default/profiles/Admin.profile-meta.xml"
+  ]
+}
