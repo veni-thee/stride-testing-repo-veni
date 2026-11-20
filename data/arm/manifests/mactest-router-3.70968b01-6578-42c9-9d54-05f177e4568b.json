@@ -1,0 +1,34 @@
+{
+  "component": "mactest-router-3",
+  "componentGlobalKey": "70968b01-6578-42c9-9d54-05f177e4568b",
+  "componentObject": "Product2",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "70968b01-6578-42c9-9d54-05f177e4568b",
+      "fromObject": "Product2",
+      "reason": "optional-skipped",
+      "ref": "BasedOnId",
+      "targetObject": "ProductClassification"
+    },
+    {
+      "fromGlobalKey": "70968b01-6578-42c9-9d54-05f177e4568b",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "70968b01-6578-42c9-9d54-05f177e4568b",
+      "label": "MACTEST Router 3",
+      "object": "Product2"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "70968b01-6578-42c9-9d54-05f177e4568b",
+      "object": "Product2"
+    }
+  ]
+}
