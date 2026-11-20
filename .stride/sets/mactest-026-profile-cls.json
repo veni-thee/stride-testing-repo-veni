@@ -1,0 +1,29 @@
+{
+  "slug": "mactest-026-profile-cls",
+  "name": "mactest-026-profile-cls",
+  "createdAt": "2026-11-20T13:20:34.495Z",
+  "updatedAt": "2026-11-20T13:20:34.495Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "Profile",
+          "fullName": "Admin"
+        },
+        {
+          "type": "ApexClass",
+          "fullName": "CurrentDate"
+        }
+      ]
+    }
+  },
+  "branch": "feature/mactest-026-profile-cls",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/mactest-026-profile-cls.json",
+    "force-app/main/default/classes/CurrentDate.cls",
+    "force-app/main/default/classes/CurrentDate.cls-meta.xml",
+    "force-app/main/default/profiles/Admin.profile-meta.xml"
+  ]
+}
