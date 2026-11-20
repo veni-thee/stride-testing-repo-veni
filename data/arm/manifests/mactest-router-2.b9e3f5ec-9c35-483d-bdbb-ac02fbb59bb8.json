@@ -1,0 +1,34 @@
+{
+  "component": "mactest-router-2",
+  "componentGlobalKey": "b9e3f5ec-9c35-483d-bdbb-ac02fbb59bb8",
+  "componentObject": "Product2",
+  "edges": [],
+  "leaves": [
+    {
+      "fromGlobalKey": "b9e3f5ec-9c35-483d-bdbb-ac02fbb59bb8",
+      "fromObject": "Product2",
+      "reason": "optional-skipped",
+      "ref": "BasedOnId",
+      "targetObject": "ProductClassification"
+    },
+    {
+      "fromGlobalKey": "b9e3f5ec-9c35-483d-bdbb-ac02fbb59bb8",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "b9e3f5ec-9c35-483d-bdbb-ac02fbb59bb8",
+      "label": "MACTEST Router 2",
+      "object": "Product2"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "b9e3f5ec-9c35-483d-bdbb-ac02fbb59bb8",
+      "object": "Product2"
+    }
+  ]
+}
