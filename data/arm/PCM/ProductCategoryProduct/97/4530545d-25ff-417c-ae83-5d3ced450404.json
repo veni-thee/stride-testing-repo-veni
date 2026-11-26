@@ -1,0 +1,9 @@
+{
+  "globalKey": "4530545d-25ff-417c-ae83-5d3ced450404",
+  "object": "ProductCategoryProduct",
+  "record": {
+    "GlobalKey__c": "4530545d-25ff-417c-ae83-5d3ced450404",
+    "Product.GlobalKey__c": "9f6cd41a-7aee-4636-a5c3-76976788600a",
+    "ProductCategory.GlobalKey__c": "78debff1-8800-4aa6-b1c4-507fa13bea52"
+  }
+}

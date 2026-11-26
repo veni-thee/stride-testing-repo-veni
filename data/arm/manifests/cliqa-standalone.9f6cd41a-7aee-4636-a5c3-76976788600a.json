@@ -1,0 +1,114 @@
+{
+  "component": "cliqa-standalone",
+  "componentGlobalKey": "9f6cd41a-7aee-4636-a5c3-76976788600a",
+  "componentObject": "Product2",
+  "edges": [
+    {
+      "direction": "forward",
+      "field": "Product2Id",
+      "from": "PricebookEntry:3ab10c98-f12b-45c6-ae95-0c1612610704",
+      "required": true,
+      "to": "Product2:9f6cd41a-7aee-4636-a5c3-76976788600a"
+    },
+    {
+      "direction": "reverse",
+      "field": "Product2Id",
+      "from": "PricebookEntry:3ab10c98-f12b-45c6-ae95-0c1612610704",
+      "required": true,
+      "to": "Product2:9f6cd41a-7aee-4636-a5c3-76976788600a"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:4530545d-25ff-417c-ae83-5d3ced450404",
+      "required": true,
+      "to": "Product2:9f6cd41a-7aee-4636-a5c3-76976788600a"
+    },
+    {
+      "direction": "reverse",
+      "field": "ProductId",
+      "from": "ProductCategoryProduct:4530545d-25ff-417c-ae83-5d3ced450404",
+      "required": false,
+      "to": "Product2:9f6cd41a-7aee-4636-a5c3-76976788600a"
+    },
+    {
+      "direction": "forward",
+      "field": "CatalogId",
+      "from": "ProductCategoryProduct:4530545d-25ff-417c-ae83-5d3ced450404",
+      "required": true,
+      "to": "ProductCatalog:702ae514-8412-4e53-b6b2-e1c2b4963b5e"
+    },
+    {
+      "direction": "forward",
+      "field": "ProductCategoryId",
+      "from": "ProductCategoryProduct:4530545d-25ff-417c-ae83-5d3ced450404",
+      "required": true,
+      "to": "ProductCategory:78debff1-8800-4aa6-b1c4-507fa13bea52"
+    }
+  ],
+  "leaves": [
+    {
+      "fromGlobalKey": "3ab10c98-f12b-45c6-ae95-0c1612610704",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "One Time",
+      "targetObject": "ProductSellingModel"
+    },
+    {
+      "fromGlobalKey": "3ab10c98-f12b-45c6-ae95-0c1612610704",
+      "fromObject": "PricebookEntry",
+      "reason": "byName",
+      "ref": "Standard Price Book",
+      "targetObject": "Pricebook2"
+    },
+    {
+      "fromGlobalKey": "9f6cd41a-7aee-4636-a5c3-76976788600a",
+      "fromObject": "Product2",
+      "reason": "recordType",
+      "ref": "Commercial"
+    }
+  ],
+  "nodes": [
+    {
+      "globalKey": "3ab10c98-f12b-45c6-ae95-0c1612610704",
+      "label": "CLIQA Standalone",
+      "object": "PricebookEntry"
+    },
+    {
+      "globalKey": "9f6cd41a-7aee-4636-a5c3-76976788600a",
+      "label": "CLIQA Standalone",
+      "object": "Product2"
+    },
+    {
+      "globalKey": "702ae514-8412-4e53-b6b2-e1c2b4963b5e",
+      "label": "CLIQA Catalog",
+      "object": "ProductCatalog"
+    },
+    {
+      "globalKey": "78debff1-8800-4aa6-b1c4-507fa13bea52",
+      "label": "CLIQA Category",
+      "object": "ProductCategory"
+    },
+    {
+      "displayLabel": "CLIQA Category ↔ CLIQA Standalone ↔ CLIQA Catalog",
+      "globalKey": "4530545d-25ff-417c-ae83-5d3ced450404",
+      "label": "00000046",
+      "object": "ProductCategoryProduct"
+    }
+  ],
+  "replaceScopeWindows": [
+    {
+      "complete": [
+        "9f6cd41a-7aee-4636-a5c3-76976788600a"
+      ],
+      "object": "ProductCategoryProduct",
+      "viaField": "ProductId"
+    }
+  ],
+  "roots": [
+    {
+      "globalKey": "9f6cd41a-7aee-4636-a5c3-76976788600a",
+      "object": "Product2"
+    }
+  ]
+}

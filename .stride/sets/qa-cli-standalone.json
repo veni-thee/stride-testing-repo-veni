@@ -1,0 +1,39 @@
+{
+  "slug": "qa-cli-standalone",
+  "name": "qa-cli-standalone",
+  "createdAt": "2026-11-26T16:46:04.452Z",
+  "updatedAt": "2026-11-26T16:46:04.452Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "9f6cd41a-7aee-4636-a5c3-76976788600a"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    }
+  },
+  "branch": "feature/qa-cli-standalone",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-standalone.json",
+    "data/arm/PCM/Product2/4a/9f6cd41a-7aee-4636-a5c3-76976788600a.json",
+    "data/arm/PCM/ProductCatalog/47/702ae514-8412-4e53-b6b2-e1c2b4963b5e.json",
+    "data/arm/PCM/ProductCategory/97/78debff1-8800-4aa6-b1c4-507fa13bea52.json",
+    "data/arm/PCM/ProductCategoryProduct/97/4530545d-25ff-417c-ae83-5d3ced450404.json",
+    "data/arm/Pricing/PricebookEntry/65/3ab10c98-f12b-45c6-ae95-0c1612610704.json",
+    "data/arm/Pricing/ProductSellingModelOption/bf/CLIQA_STANDALONE_One_Time.bfb9f970.json",
+    "data/arm/manifests/cliqa-standalone.9f6cd41a-7aee-4636-a5c3-76976788600a.json"
+  ]
+}
