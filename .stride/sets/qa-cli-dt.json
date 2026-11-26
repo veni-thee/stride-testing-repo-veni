@@ -1,0 +1,28 @@
+{
+  "slug": "qa-cli-dt",
+  "name": "qa-cli-dt",
+  "createdAt": "2026-11-26T12:34:21.489Z",
+  "updatedAt": "2026-11-26T12:34:21.489Z",
+  "version": 1,
+  "lanes": {
+    "decisionTables": {
+      "tables": [
+        {
+          "developerName": "CliQA_Product_DT",
+          "sourceObject": "Product2"
+        },
+        {
+          "developerName": "CliQA_Discount_DT",
+          "sourceObject": "CliQA_Discount__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-dt",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-dt.json",
+    "data/arm/decisionTables/CliQA_Discount_DT.decisionTable.json",
+    "data/arm/decisionTables/CliQA_Product_DT.decisionTable.json"
+  ]
+}
