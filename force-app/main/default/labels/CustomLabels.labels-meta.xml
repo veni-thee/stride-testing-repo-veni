@@ -6,7 +6,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>CliQA Error Generic</shortDescription>
-        <value>Something went wrong. Please try again.</value>
+        <value>Something went wrong (v2). Please try again.</value>
     </labels>
     <labels>
         <fullName>CliQA_Welcome</fullName>
