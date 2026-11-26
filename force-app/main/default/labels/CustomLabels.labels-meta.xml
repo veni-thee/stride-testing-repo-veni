@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>CliQA_Error_Generic</fullName>
+        <categories>StrideQA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CliQA Error Generic</shortDescription>
+        <value>Something went wrong. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>CliQA_Welcome</fullName>
+        <categories>StrideQA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CliQA Welcome</shortDescription>
+        <value>Welcome, {0}!</value>
+    </labels>
+    <labels>
         <fullName>EC_0001</fullName>
         <categories>ErrorCode</categories>
         <language>en_US</language>
