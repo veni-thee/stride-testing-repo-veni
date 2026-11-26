@@ -1,0 +1,10 @@
+{
+  "globalKey": "CLIQA_INSTALL|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": false,
+    "Product2.GlobalKey__c": "300d6fd4-cf30-4b45-ac6b-e3fd03d2e823",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}

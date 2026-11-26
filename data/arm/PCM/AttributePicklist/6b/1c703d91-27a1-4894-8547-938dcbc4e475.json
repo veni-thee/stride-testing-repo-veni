@@ -1,0 +1,13 @@
+{
+  "globalKey": "1c703d91-27a1-4894-8547-938dcbc4e475",
+  "object": "AttributePicklist",
+  "record": {
+    "Code": "CLIQA_SPEED",
+    "DataType": "Text",
+    "Description": null,
+    "GlobalKey__c": "1c703d91-27a1-4894-8547-938dcbc4e475",
+    "Name": "CLIQA Speed",
+    "Status": "Active",
+    "UnitOfMeasure": null
+  }
+}

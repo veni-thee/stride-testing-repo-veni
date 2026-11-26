@@ -1,0 +1,16 @@
+{
+  "globalKey": "a69caf34-f6c7-4fc4-b852-c5b9f5702024",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "CLIQA_SPD_500Mbps",
+    "DisplayValue": "500 Mbps",
+    "GlobalKey__c": "a69caf34-f6c7-4fc4-b852-c5b9f5702024",
+    "IsDefault": false,
+    "Name": "500 Mbps",
+    "Picklist.GlobalKey__c": "1c703d91-27a1-4894-8547-938dcbc4e475",
+    "Sequence": 2,
+    "Status": "Active",
+    "Value": "500 Mbps"
+  }
+}

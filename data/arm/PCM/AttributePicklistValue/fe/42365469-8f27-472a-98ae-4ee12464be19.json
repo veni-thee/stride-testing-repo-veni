@@ -1,0 +1,16 @@
+{
+  "globalKey": "42365469-8f27-472a-98ae-4ee12464be19",
+  "object": "AttributePicklistValue",
+  "record": {
+    "Abbreviation": null,
+    "Code": "CLIQA_SPD_1Gbps",
+    "DisplayValue": "1 Gbps",
+    "GlobalKey__c": "42365469-8f27-472a-98ae-4ee12464be19",
+    "IsDefault": false,
+    "Name": "1 Gbps",
+    "Picklist.GlobalKey__c": "1c703d91-27a1-4894-8547-938dcbc4e475",
+    "Sequence": 3,
+    "Status": "Active",
+    "Value": "1 Gbps"
+  }
+}

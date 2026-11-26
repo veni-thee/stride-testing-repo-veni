@@ -1,0 +1,10 @@
+{
+  "globalKey": "CLIQA_ROUTER|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": false,
+    "Product2.GlobalKey__c": "03b36d76-538b-4dd5-ab79-0c6a6aa815c4",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}
