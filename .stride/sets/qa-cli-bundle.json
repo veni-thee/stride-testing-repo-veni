@@ -1,0 +1,56 @@
+{
+  "slug": "qa-cli-bundle",
+  "name": "qa-cli-bundle",
+  "createdAt": "2026-11-26T13:00:56.070Z",
+  "updatedAt": "2026-11-26T13:00:56.070Z",
+  "version": 1,
+  "lanes": {
+    "arm": {
+      "selections": [
+        {
+          "object": "Product2",
+          "intent": "picked",
+          "records": [
+            "ce332af2-aa74-472b-b978-6343d3facc6b"
+          ]
+        }
+      ],
+      "includedDeps": [],
+      "deployScope": "complete",
+      "configData": {
+        "objects": [
+          "Product2"
+        ]
+      }
+    }
+  },
+  "branch": "feature/qa-cli-bundle",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-bundle.json",
+    "data/arm/PCM/AttributeCategory/71/7a404696-de67-4936-93b5-eab43352897d.json",
+    "data/arm/PCM/AttributeCategoryAttribute/5d/1db99378-aefa-4142-aa4a-800c05b7ca2d.json",
+    "data/arm/PCM/AttributeDefinition/7f/27bf84eb-0513-4eec-bf73-4d91a8e252cf.json",
+    "data/arm/PCM/AttributePicklist/6b/1c703d91-27a1-4894-8547-938dcbc4e475.json",
+    "data/arm/PCM/AttributePicklistValue/33/b193ea98-9537-4163-9b0e-b851defba11f.json",
+    "data/arm/PCM/AttributePicklistValue/9b/a69caf34-f6c7-4fc4-b852-c5b9f5702024.json",
+    "data/arm/PCM/AttributePicklistValue/fe/42365469-8f27-472a-98ae-4ee12464be19.json",
+    "data/arm/PCM/Product2/7b/03b36d76-538b-4dd5-ab79-0c6a6aa815c4.json",
+    "data/arm/PCM/Product2/a7/ce332af2-aa74-472b-b978-6343d3facc6b.json",
+    "data/arm/PCM/Product2/c9/300d6fd4-cf30-4b45-ac6b-e3fd03d2e823.json",
+    "data/arm/PCM/ProductCatalog/47/702ae514-8412-4e53-b6b2-e1c2b4963b5e.json",
+    "data/arm/PCM/ProductCategory/97/78debff1-8800-4aa6-b1c4-507fa13bea52.json",
+    "data/arm/PCM/ProductCategoryProduct/55/01d266ce-0674-440e-8e50-8fa36d1e5aef.json",
+    "data/arm/PCM/ProductClassification/88/329f2f25-117e-4274-83d0-5543b03a1429.json",
+    "data/arm/PCM/ProductClassificationAttr/bd/2f7b4a56-03a8-4cac-b600-a38ea73a1970.json",
+    "data/arm/PCM/ProductRelatedComponent/05/f0386997-ecac-4497-a921-1c0ca81a3f24.json",
+    "data/arm/PCM/ProductRelatedComponent/2b/05d7853e-e4e6-4861-a6e3-672938f772ce.json",
+    "data/arm/Pricing/PricebookEntry/36/5c96559b-e2c8-4e65-b999-3b6bd3cadfc5.json",
+    "data/arm/Pricing/PricebookEntry/49/864e61d9-f528-4f7b-8411-c408ceedf3e4.json",
+    "data/arm/Pricing/PricebookEntry/d6/b66f2e82-700e-4da8-bf2b-4451819c623a.json",
+    "data/arm/Pricing/ProductSellingModelOption/0f/CLIQA_INSTALL_One_Time.0ff15716.json",
+    "data/arm/Pricing/ProductSellingModelOption/19/CLIQA_BUNDLE_One_Time.191a1bd1.json",
+    "data/arm/Pricing/ProductSellingModelOption/58/CLIQA_ROUTER_One_Time.586d1742.json",
+    "data/arm/manifests/cliqa-bundle.ce332af2-aa74-472b-b978-6343d3facc6b.json"
+  ]
+}
