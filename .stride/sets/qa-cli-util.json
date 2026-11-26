@@ -1,0 +1,41 @@
+{
+  "slug": "qa-cli-util",
+  "name": "qa-cli-util",
+  "createdAt": "2026-11-26T09:14:19.927Z",
+  "updatedAt": "2026-11-26T09:14:19.927Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_Util"
+        },
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_UtilTest"
+        },
+        {
+          "type": "CustomLabel",
+          "fullName": "CliQA_Welcome"
+        },
+        {
+          "type": "CustomLabel",
+          "fullName": "CliQA_Error_Generic"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-util",
+  "baseBranch": "main",
+  "description": "QA: Apex class using a custom label",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-util.json",
+    "force-app/main/default/classes/CliQA_Util.cls",
+    "force-app/main/default/classes/CliQA_Util.cls-meta.xml",
+    "force-app/main/default/classes/CliQA_UtilTest.cls",
+    "force-app/main/default/classes/CliQA_UtilTest.cls-meta.xml",
+    "force-app/main/default/labels/CustomLabels.labels-meta.xml",
+    "force-app/main/default/labels/CustomLabels.labels-meta.xml"
+  ]
+}
