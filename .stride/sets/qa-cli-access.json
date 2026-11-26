@@ -1,0 +1,28 @@
+{
+  "slug": "qa-cli-access",
+  "name": "qa-cli-access",
+  "createdAt": "2026-11-26T11:45:55.526Z",
+  "updatedAt": "2026-11-26T11:45:55.526Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "PermissionSet",
+          "fullName": "CliQA_Access"
+        },
+        {
+          "type": "PermissionSetGroup",
+          "fullName": "CliQA_PSG"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-access",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-access.json",
+    "force-app/main/default/permissionsetgroups/CliQA_PSG.permissionsetgroup-meta.xml",
+    "force-app/main/default/permissionsets/CliQA_Access.permissionset-meta.xml"
+  ]
+}
