@@ -1,0 +1,48 @@
+{
+  "slug": "qa-cli-object",
+  "name": "qa-cli-object",
+  "createdAt": "2026-11-26T11:48:53.186Z",
+  "updatedAt": "2026-11-26T11:48:53.186Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomObject",
+          "fullName": "CliQA_Discount__c"
+        },
+        {
+          "type": "CustomField",
+          "fullName": "CliQA_Discount__c.Tier__c"
+        },
+        {
+          "type": "CustomField",
+          "fullName": "CliQA_Discount__c.Region__c"
+        },
+        {
+          "type": "CustomField",
+          "fullName": "CliQA_Discount__c.Discount_Percent__c"
+        },
+        {
+          "type": "ValidationRule",
+          "fullName": "CliQA_Discount__c.Discount_Max_50"
+        },
+        {
+          "type": "Flow",
+          "fullName": "CliQA_Discount_Default_Region"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-object",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-object.json",
+    "force-app/main/default/flows/CliQA_Discount_Default_Region.flow-meta.xml",
+    "force-app/main/default/objects/CliQA_Discount__c/CliQA_Discount__c.object-meta.xml",
+    "force-app/main/default/objects/CliQA_Discount__c/fields/Discount_Percent__c.field-meta.xml",
+    "force-app/main/default/objects/CliQA_Discount__c/fields/Region__c.field-meta.xml",
+    "force-app/main/default/objects/CliQA_Discount__c/fields/Tier__c.field-meta.xml",
+    "force-app/main/default/objects/CliQA_Discount__c/validationRules/Discount_Max_50.validationRule-meta.xml"
+  ]
+}
