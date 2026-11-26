@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Stride QA test data (CLI kit). Safe to delete after testing.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CliQA PSG</label>
+    <permissionSets>CliQA_Access</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
