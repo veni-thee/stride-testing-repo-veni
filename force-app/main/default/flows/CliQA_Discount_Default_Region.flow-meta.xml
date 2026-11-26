@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_Region</name>
+        <label>Set Region</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Region__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Global</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Stride QA test data (CLI kit). Safe to delete after testing.</description>
+    <environments>Default</environments>
+    <interviewLabel>CliQA Discount Default Region {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CliQA Discount Default Region</label>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Region</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Region__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>CliQA_Discount__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
