@@ -1,0 +1,30 @@
+{
+  "slug": "qa-cli-apex",
+  "name": "qa-cli-apex",
+  "createdAt": "2026-11-26T12:05:38.690Z",
+  "updatedAt": "2026-11-26T12:05:38.690Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_DiscountService"
+        },
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_DiscountServiceTest"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-apex",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-apex.json",
+    "force-app/main/default/classes/CliQA_DiscountService.cls",
+    "force-app/main/default/classes/CliQA_DiscountService.cls-meta.xml",
+    "force-app/main/default/classes/CliQA_DiscountServiceTest.cls",
+    "force-app/main/default/classes/CliQA_DiscountServiceTest.cls-meta.xml"
+  ]
+}
