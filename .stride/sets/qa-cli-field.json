@@ -1,0 +1,23 @@
+{
+  "slug": "qa-cli-field",
+  "name": "qa-cli-field",
+  "createdAt": "2026-11-26T11:36:35.477Z",
+  "updatedAt": "2026-11-26T11:36:35.477Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "CustomField",
+          "fullName": "Account.CliQA_Tier__c"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-field",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-field.json",
+    "force-app/main/default/objects/Account/fields/CliQA_Tier__c.field-meta.xml"
+  ]
+}
