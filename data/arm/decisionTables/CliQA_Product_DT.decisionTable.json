@@ -1,0 +1,56 @@
+{
+  "developerName": "CliQA_Product_DT",
+  "metadata": {
+    "collectOperator": "None",
+    "conditionCriteria": "1",
+    "conditionType": "All",
+    "dataSourceType": "SingleSobject",
+    "dataSpaceName": null,
+    "decisionTableParameters": [
+      {
+        "dataType": "String",
+        "decimalScale": null,
+        "domainObject": null,
+        "fieldName": "ProductCode",
+        "fieldPath": "ProductCode",
+        "isGroupByField": false,
+        "isPriorityField": null,
+        "isRequired": true,
+        "length": null,
+        "operator": "Equals",
+        "sequence": 1,
+        "sortType": null,
+        "usage": "INPUT"
+      },
+      {
+        "dataType": "String",
+        "decimalScale": null,
+        "domainObject": null,
+        "fieldName": "Family",
+        "fieldPath": "Family",
+        "isGroupByField": false,
+        "isPriorityField": null,
+        "isRequired": false,
+        "length": null,
+        "operator": null,
+        "sequence": null,
+        "sortType": null,
+        "usage": "OUTPUT"
+      }
+    ],
+    "decisionTableSourceCriterias": [],
+    "description": "Stride QA test data (CLI kit). Safe to delete after testing.",
+    "doesConsiderNullValue": true,
+    "dtRowLevelOverrideType": "None",
+    "executionType": null,
+    "filterResultBy": "OutputOrder",
+    "isIncrementalSyncEnabled": false,
+    "isVersioned": false,
+    "setupName": "CliQA Product DT",
+    "sourceConditionLogic": null,
+    "sourceObject": "Product2",
+    "status": "Draft",
+    "type": "LowVolume",
+    "usageType": null
+  }
+}
