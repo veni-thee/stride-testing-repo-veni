@@ -1,0 +1,13 @@
+{
+  "globalKey": "702ae514-8412-4e53-b6b2-e1c2b4963b5e",
+  "object": "ProductCatalog",
+  "record": {
+    "CatalogType": "Sales",
+    "Code": null,
+    "Description": null,
+    "EffectiveEndDate": null,
+    "EffectiveStartDate": null,
+    "GlobalKey__c": "702ae514-8412-4e53-b6b2-e1c2b4963b5e",
+    "Name": "CLIQA Catalog"
+  }
+}

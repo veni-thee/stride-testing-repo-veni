@@ -1,0 +1,10 @@
+{
+  "globalKey": "7a404696-de67-4936-93b5-eab43352897d",
+  "object": "AttributeCategory",
+  "record": {
+    "Code": "CLIQA_NET",
+    "Description": null,
+    "GlobalKey__c": "7a404696-de67-4936-93b5-eab43352897d",
+    "Name": "CLIQA Network"
+  }
+}

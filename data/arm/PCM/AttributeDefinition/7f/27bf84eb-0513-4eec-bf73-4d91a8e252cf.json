@@ -1,0 +1,21 @@
+{
+  "globalKey": "27bf84eb-0513-4eec-bf73-4d91a8e252cf",
+  "object": "AttributeDefinition",
+  "record": {
+    "Code": null,
+    "DataType": "Picklist",
+    "DefaultHelpText": null,
+    "DefaultValue": null,
+    "Description": null,
+    "DeveloperName": "CLIQA_Speed",
+    "GlobalKey__c": "27bf84eb-0513-4eec-bf73-4d91a8e252cf",
+    "IsActive": true,
+    "IsRequired": false,
+    "Label": "CLIQA Speed",
+    "Name": "CLIQA Speed",
+    "Picklist.GlobalKey__c": "1c703d91-27a1-4894-8547-938dcbc4e475",
+    "SourceSystemIdentifier": null,
+    "UnitOfMeasure": null,
+    "ValueDescription": null
+  }
+}

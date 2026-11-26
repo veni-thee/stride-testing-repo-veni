@@ -1,0 +1,10 @@
+{
+  "globalKey": "CLIQA_BUNDLE|One Time",
+  "object": "ProductSellingModelOption",
+  "record": {
+    "IsDefault": false,
+    "Product2.GlobalKey__c": "ce332af2-aa74-472b-b978-6343d3facc6b",
+    "ProductSellingModel.Name": "One Time",
+    "ProrationPolicy": null
+  }
+}

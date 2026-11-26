@@ -1,0 +1,14 @@
+{
+  "globalKey": "78debff1-8800-4aa6-b1c4-507fa13bea52",
+  "object": "ProductCategory",
+  "record": {
+    "Catalog.GlobalKey__c": "702ae514-8412-4e53-b6b2-e1c2b4963b5e",
+    "Code": null,
+    "Description": null,
+    "GlobalKey__c": "78debff1-8800-4aa6-b1c4-507fa13bea52",
+    "IsNavigational": true,
+    "Name": "CLIQA Category",
+    "ParentCategory": null,
+    "SortOrder": null
+  }
+}
