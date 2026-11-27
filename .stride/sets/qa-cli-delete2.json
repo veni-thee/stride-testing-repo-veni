@@ -1,0 +1,25 @@
+{
+  "slug": "qa-cli-delete2",
+  "name": "qa-cli-delete2",
+  "createdAt": "2026-11-27T09:05:25.499Z",
+  "updatedAt": "2026-11-27T09:05:25.499Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_Temp",
+          "changeKind": "delete"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-delete2",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-delete2.json",
+    "force-app/main/default/classes/CliQA_Temp.cls",
+    "force-app/main/default/classes/CliQA_Temp.cls-meta.xml"
+  ]
+}
