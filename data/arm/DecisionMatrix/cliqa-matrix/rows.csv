@@ -1,0 +1,4 @@
+InputData,OutputData
+"{""Tier"":""Gold""}","{""Discount"":""15""}"
+"{""Tier"":""Silver""}","{""Discount"":""10""}"
+"{""Tier"":""Bronze""}","{""Discount"":""5""}"
