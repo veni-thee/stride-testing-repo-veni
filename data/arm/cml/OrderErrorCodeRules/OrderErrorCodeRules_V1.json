@@ -1,0 +1,54 @@
+{
+  "developerName": "OrderErrorCodeRules_V1",
+  "esdDeveloperName": "OrderErrorCodeRules",
+  "versionNumber": 1,
+  "expressionSet": {
+    "apiName": "OrderErrorCodeRules",
+    "name": "OrderErrorCodeRules",
+    "description": null,
+    "interfaceSourceType": "Constraint",
+    "resourceInitializationType": "Off",
+    "usageType": "Constraint"
+  },
+  "contextDefinitionApiName": "RevSalesTransactionContext",
+  "constraints": [
+    {
+      "refKind": "product",
+      "naturalKey": "DS001",
+      "constraintModelTag": "Desktop",
+      "constraintModelTagType": "Type"
+    }
+  ],
+  "attributeRefs": [
+    {
+      "developerName": "Display",
+      "code": null,
+      "globalKey": "03c3d022-32fd-4d00-b28c-1d124741e566"
+    },
+    {
+      "developerName": "Graphics",
+      "code": null,
+      "globalKey": "e980f1f0-3efb-4370-b8d6-dd3e0bef607c"
+    },
+    {
+      "developerName": "Memory",
+      "code": null,
+      "globalKey": "4494a83d-142b-438c-9afd-8cd9f8321ae7"
+    },
+    {
+      "developerName": "Processor",
+      "code": null,
+      "globalKey": "cd695e28-b6e3-44bc-bb88-7d75706bcb28"
+    },
+    {
+      "developerName": "Screen_Size",
+      "code": null,
+      "globalKey": "134809ab-8884-4d0c-866b-74b62ab47976"
+    },
+    {
+      "developerName": "Storage",
+      "code": null,
+      "globalKey": "a5b61add-22ec-44d3-99b7-d7b622705368"
+    }
+  ]
+}

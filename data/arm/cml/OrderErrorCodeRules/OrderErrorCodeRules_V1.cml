@@ -1,0 +1,38 @@
+@(contextPath = "SalesTransaction.SystemCodes__c")
+extern string SystemCodes;
+
+@(virtual = true)
+type Order {
+    @(sourceContextNode = "SalesTransaction.SalesTransactionItem")
+    relation desktop : Desktop;
+
+    //message(SystemCodes != "EC-0001", "$Label.EC_0001", "Error");
+
+    message(true, "TEST ERROR", "Error");
+    
+    message(true, "$Label.EC_0001", "Error");
+
+    message(true, "TEST INFO", "Info");
+
+    message(desktop[Desktop] > 0, "TEST ERROR Desktop", "Error");
+
+}
+
+type Desktop {
+    string Graphics = ["Intel Iris Xe Graphics", "MSI Gaming GeForce RTX 3060"];
+
+    @(defaultValue = "i5-CPU 4.4GHz")
+    string Processor = ["i7-CPU 4.7GHz", "Intel Core i9 5.2 GHz", "i5-CPU 4.4GHz"];
+
+    @(defaultValue = "RAM 32GB")
+    string Memory = ["RAM 32GB", "RAM 64GB", "RAM 16GB", "RAM 8GB"];
+
+    string Screen_Size = ["27 Inch", "13 Inch", "24 Inch", "15 Inch"];
+
+    @(defaultValue = "1080p Built-in Display")
+    string Display = ["2k Built-in Display", "1080p Built-in Display", "4k Built-in Display"];
+
+    string Storage = ["Cloud Storage Enterprise - 2 TB", "SSD Hard Drive 1TB", "SSD Hard Drive 256GB", "SSD Hard Drive 512GB", "SSD Hard Drive 2TB", "Cloud Storage Enterprise - 6 TB"];
+
+}
+
