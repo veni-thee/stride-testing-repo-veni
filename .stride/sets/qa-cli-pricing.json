@@ -1,0 +1,24 @@
+{
+  "slug": "qa-cli-pricing",
+  "name": "qa-cli-pricing",
+  "createdAt": "2026-11-27T07:38:33.722Z",
+  "updatedAt": "2026-11-27T07:38:33.722Z",
+  "version": 1,
+  "lanes": {
+    "pricing": {
+      "procedures": [
+        {
+          "esdDeveloperName": "Pricing_Procedure_Test",
+          "usageType": "DefaultPricing",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-pricing",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-pricing.json",
+    "data/arm/pricing/Pricing_Procedure_Test.expressionSetDefinition-meta.xml"
+  ]
+}
