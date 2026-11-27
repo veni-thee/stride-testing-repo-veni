@@ -8,6 +8,7 @@
     <label>Pricing Procedure Test</label>
     <processType>DefaultPricing</processType>
     <template>false</template>
+    <usageSubtype>RevenueCloud</usageSubtype>
     <versions>
         <fullName>Pricing_Procedure_Test_V1</fullName>
         <decimalScale>2</decimalScale>
