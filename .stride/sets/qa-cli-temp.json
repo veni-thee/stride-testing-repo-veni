@@ -1,0 +1,24 @@
+{
+  "slug": "qa-cli-temp",
+  "name": "qa-cli-temp",
+  "createdAt": "2026-11-27T08:52:26.983Z",
+  "updatedAt": "2026-11-27T08:52:26.983Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ApexClass",
+          "fullName": "CliQA_Temp"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-temp",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-temp.json",
+    "force-app/main/default/classes/CliQA_Temp.cls",
+    "force-app/main/default/classes/CliQA_Temp.cls-meta.xml"
+  ]
+}
