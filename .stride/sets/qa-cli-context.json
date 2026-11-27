@@ -1,0 +1,23 @@
+{
+  "slug": "qa-cli-context",
+  "name": "qa-cli-context",
+  "createdAt": "2026-11-27T10:43:11.727Z",
+  "updatedAt": "2026-11-27T10:43:11.727Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "ContextDefinition",
+          "fullName": "ContractsContextDefinitionExt"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-context",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-context.json",
+    "force-app/main/default/contextDefinitions/ContractsContextDefinitionExt.contextDefinition-meta.xml"
+  ]
+}
