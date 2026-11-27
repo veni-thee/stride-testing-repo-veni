@@ -1,0 +1,28 @@
+{
+  "slug": "qa-cli-matrix",
+  "name": "qa-cli-matrix",
+  "createdAt": "2026-11-27T10:06:00.070Z",
+  "updatedAt": "2026-11-27T10:06:00.070Z",
+  "version": 1,
+  "lanes": {
+    "metadata": {
+      "components": [
+        {
+          "type": "DecisionMatrixDefinition",
+          "fullName": "CliQA_Matrix"
+        },
+        {
+          "type": "DecisionMatrixDefinitionVersion",
+          "fullName": "CliQA_Matrix_V1"
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-matrix",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-matrix.json",
+    "force-app/main/default/decisionMatrixDefinition/CliQA_Matrix.decisionMatrixDefinition-meta.xml",
+    "force-app/main/default/decisionMatrixVersion/CliQA_Matrix_V1.decisionMatrixVersion-meta.xml"
+  ]
+}

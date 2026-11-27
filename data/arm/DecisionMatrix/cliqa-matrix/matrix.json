@@ -1,0 +1,13 @@
+{
+  "uniqueName": "CliQA_Matrix",
+  "sourceVersion": {
+    "rank": 1,
+    "versionNumber": 1
+  },
+  "rowCount": 3,
+  "capturedAt": "2026-11-27T10:30:46.916Z",
+  "rowSelection": {
+    "mode": "all"
+  },
+  "deployMode": "delta"
+}
