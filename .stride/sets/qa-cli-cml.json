@@ -1,0 +1,25 @@
+{
+  "slug": "qa-cli-cml",
+  "name": "qa-cli-cml",
+  "createdAt": "2026-11-27T08:11:02.562Z",
+  "updatedAt": "2026-11-27T08:11:02.562Z",
+  "version": 1,
+  "lanes": {
+    "cml": {
+      "versions": [
+        {
+          "esdDeveloperName": "OrderErrorCodeRules",
+          "developerName": "OrderErrorCodeRules_V1",
+          "version": 1
+        }
+      ]
+    }
+  },
+  "branch": "feature/qa-cli-cml",
+  "baseBranch": "main",
+  "writtenPaths": [
+    ".stride/sets/qa-cli-cml.json",
+    "data/arm/cml/OrderErrorCodeRules/OrderErrorCodeRules_V1.cml",
+    "data/arm/cml/OrderErrorCodeRules/OrderErrorCodeRules_V1.json"
+  ]
+}
