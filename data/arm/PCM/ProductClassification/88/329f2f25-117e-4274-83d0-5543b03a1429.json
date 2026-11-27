@@ -1,0 +1,11 @@
+{
+  "globalKey": "329f2f25-117e-4274-83d0-5543b03a1429",
+  "object": "ProductClassification",
+  "record": {
+    "Code": "CLIQA_CLS",
+    "GlobalKey__c": "329f2f25-117e-4274-83d0-5543b03a1429",
+    "Name": "CLIQA Classification",
+    "ParentProductClassification": null,
+    "Status": "Active"
+  }
+}

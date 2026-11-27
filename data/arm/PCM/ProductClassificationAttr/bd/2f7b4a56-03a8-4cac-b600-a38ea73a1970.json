@@ -1,0 +1,29 @@
+{
+  "globalKey": "2f7b4a56-03a8-4cac-b600-a38ea73a1970",
+  "object": "ProductClassificationAttr",
+  "record": {
+    "AttributeCategory.GlobalKey__c": "7a404696-de67-4936-93b5-eab43352897d",
+    "AttributeDefinition.GlobalKey__c": "27bf84eb-0513-4eec-bf73-4d91a8e252cf",
+    "AttributeNameOverride": "CLIQA Speed",
+    "DefaultValue": null,
+    "Description": null,
+    "DisplayType": null,
+    "GlobalKey__c": "2f7b4a56-03a8-4cac-b600-a38ea73a1970",
+    "HelpText": null,
+    "IsHidden": false,
+    "IsPriceImpacting": false,
+    "IsReadOnly": false,
+    "IsRequired": false,
+    "MaximumCharacterCount": null,
+    "MaximumValue": null,
+    "MinimumCharacterCount": null,
+    "MinimumValue": null,
+    "Name": "CLIQA Speed",
+    "OverriddenInheritedAttribute": null,
+    "ProductClassification.GlobalKey__c": "329f2f25-117e-4274-83d0-5543b03a1429",
+    "Sequence": null,
+    "Status": "Active",
+    "StepValue": null,
+    "ValueDescription": null
+  }
+}
